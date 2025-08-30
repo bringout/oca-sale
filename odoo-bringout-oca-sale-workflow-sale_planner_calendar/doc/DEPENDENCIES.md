@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- [calendar](https://github.com/bringout/oca-ocb-technical/tree/f67f0f1f77e860a61a0c3d3eccbc049dbedb9347/odoo-bringout-oca-ocb-calendar)
-- [sale](https://github.com/bringout/oca-ocb-sale/tree/3531a720906f8e17d5fa4dafe32471b2aada3721/odoo-bringout-oca-ocb-sale)
+- [calendar](https://github.com/bringout/oca-ocb-technical/tree/2e61a83bb4faf7428b19e1b5d6f139fe726c5b11/odoo-bringout-oca-ocb-calendar)
+- [sale](https://github.com/bringout/oca-ocb-sale/tree/c17ba68cff0610f4dfb2f6dd7d61af76671084cf/odoo-bringout-oca-ocb-sale)
 - [sale_payment_sheet](https://github.com/bringout/oca-workflow-process)
