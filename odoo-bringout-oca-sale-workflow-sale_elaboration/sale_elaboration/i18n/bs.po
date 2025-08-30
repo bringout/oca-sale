@@ -1,0 +1,342 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_elaboration
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration__active
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration_profile__active
+msgid "Active"
+msgstr "Aktivan"
+
+#. module: sale_elaboration
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.view_sales_order_line_filter
+msgid "After Date"
+msgstr "After Datum"
+
+#. module: sale_elaboration
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.elaboration_view_form
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.elaboration_view_search
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.product_elaboration_profile_form_view
+msgid "Archived"
+msgstr "Arhivirano"
+
+#. module: sale_elaboration
+#: model:ir.model.constraint,message:sale_elaboration.constraint_product_elaboration_code_uniq
+msgid "Code must be unique!"
+msgstr "Code mora biti unique!"
+
+#. module: sale_elaboration
+#: model:ir.model,name:sale_elaboration.model_res_config_settings
+msgid "Config Settings"
+msgstr "Postavke"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration__create_uid
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration_profile__create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration__create_date
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration_profile__create_date
+msgid "Created on"
+msgstr "Kreirano"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,help:sale_elaboration.field_sale_order_line__date_order
+msgid ""
+"Creation date of draft/sent orders,\n"
+"Confirmation date of confirmed orders."
+msgstr ""
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_sale_order_line__date_order
+msgid "Date"
+msgstr "Datum"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_res_config_settings__group_elaboration_note_on_delivery_slip
+msgid "Display Elaboration notes on Delivery Slips"
+msgstr "Display Elaboration notes on Isporuka Slips"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_res_config_settings__group_elaboration_note_on_picking_operations
+msgid "Display Elaboration notes on Picking Operations"
+msgstr "Display Elaboration notes on Preuzimanje Operations"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration__display_name
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration_profile__display_name
+msgid "Display Name"
+msgstr "Prikazani naziv"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,help:sale_elaboration.field_sale_order_line__is_prepared
+msgid "Dummy field to be able to find prepared lines"
+msgstr "Dummy field to be able to find prepared lines"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_sale_order_line__elaboration_price_unit
+msgid "Elab. Price"
+msgstr "Elab. Cijena"
+
+#. module: sale_elaboration
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.elaboration_view_search
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.view_sales_order_line_filter
+msgid "Elaboration"
+msgstr "Elaboration"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration_mixin__elaboration_note
+#: model:ir.model.fields,field_description:sale_elaboration.field_sale_order_line__elaboration_note
+#: model:ir.model.fields,field_description:sale_elaboration.field_stock_move__elaboration_note
+#: model:ir.model.fields,field_description:sale_elaboration.field_stock_move_line__elaboration_note
+msgid "Elaboration Note"
+msgstr "Elaboration Note"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_category__elaboration_profile_id
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_product__elaboration_profile_id
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_template__elaboration_profile_id
+#: model:ir.model.fields,field_description:sale_elaboration.field_sale_order_line__elaboration_profile_id
+msgid "Elaboration Profile"
+msgstr "Elaboration Profile"
+
+#. module: sale_elaboration
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.res_config_settings_view
+msgid "Elaboration notes will appear on the delivery slip"
+msgstr "Elaboration notes will appear on the isporuka slip"
+
+#. module: sale_elaboration
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.res_config_settings_view
+msgid "Elaboration notes will appear on the picking operations report"
+msgstr "Elaboration notes will appear on the preuzimanje operations report"
+
+#. module: sale_elaboration
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.view_order_form
+msgid "Elaboration price:"
+msgstr "Elaboration price:"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration_mixin__elaboration_ids
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration_profile__elaboration_ids
+#: model:ir.model.fields,field_description:sale_elaboration.field_sale_order_line__elaboration_ids
+#: model:ir.model.fields,field_description:sale_elaboration.field_stock_move__elaboration_ids
+#: model:ir.model.fields,field_description:sale_elaboration.field_stock_move_line__elaboration_ids
+#: model:ir.ui.menu,name:sale_elaboration.menu_sale_elaboration_root
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.elaboration_view_form
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.product_elaboration_profile_form_view
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.product_template_form_view
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.view_order_form
+msgid "Elaborations"
+msgstr "Elaborations"
+
+#. module: sale_elaboration
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.elaboration_view_search
+msgid "Elaborations Search"
+msgstr "Elaborations Search"
+
+#. module: sale_elaboration
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.elaboration_view_search
+msgid "Group By"
+msgstr "Grupiši po"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration__id
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration_profile__id
+msgid "ID"
+msgstr "ID"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,help:sale_elaboration.field_product_elaboration__active
+msgid ""
+"If unchecked, it will allow you to hide the product elaborations without "
+"removing it."
+msgstr ""
+
+#. module: sale_elaboration
+#: model:res.groups,name:sale_elaboration.group_elaboration_note_on_delivery_slip
+msgid "Include elaboration notes on delivery slip"
+msgstr "Include elaboration notes on isporuka slip"
+
+#. module: sale_elaboration
+#: model:res.groups,name:sale_elaboration.group_elaboration_note_on_picking_operations
+msgid "Include elaboration notes on picking operations"
+msgstr "Include elaboration notes on preuzimanje operations"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration_mixin__is_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_product__is_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_template__is_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_sale_order_line__is_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_stock_move__is_elaboration
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.view_sales_order_line_filter
+msgid "Is Elaboration"
+msgstr "Is Elaboration"
+
+#. module: sale_elaboration
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.view_sales_order_line_filter
+msgid "Is Not Prepared"
+msgstr "Is Not Prepared"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_sale_order_line__is_prepared
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.view_sales_order_line_filter
+msgid "Is Prepared"
+msgstr "Is Prepared"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,help:sale_elaboration.field_product_product__elaboration_profile_id
+#: model:ir.model.fields,help:sale_elaboration.field_product_template__elaboration_profile_id
+msgid ""
+"Keep this field empty to use the default value from the product category."
+msgstr ""
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration____last_update
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration_profile____last_update
+msgid "Last Modified on"
+msgstr "Zadnje mijenjano"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration__write_uid
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration_profile__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji ažurirao"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration__write_date
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration_profile__write_date
+msgid "Last Updated on"
+msgstr "Zadnje ažurirano"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration__name
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration_profile__name
+msgid "Name"
+msgstr "Naziv:"
+
+#. module: sale_elaboration
+#: model:ir.model.constraint,message:sale_elaboration.constraint_product_elaboration_name_uniq
+msgid "Name must be unique!"
+msgstr "Name mora biti unique!"
+
+#. module: sale_elaboration
+#: model:ir.model,name:sale_elaboration.model_product_template
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration__product_id
+#: model_terms:ir.ui.view,arch_db:sale_elaboration.elaboration_view_search
+msgid "Product"
+msgstr "Artikal"
+
+#. module: sale_elaboration
+#: model:ir.model,name:sale_elaboration.model_product_category
+msgid "Product Category"
+msgstr "Kategorija proizvoda"
+
+#. module: sale_elaboration
+#: model:ir.model,name:sale_elaboration.model_product_elaboration_mixin
+msgid "Product Elaboration Mixin"
+msgstr "Proizvod Elaboration Mixin"
+
+#. module: sale_elaboration
+#: model:ir.model,name:sale_elaboration.model_stock_move_line
+msgid "Product Moves (Stock Move Line)"
+msgstr "Skladišna kretanja proizvoda(stavke)"
+
+#. module: sale_elaboration
+#: model:ir.model,name:sale_elaboration.model_product_product
+msgid "Product Variant"
+msgstr "Varijanta proizvoda"
+
+#. module: sale_elaboration
+#: model:ir.model,name:sale_elaboration.model_product_elaboration_profile
+msgid "Product elaboration profiles"
+msgstr "Proizvod elaboration profiles"
+
+#. module: sale_elaboration
+#: model:ir.model,name:sale_elaboration.model_product_elaboration
+msgid "Product elaborations"
+msgstr "Proizvod elaborations"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration__profile_ids
+msgid "Profile"
+msgstr "Profil"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_sale_order_line__route_id
+msgid "Route"
+msgstr "Smjer"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration__route_ids
+msgid "Routes"
+msgstr "Rute"
+
+#. module: sale_elaboration
+#: model:ir.actions.act_window,name:sale_elaboration.sale_elaboration_action
+#: model:ir.ui.menu,name:sale_elaboration.menu_sale_elaboration
+msgid "Sale Elaboration"
+msgstr "Prodaja Elaboration"
+
+#. module: sale_elaboration
+#: model:ir.actions.act_window,name:sale_elaboration.sale_elaboration_profile_action
+#: model:ir.ui.menu,name:sale_elaboration.menu_sale_elaboration_profile
+msgid "Sale Elaboration Profiles"
+msgstr "Prodaja Elaboration Profiles"
+
+#. module: sale_elaboration
+#: model:ir.actions.act_window,name:sale_elaboration.sale_elaboration_report_action
+#: model:ir.ui.menu,name:sale_elaboration.menu_sale_elaboration_report
+#: model:ir.ui.menu,name:sale_elaboration.menu_stock_sale_elaboration_report
+msgid "Sale Elaboration Report"
+msgstr "Prodaja Elaboration Report"
+
+#. module: sale_elaboration
+#: model:ir.model,name:sale_elaboration.model_sale_order
+msgid "Sales Order"
+msgstr "Prodajni nalog"
+
+#. module: sale_elaboration
+#: model:ir.model,name:sale_elaboration.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Stavka prodajne narudžbe"
+
+#. module: sale_elaboration
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration__code
+#: model:ir.model.fields,field_description:sale_elaboration.field_product_elaboration_profile__code
+msgid "Short Code"
+msgstr "Kratka šifra"
+
+#. module: sale_elaboration
+#: model:ir.model,name:sale_elaboration.model_stock_move
+msgid "Stock Move"
+msgstr "Skladišno kretanje"
+
+#. module: sale_elaboration
+#: model:ir.model,name:sale_elaboration.model_stock_rule
+msgid "Stock Rule"
+msgstr "Skladišno pravilo"
+
+#. module: sale_elaboration
+#: model:ir.model,name:sale_elaboration.model_stock_picking
+msgid "Transfer"
+msgstr "Prijenos"
+
+#. module: sale_elaboration
+#. odoo-python
+#: code:addons/sale_elaboration/models/sale_order.py:0
+#, python-format
+msgid "Unsupported operator %s for searching on is_prepared"
+msgstr "Unsupported operator %s for searching on is_prepared"

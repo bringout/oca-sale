@@ -1,0 +1,43 @@
+[project]
+name = "odoo-bringout-oca-sale-workflow-portal_sale_personal_data_only"
+version = "16.0.0"
+description = "Portal Sale Personal Data Only - Odoo addon"
+authors = [
+    { name = "Ernad Husremovic", email = "hernad@bring.out.ba" }
+]
+dependencies = [
+    "odoo-bringout-oca-ocb-sale>=16.0.0",
+    "odoo-bringout-oca-sale-workflow-portal_account_personal_data_only>=16.0.0",
+    "requests>=2.25.1"
+]
+readme = "README.md"
+requires-python = ">= 3.11"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11", 
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business",
+]
+
+[project.urls]
+homepage = "https://github.com/bringout/0"
+repository = "https://github.com/bringout/0"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["portal_sale_personal_data_only"]
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "pytest>=8.4.1",
+]

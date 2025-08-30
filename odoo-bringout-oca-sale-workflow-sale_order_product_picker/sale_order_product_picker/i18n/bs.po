@@ -1,0 +1,376 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_order_product_picker
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sale_order_product_picker
+#: model_terms:ir.ui.view,arch_db:sale_order_product_picker.view_order_form
+msgid "<i class=\"fa fa-files-o\" title=\"Add new line\"/>"
+msgstr "<i class=\"fa fa-files-o\" title=\"Dodaj novu stavku\"/>"
+
+#. module: sale_order_product_picker
+#: model_terms:ir.ui.view,arch_db:sale_order_product_picker.view_order_form
+msgid ""
+"<span class=\"text-muted\">\n"
+"                                                                Quantity:\n"
+"                                                            </span>"
+msgstr ""
+
+#. module: sale_order_product_picker
+#: model_terms:ir.ui.view,arch_db:sale_order_product_picker.view_order_form
+msgid ""
+"<span>\n"
+"                                                                Discount:\n"
+"                                                            </span>"
+msgstr ""
+
+#. module: sale_order_product_picker
+#: model_terms:ir.ui.view,arch_db:sale_order_product_picker.view_order_form
+msgid ""
+"<span>\n"
+"                            Discount:\n"
+"                        </span>"
+msgstr ""
+
+#. module: sale_order_product_picker
+#: model_terms:ir.ui.view,arch_db:sale_order_product_picker.view_order_form
+msgid "<span>%</span>"
+msgstr "<span>%</span>"
+
+#. module: sale_order_product_picker
+#: model_terms:ir.ui.view,arch_db:sale_order_product_picker.view_order_form
+msgid ""
+"<span><i class=\"fa fa-exclamation-triangle\"/> Multiple discounts "
+"selected</span>"
+msgstr ""
+
+#. module: sale_order_product_picker
+#: model_terms:ir.ui.view,arch_db:sale_order_product_picker.view_order_form
+msgid ""
+"<strong style=\"font-size: 1.2em\">+1\n"
+"                                                                </strong>"
+msgstr ""
+
+#. module: sale_order_product_picker
+#: model_terms:ir.ui.view,arch_db:sale_order_product_picker.view_order_form
+msgid "Attribute"
+msgstr "Atribut"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order__picker_product_attribute_value_id
+msgid "Attribute value"
+msgstr "Attribute value"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order__picker_only_available
+msgid "Available"
+msgstr "Dostuno"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields.selection,name:sale_order_product_picker.selection__sale_order__picker_order__categ_id
+msgid "Category"
+msgstr "Kategorija"
+
+#. module: sale_order_product_picker
+#: model:ir.actions.act_window,name:sale_order_product_picker.action_open_picker_views
+msgid "Commercial Quotations"
+msgstr "Komercijalne ponude"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__compute_price_unit
+msgid "Compute Price Unit"
+msgstr "Compute Price Unit"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__create_uid
+msgid "Created by"
+msgstr "Kreirao"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__create_date
+msgid "Created on"
+msgstr "Kreirano"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__currency_id
+msgid "Currency"
+msgstr "Valuta"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,help:sale_order_product_picker.field_sale_order_picker__uom_id
+msgid "Default unit of measure used for all stock operations."
+msgstr "Predefinirana mjerna jedinica za sve funkcije zalihe."
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__qty_delivered
+msgid "Delivered"
+msgstr "Dostavljeno"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__discount
+msgid "Discount (%)"
+msgstr "Popust (%)"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__display_name
+msgid "Display Name"
+msgstr "Prikazani naziv"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__product_no_variant_attribute_value_ids
+msgid "Extra Values"
+msgstr "Dodatne vrijednosti"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order__picker_filter
+#: model_terms:ir.ui.view,arch_db:sale_order_product_picker.view_order_form
+msgid "Filter"
+msgstr "Filter"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,help:sale_order_product_picker.field_sale_order__picker_product_attribute_value_id
+msgid "Filter products by attribute value"
+msgstr "Filter products by attribute value"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__id
+msgid "ID"
+msgstr "ID"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__product_image
+msgid "Image 256"
+msgstr "Slika 256"
+
+#. module: sale_order_product_picker
+#: model_terms:ir.ui.view,arch_db:sale_order_product_picker.view_order_form
+msgid "Input product code or name"
+msgstr "Unesite kod ili naziv proizvoda"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_line__is_different_price
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__is_different_price
+msgid "Is Different Price"
+msgstr "Is Different Price"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__is_in_order
+msgid "Is In Order"
+msgstr "Je u narudžbi"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker____last_update
+msgid "Last Modified on"
+msgstr "Zadnje mijenjano"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji ažurirao"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__write_date
+msgid "Last Updated on"
+msgstr "Zadnje ažurirano"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields.selection,name:sale_order_product_picker.selection__sale_order__picker_price_origin__last_sale_price
+msgid "Last price"
+msgstr "Last price"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields.selection,name:sale_order_product_picker.selection__sale_order__picker_origin_data__sale_order
+msgid "Last sales"
+msgstr "Last sales"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__line_price_reduce
+msgid "Line Price Reduce"
+msgstr "Line Price Reduce"
+
+#. module: sale_order_product_picker
+#: model_terms:ir.ui.view,arch_db:sale_order_product_picker.view_order_form
+msgid "Manage product filters (Reload after modify)"
+msgstr "Upravljaj filterima proizvoda (Ponovo učitaj nakon modifikacije)"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__multiple_discounts
+msgid "Multiple Discounts"
+msgstr "Multiple Discounts"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__qty_available
+msgid "On Hand"
+msgstr "Dostupno"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__order_id
+#: model_terms:ir.ui.view,arch_db:sale_order_product_picker.view_order_form
+msgid "Order"
+msgstr "Nalog"
+
+#. module: sale_order_product_picker
+#: model_terms:ir.ui.view,arch_db:sale_order_product_picker.view_order_form
+msgid "Origin"
+msgstr "Izvor"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order__picker_ids
+#: model_terms:ir.ui.view,arch_db:sale_order_product_picker.view_order_form
+msgid "Picker"
+msgstr "Picker"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order__picker_order
+msgid "Picker Order"
+msgstr "Picker Order"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order__picker_origin_data
+msgid "Picker Origin Data"
+msgstr "Picker Origin Data"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order__picker_price_origin
+msgid "Picker Price Origin"
+msgstr "Picker Price Origin"
+
+#. module: sale_order_product_picker
+#: model_terms:ir.ui.view,arch_db:sale_order_product_picker.view_order_form
+msgid "Previous delivered:"
+msgstr "Prethodno isporučeno:"
+
+#. module: sale_order_product_picker
+#: model_terms:ir.ui.view,arch_db:sale_order_product_picker.view_order_form
+msgid "Price"
+msgstr "Cijena"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,help:sale_order_product_picker.field_sale_order_line__list_price
+#: model:ir.model.fields,help:sale_order_product_picker.field_sale_order_picker__list_price
+msgid "Price at which the product is sold to customers."
+msgstr "Cijena po kojoj se proizvod prodaje kupcima."
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__pricelist_item_id
+msgid "Pricelist Item"
+msgstr "Stavka cjenika"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__product_id
+msgid "Product"
+msgstr "Artikal"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_line__categ_id
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__category_id
+msgid "Product Category"
+msgstr "Kategorija proizvoda"
+
+#. module: sale_order_product_picker
+#: model:ir.actions.act_window,name:sale_order_product_picker.product_normal_action_sell_picker
+msgid "Product Variants (Picker)"
+msgstr "Prodaja na mjestu"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__product_uom_qty
+msgid "Quantity"
+msgstr "Količina"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__sale_line_id
+msgid "Sale Line"
+msgstr "Stavka prodaje"
+
+#. module: sale_order_product_picker
+#: model:ir.model,name:sale_order_product_picker.model_sale_order
+msgid "Sales Order"
+msgstr "Prodajni nalog"
+
+#. module: sale_order_product_picker
+#: model:ir.model,name:sale_order_product_picker.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Stavka prodajne narudžbe"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_line__list_price
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__list_price
+msgid "Sales Price"
+msgstr "Prodajna cijena"
+
+#. module: sale_order_product_picker
+#: model:ir.ui.menu,name:sale_order_product_picker.menu_email_campaigns
+msgid "Salesman Quotations"
+msgstr "Salesman Quotations"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order__product_name_search
+msgid "Search product"
+msgstr "Search product"
+
+#. module: sale_order_product_picker
+#: model:ir.model,name:sale_order_product_picker.model_ir_config_parameter
+msgid "System Parameter"
+msgstr "Sistemski parametar"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__times_delivered
+msgid "Times Delivered"
+msgstr "Times Delivered"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__to_process
+msgid "To Process"
+msgstr "Za obradu"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__unit_factor
+msgid "Unit Factor"
+msgstr "Omjer jedinice"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__unit_name
+msgid "Unit Name"
+msgstr "Unit Name"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__price_unit
+msgid "Unit Price"
+msgstr "Cijena"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__uom_id
+msgid "Unit of Measure"
+msgstr "Jedinica mjere"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order__use_delivery_address
+msgid "Use Delivery Address"
+msgstr "Use Delivery Address"
+
+#. module: sale_order_product_picker
+#: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__warehouse_id
+msgid "Warehouse"
+msgstr "Skladište"
+
+#. module: sale_order_product_picker
+#. odoo-javascript
+#: code:addons/sale_order_product_picker/static/src/form/form_controller.esm.js:0
+#, python-format
+msgid "You must wait for the picker lines to be written"
+msgstr "Morate sačekati da se stavke picker-a upišu"
+
+#. module: sale_order_product_picker
+#: model:ir.model,name:sale_order_product_picker.model_sale_order_picker
+msgid "sale.order.picker"
+msgstr "sale.order.picker"
