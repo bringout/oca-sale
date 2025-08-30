@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [sale_management](https://github.com/bringout/oca-ocb-sale/tree/b79cef0fc454482466e93989011360a14a738822/odoo-bringout-oca-ocb-sale_management)
+- [sale_management](https://github.com/bringout/oca-ocb-sale/tree/3531a720906f8e17d5fa4dafe32471b2aada3721/odoo-bringout-oca-ocb-sale_management)
 - [account_invoice_triple_discount](https://github.com/bringout/oca-financial)
