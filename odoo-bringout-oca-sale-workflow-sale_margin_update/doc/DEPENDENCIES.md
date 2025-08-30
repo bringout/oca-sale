@@ -2,6 +2,6 @@
 
 This addon depends on:
 
-- [sale](https://github.com/bringout/oca-ocb-sale/tree/cfc4dbeb59ab3594bd1aa8f3bb16a1ee00557b4d/odoo-bringout-oca-ocb-sale)
-- [sales_team](https://github.com/bringout/oca-ocb-sale/tree/cfc4dbeb59ab3594bd1aa8f3bb16a1ee00557b4d/odoo-bringout-oca-ocb-sales_team)
-- [sale_margin](https://github.com/bringout/oca-ocb-sale/tree/cfc4dbeb59ab3594bd1aa8f3bb16a1ee00557b4d/odoo-bringout-oca-ocb-sale_margin)
+- [sale](https://github.com/bringout/oca-ocb-sale/tree/5d9b47ce90463a1c61e6fb80db86d42fb811e501/odoo-bringout-oca-ocb-sale)
+- [sales_team](https://github.com/bringout/oca-ocb-sale/tree/5d9b47ce90463a1c61e6fb80db86d42fb811e501/odoo-bringout-oca-ocb-sales_team)
+- [sale_margin](https://github.com/bringout/oca-ocb-sale/tree/5d9b47ce90463a1c61e6fb80db86d42fb811e501/odoo-bringout-oca-ocb-sale_margin)
