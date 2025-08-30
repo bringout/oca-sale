@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [sale](https://github.com/bringout/oca-ocb-sale/tree/681dc8d5fff638cb0862a34e48091a2098d091f8/odoo-bringout-oca-ocb-sale)
+- [sale](https://github.com/bringout/oca-ocb-sale/tree/9c47621e05c4317db98aaea61473df9add3d66b6/odoo-bringout-oca-ocb-sale)
 - [portal_account_personal_data_only](https://github.com/bringout/oca-financial)
