@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: product_supplierinfo_for_customer_sale
 #: model:ir.actions.act_window,name:product_supplierinfo_for_customer_sale.action_open_product_customerinfo
-#: model:ir.ui.menu,name:product_supplierinfo_for_customer_sale.menu_product_customerinfo
 msgid "Prices for customers"
 msgstr "Cijene za kupce"
 

@@ -40,18 +40,19 @@ msgstr "Varijanta proizvoda"
 
 #. module: sale_order_country_allowed_product
 #: model:ir.model.fields,field_description:sale_order_country_allowed_product.field_product_product__sale_allowed_country_ids
-#: model:ir.model.fields,field_description:sale_order_country_allowed_product.field_product_template__sale_allowed_country_ids
 msgid "Sale Allowed Countries"
 msgstr "Dozvolje zemlje za prodaju"
 
 #. module: sale_order_country_allowed_product
 #. odoo-python
-#: code:addons/sale_order_country_allowed_product/models/sale_order.py:0
+#: code:addons/sale_order_country_allowed_product/models/sale_order.py
 #, python-format
 msgid ""
 "Sale order cannot be validated as some products are not available in the "
 "shipping country."
 msgstr ""
+"Prodajni nalog se ne može validirati jer neki proizvodi nisu dostupni u "
+"zemlji isporuke."
 
 #. module: sale_order_country_allowed_product
 #: model:ir.model,name:sale_order_country_allowed_product.model_sale_order
@@ -65,12 +66,12 @@ msgstr "Stavka prodajne narudžbe"
 
 #. module: sale_order_country_allowed_product
 #. odoo-python
-#: code:addons/sale_order_country_allowed_product/models/sale_order.py:0
+#: code:addons/sale_order_country_allowed_product/models/sale_order.py
 #, python-format
 msgid ""
 "The following products are not available in the shipping country: "
 "%(products_list)s"
-msgstr ""
+msgstr "Sljedeći proizvodi nisu dostupni u zemlji isporuke: %(products_list)s"
 
 #. module: sale_order_country_allowed_product
 #: model:ir.model.fields,field_description:sale_order_country_allowed_product.field_sale_order__unavailable_product_msg

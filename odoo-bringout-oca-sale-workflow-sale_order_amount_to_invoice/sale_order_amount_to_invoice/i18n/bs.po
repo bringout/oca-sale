@@ -20,8 +20,6 @@ msgstr "Prodajni nalog"
 
 #. module: sale_order_amount_to_invoice
 #: model_terms:ir.ui.view,arch_db:sale_order_amount_to_invoice.view_order_form
-#: model_terms:ir.ui.view,arch_db:sale_order_amount_to_invoice.view_order_tree
-#: model_terms:ir.ui.view,arch_db:sale_order_amount_to_invoice.view_quotation_tree
 msgid "To Invoice"
 msgstr "Za fakturisati"
 

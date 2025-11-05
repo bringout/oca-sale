@@ -13,37 +13,45 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: sale_order_carrier_auto_assign
 #: model_terms:ir.ui.view,arch_db:sale_order_carrier_auto_assign.res_config_settings_view_form_sale
 msgid "Assigns automatically delivery carrier on sale order confirmation."
-msgstr "Dodijeli automatski dostavnu službu prilikom potvrđivanja prodajnog naloga."
+msgstr ""
+"Dodijeli automatski dostavnu službu prilikom potvrđivanja prodajnog naloga."
 
+# taken from hr.po
 #. module: sale_order_carrier_auto_assign
 #: model:ir.model.fields,field_description:sale_order_carrier_auto_assign.field_res_company__carrier_auto_assign
-#: model:ir.model.fields,field_description:sale_order_carrier_auto_assign.field_res_config_settings__carrier_auto_assign
 msgid "Carrier Auto Assign"
 msgstr "Autmatski dodijeljena dostava"
 
+# taken from hr.po
 #. module: sale_order_carrier_auto_assign
 #: model_terms:ir.ui.view,arch_db:sale_order_carrier_auto_assign.res_config_settings_view_form_sale
 msgid "Carrier auto assign"
 msgstr "Dodijeli dostavu automatski"
 
+# taken from hr.po
 #. module: sale_order_carrier_auto_assign
 #: model:ir.model,name:sale_order_carrier_auto_assign.model_res_company
 msgid "Companies"
 msgstr "Tvrtke"
 
+# taken from hr.po
 #. module: sale_order_carrier_auto_assign
 #: model:ir.model,name:sale_order_carrier_auto_assign.model_res_config_settings
 msgid "Config Settings"
 msgstr "Konfiguracijske postavke"
 
+# taken from hr.po
 #. module: sale_order_carrier_auto_assign
 #: model:ir.model.fields,help:sale_order_carrier_auto_assign.field_res_config_settings__carrier_auto_assign
 msgid "Enable carrier auto assign on sale order confirmation."
-msgstr "Omogući automatsko dodijeljivanje dostavne službe pri potvrđivanju prodaje."
+msgstr ""
+"Omogući automatsko dodijeljivanje dostavne službe pri potvrđivanju prodaje."
 
+# taken from hr.po
 #. module: sale_order_carrier_auto_assign
 #: model:ir.model,name:sale_order_carrier_auto_assign.model_sale_order
 msgid "Sales Order"

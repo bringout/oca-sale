@@ -30,21 +30,16 @@ msgstr "Postavke"
 
 #. module: sale_order_ordered_weight
 #: model:ir.model.fields,field_description:sale_order_ordered_weight.field_res_company__display_line_weight_on_sale_report
-#: model:ir.model.fields,field_description:sale_order_ordered_weight.field_res_config_settings__display_line_weight_on_sale_report
 msgid "Display Line Weight On Sale Report"
 msgstr "Prikaži težinu stavke u izvještaju prodaje"
 
 #. module: sale_order_ordered_weight
 #: model:ir.model.fields,field_description:sale_order_ordered_weight.field_res_company__display_order_weight_on_sale_report
-#: model:ir.model.fields,field_description:sale_order_ordered_weight.field_res_config_settings__display_order_weight_on_sale_report
 msgid "Display Order Weight On Sale Report"
 msgstr "Prikaži težinu naloga u izvještaju prodaje"
 
 #. module: sale_order_ordered_weight
 #: model:ir.model.fields,field_description:sale_order_ordered_weight.field_sale_order__total_ordered_weight
-#: model:ir.model.fields,field_description:sale_order_ordered_weight.field_sale_order_line__total_ordered_weight
-#: model_terms:ir.ui.view,arch_db:sale_order_ordered_weight.sale_order_view_tree
-#: model_terms:ir.ui.view,arch_db:sale_order_ordered_weight.sale_order_view_tree_quotation
 msgid "Ordered Weight"
 msgstr "Naručena težina"
 

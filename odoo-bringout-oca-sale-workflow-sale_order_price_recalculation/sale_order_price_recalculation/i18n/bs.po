@@ -18,16 +18,19 @@ msgstr ""
 msgid "Recalculate Prices"
 msgstr "Preračunaj cijene"
 
+# taken from hr.po
 #. module: sale_order_price_recalculation
 #: model_terms:ir.ui.view,arch_db:sale_order_price_recalculation.view_order_form
 msgid "Recalculate prices"
 msgstr "Preračunaj cijene"
 
+# taken from hr.po
 #. module: sale_order_price_recalculation
 #: model_terms:ir.ui.view,arch_db:sale_order_price_recalculation.view_order_form
 msgid "Reset descriptions"
 msgstr "Resetiraj opise"
 
+# taken from hr.po
 #. module: sale_order_price_recalculation
 #: model:ir.model,name:sale_order_price_recalculation.model_sale_order
 msgid "Sales Order"

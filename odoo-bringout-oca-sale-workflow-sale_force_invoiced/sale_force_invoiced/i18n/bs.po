@@ -13,40 +13,49 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: sale_force_invoiced
 #: model:res.groups,name:sale_force_invoiced.group_force_invoiced
 msgid "Enable Force Invoiced"
 msgstr "Omogući prisilno izdane račune"
 
+# taken from hr.po
 #. module: sale_force_invoiced
 #: model:ir.model.fields,field_description:sale_force_invoiced.field_sale_order__force_invoiced
 msgid "Force Invoiced"
 msgstr "Prisili izdani račun"
 
+# taken from hr.po
 #. module: sale_force_invoiced
 #: model:ir.model,name:sale_force_invoiced.model_sale_advance_payment_inv
 msgid "Sales Advance Payment Invoice"
 msgstr "Avansni račun u prodaji"
 
+# taken from hr.po
 #. module: sale_force_invoiced
 #: model:ir.model,name:sale_force_invoiced.model_sale_order
 msgid "Sales Order"
 msgstr "Prodajni nalog"
 
+# taken from hr.po
 #. module: sale_force_invoiced
 #: model:ir.model,name:sale_force_invoiced.model_sale_order_line
 msgid "Sales Order Line"
 msgstr "Stavka prodajnog naloga"
 
+# taken from hr.po
 #. module: sale_force_invoiced
 #. odoo-python
-#: code:addons/sale_force_invoiced/wizards/sale_make_invoice_advance.py:0
+#: code:addons/sale_force_invoiced/wizards/sale_make_invoice_advance.py
 #, python-format
 msgid ""
 "The order %(name)s is forced as invoiced. You should first remove this flag "
 "to create a new invoice."
 msgstr ""
+"Nalog %(name)s je prisilno označen kao izdani račun. Trebali bi prvo "
+"ukloniti ovu oznaku za kreiranje novog računa."
 
+# taken from hr.po
 #. module: sale_force_invoiced
 #: model:ir.model.fields,help:sale_force_invoiced.field_sale_order__force_invoiced
 msgid ""
@@ -54,3 +63,6 @@ msgid ""
 "invoiced, even when there may be ordered or delivered quantities pending to "
 "invoice."
 msgstr ""
+"Kada postavite ovo polje, prodajni nalog će se smatrati potpuno izdanim "
+"računom, čak i ako postoje naručene ili isporučene količine koje još treba "
+"naplatiti."

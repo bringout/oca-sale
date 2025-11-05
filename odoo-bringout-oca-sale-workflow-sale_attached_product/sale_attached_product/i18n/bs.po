@@ -25,8 +25,6 @@ msgstr "Priložena linija"
 
 #. module: sale_attached_product
 #: model:ir.model.fields,field_description:sale_attached_product.field_product_product__attached_product_ids
-#: model:ir.model.fields,field_description:sale_attached_product.field_product_template__attached_product_ids
-#: model_terms:ir.ui.view,arch_db:sale_attached_product.product_template_form_view
 msgid "Attached Products"
 msgstr "Priloženi proizvodi"
 
@@ -62,8 +60,9 @@ msgstr "Stavka prodajne narudžbe"
 
 #. module: sale_attached_product
 #: model:ir.model.fields,help:sale_attached_product.field_product_product__attached_product_ids
-#: model:ir.model.fields,help:sale_attached_product.field_product_template__attached_product_ids
 msgid ""
 "Similar to optional products, although they're added automatically to "
 "thesale order and optionally removed when the main product goes away."
 msgstr ""
+"Slično opcionalnim proizvodima, iako se dodaju automatski u prodajni nalog i"
+" opciono se uklanjaju kada glavni proizvod nestane."

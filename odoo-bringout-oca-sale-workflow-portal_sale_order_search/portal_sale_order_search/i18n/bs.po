@@ -15,28 +15,28 @@ msgstr ""
 
 #. module: portal_sale_order_search
 #. odoo-python
-#: code:addons/portal_sale_order_search/controllers/main.py:0
+#: code:addons/portal_sale_order_search/controllers/main.py
 #, python-format
 msgid "All"
 msgstr "Sve"
 
 #. module: portal_sale_order_search
 #. odoo-python
-#: code:addons/portal_sale_order_search/controllers/main.py:0
+#: code:addons/portal_sale_order_search/controllers/main.py
 #, python-format
 msgid "Customer"
 msgstr "Kupac"
 
 #. module: portal_sale_order_search
 #. odoo-python
-#: code:addons/portal_sale_order_search/controllers/main.py:0
+#: code:addons/portal_sale_order_search/controllers/main.py
 #, python-format
 msgid "Order Customer Ref"
 msgstr "Referenca kupca narudžbe"
 
 #. module: portal_sale_order_search
 #. odoo-python
-#: code:addons/portal_sale_order_search/controllers/main.py:0
+#: code:addons/portal_sale_order_search/controllers/main.py
 #, python-format
 msgid "Order Ref"
 msgstr "Referenca narudžbe"

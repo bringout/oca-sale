@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: sale_wishlist
 #: model:ir.model.fields,field_description:sale_wishlist.field_res_partner__wishlists_count
-#: model:ir.model.fields,field_description:sale_wishlist.field_res_users__wishlists_count
 msgid "# Wishlists"
 msgstr "# Liste želja"
 
@@ -41,7 +40,6 @@ msgstr "Set proizvoda"
 
 #. module: sale_wishlist
 #: model:ir.model.fields,field_description:sale_wishlist.field_product_set__typology
-#: model_terms:ir.ui.view,arch_db:sale_wishlist.view_product_set_search
 msgid "Typology"
 msgstr "Tipologija"
 
@@ -52,7 +50,7 @@ msgstr "Lista želja"
 
 #. module: sale_wishlist
 #. odoo-python
-#: code:addons/sale_wishlist/models/res_partner.py:0
+#: code:addons/sale_wishlist/models/res_partner.py
 #, python-format
 msgid "Wishlists"
 msgstr "Lista želja"

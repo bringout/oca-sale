@@ -25,12 +25,14 @@ msgstr "Default Start Date"
 
 #. module: sale_start_end_dates
 #. odoo-python
-#: code:addons/sale_start_end_dates/models/sale_order.py:0
+#: code:addons/sale_start_end_dates/models/sale_order.py
 #, python-format
 msgid ""
 "Default Start Date (%(start_date)s) should be before or be the same as "
 "Default End Date (%(end_date)s) for sale order '%(name)s'."
 msgstr ""
+"Default Start Date (%(start_date)s) should be before or be the same as "
+"Default End Date (%(end_date)s) for sale order '%(name)s'."
 
 #. module: sale_start_end_dates
 #: model:ir.model.fields,field_description:sale_start_end_dates.field_sale_order_line__end_date
@@ -43,17 +45,19 @@ msgid ""
 "If this option is active, the user will have to enter a Start Date and an "
 "End Date on the invoice lines that have this product."
 msgstr ""
+"Ako je ova opcija aktivna, korisnik će morati unijeti datum početka i datum "
+"završetka na stavkama fakture koje imaju ovaj proizvod."
 
 #. module: sale_start_end_dates
 #. odoo-python
-#: code:addons/sale_start_end_dates/models/sale_order.py:0
+#: code:addons/sale_start_end_dates/models/sale_order.py
 #, python-format
 msgid "Missing End Date for sale order line with Product '%s'."
 msgstr "Missing End Date for sale order line with Product '%s'."
 
 #. module: sale_start_end_dates
 #. odoo-python
-#: code:addons/sale_start_end_dates/models/sale_order.py:0
+#: code:addons/sale_start_end_dates/models/sale_order.py
 #, python-format
 msgid "Missing Start Date for sale order line with Product '%s'."
 msgstr "Missing Start Date for sale order line with Product '%s'."
@@ -70,19 +74,23 @@ msgstr "Broj dana"
 
 #. module: sale_start_end_dates
 #. odoo-python
-#: code:addons/sale_start_end_dates/models/sale_order.py:0
+#: code:addons/sale_start_end_dates/models/sale_order.py
 #, python-format
 msgid ""
 "On sale order line with product '%(product_name)s', the number of days is "
 "negative (%(number_of_days)s) ; this is not allowed. The number of days has "
 "been forced to 1."
 msgstr ""
+"On sale order line with product '%(product_name)s', the number of days is "
+"negative (%(number_of_days)s) ; this is not allowed. The number of days has "
+"been forced to 1."
 
 #. module: sale_start_end_dates
 #: model:ir.model,name:sale_start_end_dates.model_sale_order
 msgid "Sales Order"
 msgstr "Prodajni nalog"
 
+# taken from hr.po
 #. module: sale_start_end_dates
 #: model:ir.model,name:sale_start_end_dates.model_sale_order_line
 msgid "Sales Order Line"
@@ -95,16 +103,18 @@ msgstr "Početni datum"
 
 #. module: sale_start_end_dates
 #. odoo-python
-#: code:addons/sale_start_end_dates/models/sale_order.py:0
+#: code:addons/sale_start_end_dates/models/sale_order.py
 #, python-format
 msgid ""
 "Start Date (%(start_date)s) should be before or be the same as End Date "
 "(%(end_date)s) for sale order line with Product '%(product_name)s'."
 msgstr ""
+"Start Date (%(start_date)s) should be before or be the same as End Date "
+"(%(end_date)s) for sale order line with Product '%(product_name)s'."
 
 #. module: sale_start_end_dates
 #. odoo-python
-#: code:addons/sale_start_end_dates/models/sale_order.py:0
+#: code:addons/sale_start_end_dates/models/sale_order.py
 #, python-format
 msgid "Wrong number of days"
 msgstr "Wrong number of days"

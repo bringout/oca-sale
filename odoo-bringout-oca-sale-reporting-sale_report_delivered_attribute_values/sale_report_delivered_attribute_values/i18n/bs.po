@@ -19,6 +19,8 @@ msgid ""
 "All Product Attribute Values used directly or indirecly for this line.\n"
 "Contains information about increased price, html color, etc."
 msgstr ""
+"Sve vrijednosti atributa proizvoda korištene direktno ili indirektno za ovu stavku.\n"
+"Sadrži informacije o povećanoj cijeni, html boji, itd."
 
 #. module: sale_report_delivered_attribute_values
 #: model_terms:ir.ui.view,arch_db:sale_report_delivered_attribute_values.view_sale_report_delivered_search
@@ -32,7 +34,6 @@ msgstr "Atribut"
 
 #. module: sale_report_delivered_attribute_values
 #: model:ir.model.fields,field_description:sale_report_delivered_attribute_values.field_sale_report_delivered__all_product_attribute_value_ids
-#: model_terms:ir.ui.view,arch_db:sale_report_delivered_attribute_values.view_sale_report_delivered_search
 msgid "Attribute Values"
 msgstr "Vrijednosti značajki"
 

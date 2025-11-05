@@ -13,63 +13,77 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: sale_invoice_policy
 #: model:ir.model,name:sale_invoice_policy.model_res_config_settings
 msgid "Config Settings"
 msgstr "Postavke"
 
+# taken from hr.po
 #. module: sale_invoice_policy
 #: model:ir.model.fields.selection,name:sale_invoice_policy.selection__sale_order__invoice_policy__delivery
 msgid "Delivered quantities"
 msgstr "Isporučene količine"
 
+# taken from hr.po
 #. module: sale_invoice_policy
 #: model:ir.model.fields,field_description:sale_invoice_policy.field_sale_order__invoice_policy
 msgid "Invoice Policy"
 msgstr "Politika izdavanja računa"
 
+# taken from hr.po
 #. module: sale_invoice_policy
 #: model:ir.model.fields,field_description:sale_invoice_policy.field_sale_order__invoice_policy_required
 msgid "Invoice Policy Required"
 msgstr "Obavezna politika izdavanja računa"
 
+# taken from hr.po
 #. module: sale_invoice_policy
 #: model_terms:ir.ui.view,arch_db:sale_invoice_policy.view_sales_config
 msgid "Invoice Policy required in Sale Orders"
 msgstr "Politika izdavanja računa obavezna u prodajnim nalozima"
 
+# taken from hr.po
 #. module: sale_invoice_policy
 #: model:ir.model.fields,help:sale_invoice_policy.field_sale_order__invoice_policy
 msgid ""
 "Ordered Quantity: Invoice based on the quantity the customer ordered.\n"
 "Delivered Quantity: Invoiced based on the quantity the vendor delivered (time or deliveries)."
 msgstr ""
+"Naručena količina: Račun se izdaje na temelju količine koju je kupac naručio.\n"
+"Isporučena količina: Račun se izdaje na temelju količine koju je dobavljač isporučio (vrijeme ili isporuke)."
 
+# taken from hr.po
 #. module: sale_invoice_policy
 #: model:ir.model.fields.selection,name:sale_invoice_policy.selection__sale_order__invoice_policy__order
 msgid "Ordered quantities"
 msgstr "Naručene količine"
 
+# taken from hr.po
 #. module: sale_invoice_policy
 #: model_terms:ir.ui.view,arch_db:sale_invoice_policy.view_sales_config
 msgid "Sale Invoice Policy"
 msgstr "Politika izdavanja računa"
 
+# taken from hr.po
 #. module: sale_invoice_policy
 #: model:ir.model.fields,field_description:sale_invoice_policy.field_res_config_settings__sale_invoice_policy_required
 msgid "Sale Invoice Policy Required"
 msgstr "Obavezna politika izdavanja računa"
 
+# taken from hr.po
 #. module: sale_invoice_policy
 #: model:ir.model,name:sale_invoice_policy.model_sale_order
 msgid "Sales Order"
 msgstr "Prodajni nalog"
 
+# taken from hr.po
 #. module: sale_invoice_policy
 #: model:ir.model,name:sale_invoice_policy.model_sale_order_line
 msgid "Sales Order Line"
 msgstr "Stavka prodajnog naloga"
 
+# taken from hr.po
 #. module: sale_invoice_policy
 #: model:ir.model.fields,help:sale_invoice_policy.field_res_config_settings__sale_invoice_policy_required
 msgid "This makes Invoice Policy required on Sale Orders"

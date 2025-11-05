@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* sale_order_min_qty
+# * sale_order_min_qty
 #
 msgid ""
 msgstr ""
@@ -13,56 +13,60 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: sale_order_min_qty
-#: code:addons/sale_order_min_qty/models/sale.py:51
+#. module: sale_restricted_qty
+#: code:addons/sale_restricted_qty/models/sale.py
 #, python-format
-msgid "\n"
+msgid ""
+"\n"
 "* If you want sell quantity less than Min Quantity,Check \"force min quatity\" on product"
 msgstr ""
+"\n"
+"* Ako želite prodati količinu manju od minimalne količine, označite \"forsiraj min količinu\" na proizvodu"
 
-#. module: sale_order_min_qty
-#: code:addons/sale_order_min_qty/models/sale.py:48
+#. module: sale_restricted_qty
+#: code:addons/sale_restricted_qty/models/sale.py
 #, python-format
 msgid "Check minimum order quantity for this products: * \n"
-""
-msgstr ""
+msgstr "Provjeri minimalnu količinu narudžbe za ove proizvode: * \n"
 
-#. module: sale_order_min_qty
-#: model:ir.model.fields,field_description:sale_order_min_qty.field_product_product__force_sale_min_qty
-#: model:ir.model.fields,field_description:sale_order_min_qty.field_sale_order_line__force_sale_min_qty
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__force_sale_min_qty
 msgid "Force Min Qty"
 msgstr "Forsiraj min količinu"
 
 #. module: sale_order_min_qty
 #: model:ir.model.fields,help:sale_order_min_qty.field_product_product__force_sale_min_qty
 #: model:ir.model.fields,help:sale_order_min_qty.field_sale_order_line__force_sale_min_qty
-msgid "If force min qty is checked, the min quantity is only indicative value."
-msgstr "Ako je označeno forsiranje min količine, minimalna količina je samo indikativna vrijednost."
+msgid ""
+"If force min qty is checked, the min quantity is only indicative value."
+msgstr ""
+"Ako je označeno forsiranje min količine, minimalna količina je samo "
+"indikativna vrijednost."
 
-#. module: sale_order_min_qty
-#: model:ir.model.fields,field_description:sale_order_min_qty.field_sale_order_line__sale_min_qty
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_order_line__sale_min_qty
 msgid "Min Qty"
 msgstr "Min količina"
 
-#. module: sale_order_min_qty
-#: model_terms:ir.ui.view,arch_db:sale_order_min_qty.view_order_form
+#. module: sale_restricted_qty
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_order_form
 msgid "Min Quantity Recommended"
 msgstr "Preporučena min količina"
 
-#. module: sale_order_min_qty
-#: model_terms:ir.ui.view,arch_db:sale_order_min_qty.view_order_form
+#. module: sale_restricted_qty
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_order_form
 msgid "Min Quantity Required"
 msgstr "Potrebna min količina"
 
-#. module: sale_order_min_qty
-#: model:ir.model.fields,field_description:sale_order_min_qty.field_product_product__sale_min_qty
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__manual_sale_min_qty
 msgid "Min Sale Qty"
 msgstr "Min prodajna količina"
 
-#. module: sale_order_min_qty
-#: model:ir.model,name:sale_order_min_qty.model_product_product
+#. module: sale_restricted_qty
+#: model:ir.model,name:sale_restricted_qty.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: sale_order_min_qty
 #: code:addons/sale_order_min_qty/models/sale.py:43
@@ -70,13 +74,270 @@ msgstr "Artikal"
 msgid "Product \"%s\": Min Quantity %s."
 msgstr "Proizvod \"%s\": Min količina %s."
 
-#. module: sale_order_min_qty
-#: model:ir.model.fields,field_description:sale_order_min_qty.field_sale_order_line__is_qty_less_min_qty
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_order_line__is_qty_less_min_qty
 msgid "Qty < Min Qty"
 msgstr "Kol. < Min kol."
 
-#. module: sale_order_min_qty
-#: model:ir.model,name:sale_order_min_qty.model_sale_order_line
+#. module: sale_restricted_qty
+#: model:ir.model,name:sale_restricted_qty.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Red prodajnog naloga"
 
+#. module: sale_restricted_qty
+#: code:addons/sale_restricted_qty/models/sale.py
+#, python-format
+msgid ""
+"\n"
+"* If you want sell quantity bigger than max Quantity,Check \"force max quatity\" on product"
+msgstr ""
+"\n"
+"* If you want sell quantity bigger than max Quantity,Check \"force max quatity\" on product"
+
+#. module: sale_restricted_qty
+#: code:addons/sale_restricted_qty/models/sale.py
+#, python-format
+msgid ""
+"\n"
+"* If you want sell quantity not multiple Quantity,Set multiple quantity to 0 on product or product template or product category"
+msgstr ""
+"\n"
+"* If you want sell quantity not multiple Quantity,Set multiple quantity to 0 on product or product template or product category"
+
+#. module: sale_restricted_qty
+#: code:addons/sale_restricted_qty/models/sale.py
+#, python-format
+msgid "Check maximum order quantity for this products: * \n"
+msgstr "Check maximum order quantity for this products: * \n"
+
+#. module: sale_restricted_qty
+#: code:addons/sale_restricted_qty/models/sale.py
+#, python-format
+msgid "Check multiple order quantity for this products: * \n"
+msgstr "Check multiple order quantity for this products: * \n"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_category__force_sale_max_qty
+msgid ""
+"Define if user can force sale max qty 'If not set', Odoo will use the value "
+"defined in the parent object.Hierarchy is in this order :Product/product "
+"Template/product category/parent categoroies "
+msgstr ""
+"Define if user can force sale max qty 'If not set', Odoo will use the value "
+"defined in the parent object.Hierarchy is in this order :Product/product "
+"Template/product category/parent categoroies "
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_category__force_sale_min_qty
+msgid ""
+"Define if user can force sale min qty 'If not set', Odoo will use the value "
+"defined in the parent object.Hierarchy is in this order :Product/product "
+"Template/product category/parent categoroies "
+msgstr ""
+"Define if user can force sale min qty 'If not set', Odoo will use the value "
+"defined in the parent object.Hierarchy is in this order :Product/product "
+"Template/product category/parent categoroies "
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_category__sale_max_qty
+msgid ""
+"Define sale max qty 'If not set, Odoo will use the value defined in the "
+"parent object.Hierarchy is in this order :Product/product Template/product "
+"category/parent categoroies "
+msgstr ""
+"Define sale max qty 'If not set, Odoo will use the value defined in the "
+"parent object.Hierarchy is in this order :Product/product Template/product "
+"category/parent categoroies "
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_category__sale_min_qty
+msgid ""
+"Define sale min qty 'If not set, Odoo will use the value defined in the "
+"parent object.Hierarchy is in this order :Product/product Template/product "
+"category/parent categoroies "
+msgstr ""
+"Define sale min qty 'If not set, Odoo will use the value defined in the "
+"parent object.Hierarchy is in this order :Product/product Template/product "
+"category/parent categoroies "
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_category__sale_multiple_qty
+msgid ""
+"Define sale multiple qty 'If not set', Odoo will use the value defined in "
+"the parent object.Hierarchy is in this order :Product/product "
+"Template/product category/parent categoroies "
+msgstr ""
+"Define sale multiple qty 'If not set', Odoo will use the value defined in "
+"the parent object.Hierarchy is in this order :Product/product "
+"Template/product category/parent categoroies "
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__force_sale_max_qty
+msgid "Force Max Qty"
+msgstr "Force Max Qty"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_order_line__force_sale_max_qty
+msgid "Force Sale Max Qty"
+msgstr "Force Sale Max Qty"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_order_line__force_sale_min_qty
+msgid "Force Sale Min Qty"
+msgstr "Force Sale Min Qty"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_category__manual_force_sale_max_qty
+msgid ""
+"If force max qty is checked, the max quantity is only indicative value.If is"
+" not test we check parent value"
+msgstr ""
+"If force max qty is checked, the max quantity is only indicative value.If is"
+" not test we check parent value"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,help:sale_restricted_qty.field_product_category__manual_force_sale_min_qty
+msgid ""
+"If force min qty is checked, the min quantity is only indicative value.If is"
+" not test we check parent value"
+msgstr ""
+"If force min qty is checked, the min quantity is only indicative value.If is"
+" not test we check parent value"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__manual_force_sale_max_qty
+msgid "Manual Force Max Qty"
+msgstr "Manual Force Max Qty"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__manual_force_sale_min_qty
+msgid "Manual Force Min Qty"
+msgstr "Manual Force Min Qty"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_order_line__sale_max_qty
+msgid "Max Qty"
+msgstr "Max Qty"
+
+#. module: sale_restricted_qty
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_order_form
+msgid "Max Quantity Exceeded"
+msgstr "Max Quantity Exceeded"
+
+#. module: sale_restricted_qty
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_order_form
+msgid "Max Quantity Recommended"
+msgstr "Max Quantity Recommended"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__manual_sale_max_qty
+msgid "Max Sale Qty"
+msgstr "Max Sale Qty"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_order_line__sale_multiple_qty
+msgid "Multiple Qty"
+msgstr "Multiple Qty"
+
+#. module: sale_restricted_qty
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.view_order_form
+msgid "Multiple Quantity Required"
+msgstr "Multiple Quantity Required"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__manual_sale_multiple_qty
+msgid "Multiple Sale Qty"
+msgstr "Multiple Sale Qty"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_category__manual_force_sale_max_qty__not_force
+msgid "No"
+msgstr "No"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_order_line__is_qty_not_multiple_qty
+msgid "Not Multiple Qty"
+msgstr "Not Multiple Qty"
+
+#. module: sale_restricted_qty
+#: code:addons/sale_restricted_qty/models/sale.py
+#, python-format
+msgid "Product \"%(product)s\": Min Quantity %(min_qty)s."
+msgstr "Product \"%(product)s\": Min Quantity %(min_qty)s."
+
+#. module: sale_restricted_qty
+#: code:addons/sale_restricted_qty/models/sale.py
+#, python-format
+msgid "Product \"%(product)s\": max Quantity %(max_qty)s."
+msgstr "Proizvod \"%(product)s\": maksimalna količina %(max_qty)s."
+
+#. module: sale_restricted_qty
+#: code:addons/sale_restricted_qty/models/sale.py
+#, python-format
+msgid "Product \"%(product)s\": multiple Quantity %(multiple_qty)s."
+msgstr "Proizvod \"%(product)s\": višekratna količina %(multiple_qty)s."
+
+#. module: sale_restricted_qty
+#: model:ir.model,name:sale_restricted_qty.model_product_category
+msgid "Product Category"
+msgstr "Kategorija proizvoda"
+
+#. module: sale_restricted_qty
+#: model:ir.model,name:sale_restricted_qty.model_product_restricted_qty_mixin
+msgid "Product Restrict Qty Mixin"
+msgstr "Mixin za ograničavanje količine proizvoda"
+
+#. module: sale_restricted_qty
+#: model:ir.model,name:sale_restricted_qty.model_product_product
+msgid "Product Variant"
+msgstr "Product Variant"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_sale_order_line__is_qty_bigger_max_qty
+msgid "Qty > max Qty"
+msgstr "Količina > maksimalna količina"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__sale_max_qty
+msgid "Sale Max Qty"
+msgstr "Maksimalna količina prodaje"
+
+#. module: sale_restricted_qty
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.min_order_qty_product_product_form_view
+msgid "Sale Max qty"
+msgstr "Maksimalna količina prodaje"
+
+#. module: sale_restricted_qty
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.min_order_qty_product_product_form_view
+msgid "Sale Miltiple qty"
+msgstr "Višestruka količina prodaje"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__sale_min_qty
+msgid "Sale Min Qty"
+msgstr "Minimalna količina prodaje"
+
+#. module: sale_restricted_qty
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.min_order_qty_product_product_form_view
+msgid "Sale Min qty"
+msgstr "Minimalna količina prodaje"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields,field_description:sale_restricted_qty.field_product_category__sale_multiple_qty
+msgid "Sale Multiple Qty"
+msgstr "Višestruka količina prodaje"
+
+#. module: sale_restricted_qty
+#: model_terms:ir.ui.view,arch_db:sale_restricted_qty.min_order_qty_product_product_form_view
+msgid "Sale restricted qty"
+msgstr "Ograničena količina prodaje"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_category__manual_force_sale_max_qty__use_parent
+msgid "Use Parent Setting"
+msgstr "Koristi postavku nadređenog"
+
+#. module: sale_restricted_qty
+#: model:ir.model.fields.selection,name:sale_restricted_qty.selection__product_category__manual_force_sale_max_qty__force
+msgid "Yes"
+msgstr "Da"

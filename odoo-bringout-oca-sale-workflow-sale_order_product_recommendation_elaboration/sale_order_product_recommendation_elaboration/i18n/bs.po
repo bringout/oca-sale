@@ -20,7 +20,6 @@ msgstr "Elaboration Note"
 
 #. module: sale_order_product_recommendation_elaboration
 #: model:ir.model.fields,field_description:sale_order_product_recommendation_elaboration.field_sale_order_recommendation_line__elaboration_ids
-#: model_terms:ir.ui.view,arch_db:sale_order_product_recommendation_elaboration.view_order_form
 msgid "Elaborations"
 msgstr "Elaborations"
 

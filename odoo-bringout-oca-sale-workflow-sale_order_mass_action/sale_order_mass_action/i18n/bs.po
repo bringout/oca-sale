@@ -85,7 +85,7 @@ msgstr "Masovna akcija prodajnog naloga"
 
 #. module: sale_order_mass_action
 #. odoo-python
-#: code:addons/sale_order_mass_action/wizards/sale_order_mass_action_wizard.py:0
+#: code:addons/sale_order_mass_action/wizards/sale_order_mass_action_wizard.py
 #, python-format
 msgid "The following orders has been updated : %(order_names)s"
 msgstr "Sljedeći nalozi su ažurirani: %(order_names)s"

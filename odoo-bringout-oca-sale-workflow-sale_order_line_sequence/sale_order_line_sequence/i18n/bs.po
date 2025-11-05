@@ -23,8 +23,10 @@ msgstr "<strong>Broj stavke</strong>"
 msgid "Displays the sequence of the line in the sale order."
 msgstr "Prikazuje redoslijed stavke u prodajnom nalogu."
 
+# taken from hr.po
 #. module: sale_order_line_sequence
 #: model:ir.model.fields,help:sale_order_line_sequence.field_sale_order_line__sequence
+#, fuzzy
 msgid "Gives the sequence of this line when displaying the sale order."
 msgstr "Prikazuje sekvencu ove stavke u ponudi."
 
@@ -35,10 +37,10 @@ msgstr "Stavka žurnala"
 
 #. module: sale_order_line_sequence
 #: model:ir.model.fields,field_description:sale_order_line_sequence.field_sale_order_line__visible_sequence
-#: model_terms:ir.ui.view,arch_db:sale_order_line_sequence.report_invoice_document_inherit_sale_sequence
 msgid "Line Number"
 msgstr "Broj stavke"
 
+# taken from hr.po
 #. module: sale_order_line_sequence
 #: model:ir.model.fields,field_description:sale_order_line_sequence.field_sale_order__max_line_sequence
 msgid "Max sequence in lines"
@@ -54,11 +56,13 @@ msgstr "Broj stavke prodajnog naloga"
 msgid "Sales Order"
 msgstr "Prodajni nalog"
 
+# taken from hr.po
 #. module: sale_order_line_sequence
 #: model:ir.model,name:sale_order_line_sequence.model_sale_order_line
 msgid "Sales Order Line"
 msgstr "Stavka ponude"
 
+# taken from hr.po
 #. module: sale_order_line_sequence
 #: model:ir.model.fields,field_description:sale_order_line_sequence.field_sale_order_line__sequence
 msgid "Sequence"

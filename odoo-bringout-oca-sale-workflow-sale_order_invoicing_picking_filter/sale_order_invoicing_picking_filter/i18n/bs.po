@@ -20,6 +20,9 @@ msgid ""
 "                        There are any non-invoiced service products among the selected pickings\n"
 "                    </span>"
 msgstr ""
+"<span attrs=\"{'invisible': [('there_are_service_product', '=', False)]}\">\n"
+"                        Postoje nefakturisani servisni proizvodi među odabranim prijemima\n"
+"                    </span>"
 
 #. module: sale_order_invoicing_picking_filter
 #: model:ir.model.fields,help:sale_order_invoicing_picking_filter.field_sale_advance_payment_inv__inv_service_products

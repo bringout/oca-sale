@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: sale_packaging_report
 #: model:ir.model.fields,field_description:sale_packaging_report.field_sale_report__product_packaging_id
-#: model_terms:ir.ui.view,arch_db:sale_packaging_report.view_order_product_search_inherit_sale
 msgid "Packaging"
 msgstr "Pakovanje"
 

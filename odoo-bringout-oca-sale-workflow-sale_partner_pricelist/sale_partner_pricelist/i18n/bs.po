@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: sale_partner_pricelist
 #: model:ir.model.fields,field_description:sale_partner_pricelist.field_res_partner__allowed_pricelist_ids
-#: model:ir.model.fields,field_description:sale_partner_pricelist.field_res_users__allowed_pricelist_ids
 msgid "Allowed Pricelists"
 msgstr "Allowed Pricelists"
 
@@ -36,11 +35,12 @@ msgstr "Kontakt"
 
 #. module: sale_partner_pricelist
 #: model:ir.model.fields,help:sale_partner_pricelist.field_res_partner__allowed_pricelist_ids
-#: model:ir.model.fields,help:sale_partner_pricelist.field_res_users__allowed_pricelist_ids
 msgid ""
 "If set, you can only use the selected pricelists for this partner in the "
 "sale order."
 msgstr ""
+"If set, you can only use the selected pricelists for this partner in the "
+"sale order."
 
 #. module: sale_partner_pricelist
 #: model:ir.model.fields,field_description:sale_partner_pricelist.field_sale_order__partner_allowed_pricelist_ids
@@ -58,26 +58,29 @@ msgid ""
 "Technical field used to show the allowed pricelists for the partner if the "
 "partner don't have allowed pricelists it shows all the pricelists."
 msgstr ""
+"Technical field used to show the allowed pricelists for the partner if the "
+"partner don't have allowed pricelists it shows all the pricelists."
 
 #. module: sale_partner_pricelist
 #. odoo-python
-#: code:addons/sale_partner_pricelist/models/sale_order.py:0
+#: code:addons/sale_partner_pricelist/models/sale_order.py
 #, python-format
 msgid "The selected Pricelist is not allowed for this Partner."
 msgstr "The selected Pricelist is not allowed for this Partner."
 
 #. module: sale_partner_pricelist
 #. odoo-python
-#: code:addons/sale_partner_pricelist/models/res_partner.py:0
+#: code:addons/sale_partner_pricelist/models/res_partner.py
 #, python-format
 msgid ""
 "The selected Pricelist is not allowed for this Partner. Please select one of"
 " the allowed pricelists."
 msgstr ""
+"The selected Pricelist is not allowed for this Partner. Please select one of"
+" the allowed pricelists."
 
 #. module: sale_partner_pricelist
 #: model:ir.model.fields,field_description:sale_partner_pricelist.field_res_company__use_partner_pricelist
-#: model:ir.model.fields,field_description:sale_partner_pricelist.field_res_config_settings__use_partner_pricelist
 msgid "Use Partner Pricelist"
 msgstr "Use Partner Pricelist"
 
@@ -87,3 +90,5 @@ msgid ""
 "When enabled. You can only select a pricelist that is allowed for the "
 "customer."
 msgstr ""
+"When enabled. You can only select a pricelist that is allowed for the "
+"customer."

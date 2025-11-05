@@ -20,7 +20,6 @@ msgstr "Kontakt"
 
 #. module: sale_order_general_discount
 #: model:ir.model.fields,field_description:sale_order_general_discount.field_res_partner__sale_discount
-#: model:ir.model.fields,field_description:sale_order_general_discount.field_res_users__sale_discount
 msgid "Discount"
 msgstr "Popust"
 

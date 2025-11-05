@@ -20,14 +20,11 @@ msgstr "Kontakt"
 
 #. module: sale_partner_incoterm
 #: model:ir.model.fields,field_description:sale_partner_incoterm.field_res_partner__sale_incoterm_address_id
-#: model:ir.model.fields,field_description:sale_partner_incoterm.field_res_users__sale_incoterm_address_id
 msgid "Default Sale Incoterm Address"
 msgstr "Default Sale Incoterm Address"
 
 #. module: sale_partner_incoterm
 #: model:ir.model.fields,field_description:sale_partner_incoterm.field_res_partner__sale_incoterm_id
-#: model:ir.model.fields,field_description:sale_partner_incoterm.field_res_users__sale_incoterm_id
-#: model_terms:ir.ui.view,arch_db:sale_partner_incoterm.view_partner_property_form
 msgid "Default Sales Incoterm"
 msgstr "Default Sales Incoterm"
 
@@ -43,6 +40,5 @@ msgstr "Prodajni nalog"
 
 #. module: sale_partner_incoterm
 #: model:ir.model.fields,help:sale_partner_incoterm.field_res_partner__sale_incoterm_id
-#: model:ir.model.fields,help:sale_partner_incoterm.field_res_users__sale_incoterm_id
 msgid "The default incoterm for new sales orders for this customer."
 msgstr "The default incoterm for new sales orders for this customer."

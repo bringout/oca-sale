@@ -18,6 +18,7 @@ msgstr ""
 msgid "Procurement group"
 msgstr "Grupa naručivanja"
 
+# taken from hr.po
 #. module: sale_procurement_group_by_line
 #: model:ir.model,name:sale_procurement_group_by_line.model_sale_order_line
 msgid "Sales Order Line"

@@ -19,6 +19,8 @@ msgid ""
 "<i class=\"fa fa-dollar\"/>\n"
 "                                            <span>Order</span>"
 msgstr ""
+"<i class=\"fa fa-dollar\"/>\n"
+"                                            <span>Nalog</span>"
 
 #. module: sale_planner_calendar
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_form
@@ -57,12 +59,14 @@ msgstr "Napredni ciklus"
 
 #. module: sale_planner_calendar
 #. odoo-python
-#: code:addons/sale_planner_calendar/models/sale_planner_calendar_summary.py:0
+#: code:addons/sale_planner_calendar/models/sale_planner_calendar_summary.py
 #, python-format
 msgid ""
 "Already exists a summary with same user, date and event type)\n"
 "Access with 'Sale planner calendar summary' menu option"
 msgstr ""
+"Već postoji rezime s istim korisnikom, datumom i tipom događaja)\n"
+"Pristupite pomoću opcije menija 'Rezime kalendarskog planera prodaje'"
 
 #. module: sale_planner_calendar
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_form
@@ -106,8 +110,6 @@ msgstr "Kalendar učesnika - informacije"
 
 #. module: sale_planner_calendar
 #: model:ir.model,name:sale_planner_calendar.model_calendar_event
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz__calendar_event_id
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_wizard__calendar_event_ids
 msgid "Calendar Event"
 msgstr "Događaj na kalendaru"
 
@@ -138,16 +140,11 @@ msgstr "Kalendarski planer"
 
 #. module: sale_planner_calendar
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_form
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_issue_form
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_rating_form
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_reassign_wiz
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_wizard
 msgid "Cancel"
 msgstr "Otkaži"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields.selection,name:sale_planner_calendar.selection__calendar_event__sale_planner_state__cancel
-#: model:ir.model.fields.selection,name:sale_planner_calendar.selection__sale_planner_calendar_summary__state__cancel
 msgid "Cancelled"
 msgstr "Otkazan"
 
@@ -163,7 +160,6 @@ msgstr "Promijeni status kalendarskog događaja dodavanjem prethodne ocjene"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__partner_city
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_kanban
 msgid "City"
 msgstr "Grad"
 
@@ -179,8 +175,6 @@ msgstr "Zatvoreno"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__comment
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__comment
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_form
 msgid "Comment"
 msgstr "Komentar"
 
@@ -221,25 +215,16 @@ msgstr "Kontakt"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_issue_type__create_uid
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz__create_uid
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__create_uid
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__create_uid
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_wizard__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_issue_type__create_date
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz__create_date
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__create_date
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__create_date
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_wizard__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__sale_planner_currency_id
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__currency_id
 msgid "Currency"
 msgstr "Valuta"
 
@@ -265,10 +250,6 @@ msgstr "Datum"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_issue_type__display_name
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz__display_name
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__display_name
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__display_name
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_wizard__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -279,10 +260,6 @@ msgstr "Dokumenti"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields.selection,name:sale_planner_calendar.selection__calendar_event__sale_planner_state__done
-#: model:ir.model.fields.selection,name:sale_planner_calendar.selection__sale_planner_calendar_summary__state__done
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_form
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_search
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_form
 msgid "Done"
 msgstr "Gotovo"
 
@@ -333,15 +310,11 @@ msgstr "Ukupan broj događaja"
 
 #. module: sale_planner_calendar
 #: model:ir.actions.server,name:sale_planner_calendar.action_sale_planner_calendar_summary_today
-#: model:ir.ui.menu,name:sale_planner_calendar.menu_sale_planner_calendar_summary_today
 msgid "Event planner summary today"
 msgstr "Rezime planera događaja danas"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__event_type_id
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__event_type_id
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_wizard__event_type_id
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_search
 msgid "Event type"
 msgstr "Tip događaja"
 
@@ -382,10 +355,11 @@ msgstr "Font awesome ikona npr. fa-tasks"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,help:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz__new_event_categ_ids
-#: model:ir.model.fields,help:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__new_event_categ_ids
 msgid ""
 "Forces new tags for the specified period. Leave empty to keep current tags."
 msgstr ""
+"Forsira nove tagove za navedeni period. Ostavite prazno da zadržite trenutne"
+" tagove."
 
 #. module: sale_planner_calendar
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.res_config_settings_view_form
@@ -394,7 +368,6 @@ msgstr "Mjeseci unaprijed za kreiranje kalendarskih događaja"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields.selection,name:sale_planner_calendar.selection__sale_planner_calendar_reassign_wiz__week_list__fri
-#: model:ir.model.fields.selection,name:sale_planner_calendar.selection__sale_planner_calendar_wizard__week_list__fri
 msgid "Friday"
 msgstr "Petak"
 
@@ -405,7 +378,6 @@ msgstr "Buduće"
 
 #. module: sale_planner_calendar
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_search
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_search
 msgid "Group By"
 msgstr "Grupiši po"
 
@@ -421,10 +393,6 @@ msgstr "Sat"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_issue_type__id
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz__id
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__id
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__id
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_wizard__id
 msgid "ID"
 msgstr "ID"
 
@@ -449,6 +417,8 @@ msgid ""
 "If the new end field is set, in addition to creating the recurring event assigned to the new commercial,\n"
 "                                a new recurring event will be created from the end date associated with the current commercial."
 msgstr ""
+"Ako je polje novog kraja postavljeno, osim kreiranja ponavljajućeg događaja dodijeljenoga novom trgovcu,\n"
+"                                novi ponavljajući događaj će biti kreiran od datuma kraja povezanog s trenutnim trgovcem."
 
 #. module: sale_planner_calendar
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_kanban
@@ -482,7 +452,6 @@ msgstr "Pratilac"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_res_partner__is_sale_planner_contact
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_res_users__is_sale_planner_contact
 msgid "Is Sale Planner Contact"
 msgstr "Je kontakt planera prodaje"
 
@@ -498,7 +467,6 @@ msgstr "Problem"
 
 #. module: sale_planner_calendar
 #: model:ir.actions.act_window,name:sale_planner_calendar.action_sale_planner_calendar_issue_type
-#: model:ir.ui.menu,name:sale_planner_calendar.menu_sale_planner_calendar_issue_type
 msgid "Issue types"
 msgstr "Tipovi problema"
 
@@ -509,28 +477,16 @@ msgstr "Problemi"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_issue_type____last_update
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz____last_update
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz____last_update
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary____last_update
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_wizard____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_issue_type__write_uid
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz__write_uid
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__write_uid
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__write_uid
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_wizard__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_issue_type__write_date
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz__write_date
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__write_date
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__write_date
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_wizard__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -581,20 +537,16 @@ msgstr "Nedostaje"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__target_partner_mobile
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_calendar_event_kanban
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_kanban
 msgid "Mobile"
 msgstr "Mobitel"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields.selection,name:sale_planner_calendar.selection__sale_planner_calendar_reassign_wiz__week_list__mon
-#: model:ir.model.fields.selection,name:sale_planner_calendar.selection__sale_planner_calendar_wizard__week_list__mon
 msgid "Monday"
 msgstr "Ponedjeljak"
 
 #. module: sale_planner_calendar
 #: model:ir.actions.act_window,name:sale_planner_calendar.action_calendar_event
-#: model:ir.ui.menu,name:sale_planner_calendar.menu_event_calendar
 msgid "My Calendar"
 msgstr "Moj kalendar"
 
@@ -620,7 +572,7 @@ msgstr "Novi kraj"
 
 #. module: sale_planner_calendar
 #. odoo-javascript
-#: code:addons/sale_planner_calendar/static/src/xml/sale_planner_calendar_event_sales.xml:0
+#: code:addons/sale_planner_calendar/static/src/xml/sale_planner_calendar_event_sales.xml
 #, python-format
 msgid "New Quotation"
 msgstr "Novi predračun"
@@ -647,7 +599,6 @@ msgstr "Novi prodavac"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz__new_event_categ_ids
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__new_event_categ_ids
 msgid "New tags"
 msgstr "Novi tagovi"
 
@@ -708,8 +659,6 @@ msgstr "Nalozi"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz__partner_id
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__partner_id
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_kanban
 msgid "Partner"
 msgstr "Partner"
 
@@ -730,8 +679,6 @@ msgstr "Naziv partnera"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__partner_user_id
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz__partner_user_id
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__partner_user_id
 msgid "Partner salesperson"
 msgstr "Prodavac partnera"
 
@@ -767,9 +714,6 @@ msgstr "Plaćanja"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields.selection,name:sale_planner_calendar.selection__calendar_event__sale_planner_state__pending
-#: model:ir.model.fields.selection,name:sale_planner_calendar.selection__sale_planner_calendar_summary__state__pending
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_form
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_search
 msgid "Pending"
 msgstr "Na čekanju"
 
@@ -780,10 +724,6 @@ msgstr "Planer"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz__event_user_id
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_form
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_issue_tree
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_search
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_tree
 msgid "Planner salesperson"
 msgstr "Prodavac planera"
 
@@ -799,13 +739,11 @@ msgstr "Čar prerasporednog"
 
 #. module: sale_planner_calendar
 #: model:ir.actions.act_window,name:sale_planner_calendar.action_sale_planner_calendar_reassign_wiz
-#: model:ir.ui.menu,name:sale_planner_calendar.menu_sale_planner_calendar_reassign_wiz
 msgid "Reassignment of salesperson"
 msgstr "Preraspored prodavca"
 
 #. module: sale_planner_calendar
 #: model:ir.actions.act_window,name:sale_planner_calendar.calendar_event_tree_primary_only_action
-#: model:ir.ui.menu,name:sale_planner_calendar.menu_calendar_event_tree_primary_only
 msgid "Recurrent calendar events"
 msgstr "Ponavljajući kalendarski događaji"
 
@@ -816,7 +754,6 @@ msgstr "Referenca"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__sale_ids
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__sale_ids
 msgid "Sale"
 msgstr "Prodaja"
 
@@ -827,7 +764,6 @@ msgstr "Broj prodajnih naloga"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__sale_order_subtotal
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__sale_order_subtotal
 msgid "Sale Order Subtotal"
 msgstr "Međuzbroj prodajnog naloga"
 
@@ -843,21 +779,16 @@ msgstr "Kalendar planera prodaje"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_invoice_payment_wiz__sale_planner_calendar_event_id
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_order__sale_planner_calendar_event_id
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_payment_sheet_line__sale_planner_calendar_event_id
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__sale_planner_calendar_event_ids
 msgid "Sale Planner Calendar Event"
 msgstr "Događaj kalendarskog planera prodaje"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_res_company__sale_planner_forward_months
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_res_config_settings__sale_planner_forward_months
 msgid "Sale Planner Forward Months"
 msgstr "Mjeseci naprijed planera prodaje"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_res_company__sale_planner_order_cut_hour
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_res_config_settings__sale_planner_order_cut_hour
 msgid "Sale Planner Order Cut Hour"
 msgstr "Sat prekida naloga planera prodaje"
 
@@ -878,7 +809,7 @@ msgstr "Čarobnjak plaćanja prodajne fakture"
 
 #. module: sale_planner_calendar
 #. odoo-python
-#: code:addons/sale_planner_calendar/models/sale_order.py:0
+#: code:addons/sale_planner_calendar/models/sale_order.py
 #, python-format
 msgid "Sale off planning"
 msgstr "Prodaja van planiranja"
@@ -890,23 +821,18 @@ msgstr "Čarobnjak kalendarskog planera prodaje"
 
 #. module: sale_planner_calendar
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_form
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_issue_form
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_rating_form
 msgid "Sale planner calendar event"
 msgstr "Događaj kalendarskog planera prodaje"
 
 #. module: sale_planner_calendar
 #. odoo-python
-#: code:addons/sale_planner_calendar/models/res_users.py:0
-#: model:ir.actions.act_window,name:sale_planner_calendar.action_sale_planner_calendar_event
-#: model:ir.ui.menu,name:sale_planner_calendar.menu_sale_planner_calendar_event
+#: code:addons/sale_planner_calendar/models/res_users.py
 #, python-format
 msgid "Sale planner calendar events"
 msgstr "Događaji kalendarskog planera prodaje"
 
 #. module: sale_planner_calendar
 #: model:ir.actions.act_window,name:sale_planner_calendar.action_sale_planner_calendar_issue
-#: model:ir.actions.act_window,name:sale_planner_calendar.action_sale_planner_calendar_issue_tree
 msgid "Sale planner calendar issue"
 msgstr "Problem kalendarskog planera prodaje"
 
@@ -932,36 +858,27 @@ msgstr "Čarobnjak prerasporednih kalendarskog planera prodaje"
 
 #. module: sale_planner_calendar
 #: model:ir.actions.act_window,name:sale_planner_calendar.action_sale_planner_calendar_summary
-#: model:ir.model,name:sale_planner_calendar.model_sale_planner_calendar_summary
-#: model:ir.ui.menu,name:sale_planner_calendar.menu_sale_planner_calendar_summary
-#: model:ir.ui.menu,name:sale_planner_calendar.menu_sale_planner_calendar_summary_today_non_commercial
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_form
 msgid "Sale planner calendar summary"
 msgstr "Rezime kalendarskog planera prodaje"
 
 #. module: sale_planner_calendar
 #: model:ir.actions.server,name:sale_planner_calendar.sale_planner_calendar_wizard_action
-#: model:ir.ui.menu,name:sale_planner_calendar.menu_sale_planner_calendar_wizard
 msgid "Sale planner calendar wizard"
 msgstr "Čarobnjak kalendarskog planera prodaje"
 
 #. module: sale_planner_calendar
 #: model:ir.actions.server,name:sale_planner_calendar.sale_planner_calendar_cron_unsubscribe_ir_actions_server
-#: model:ir.cron,cron_name:sale_planner_calendar.sale_planner_calendar_cron_unsubscribe
 msgid "Sale planner calendar: Unsubscribe documents"
 msgstr "Kalendarski planer prodaje: Otkaži pretplate dokumenata"
 
 #. module: sale_planner_calendar
 #: model:ir.actions.server,name:sale_planner_calendar.cron_update_dynamic_final_date_ir_actions_server
-#: model:ir.cron,cron_name:sale_planner_calendar.cron_update_dynamic_final_date
 msgid "Sale planner calendar: Update dynamic event final date"
-msgstr "Kalendarski planer prodaje: Ažuriraj krajnji datum dinamičkog događaja"
+msgstr ""
+"Kalendarski planer prodaje: Ažuriraj krajnji datum dinamičkog događaja"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__target_partner_id
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_calendar_event_form
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_calendar_event_search
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_search
 msgid "Sale planner partner"
 msgstr "Partner planera prodaje"
 
@@ -972,7 +889,6 @@ msgstr "Prodajni nalog"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__user_id
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_wizard__user_id
 msgid "Salesperson"
 msgstr "Referent prodaje"
 
@@ -983,7 +899,6 @@ msgstr "Saniran mobitel partnera"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields.selection,name:sale_planner_calendar.selection__sale_planner_calendar_reassign_wiz__week_list__sat
-#: model:ir.model.fields.selection,name:sale_planner_calendar.selection__sale_planner_calendar_wizard__week_list__sat
 msgid "Saturday"
 msgstr "Subota"
 
@@ -1014,7 +929,6 @@ msgstr "Odabrano"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_res_company__sale_planner_mail_to_attendees
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_res_config_settings__sale_planner_mail_to_attendees
 msgid "Send invitation to attendees"
 msgstr "Pošalji pozivnice sudionicima"
 
@@ -1034,6 +948,8 @@ msgid ""
 "Show a warning message when duration is more than this time.\n"
 "                                Set 00:00 to disable warning."
 msgstr ""
+"Prikaži upozoravajuću poruku kada je trajanje duže od ovog vremena.\n"
+"                                Postavi 00:00 da isključiš upozorenje."
 
 #. module: sale_planner_calendar
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_search
@@ -1052,7 +968,6 @@ msgstr "Status"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_calendar_event__partner_street
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_kanban
 msgid "Street"
 msgstr "Ulica"
 
@@ -1063,20 +978,16 @@ msgstr "Tema"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields.selection,name:sale_planner_calendar.selection__sale_planner_calendar_reassign_wiz__week_list__sun
-#: model:ir.model.fields.selection,name:sale_planner_calendar.selection__sale_planner_calendar_wizard__week_list__sun
 msgid "Sunday"
 msgstr "Nedjelja"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_res_company__susbscriptions_backward_days
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_res_config_settings__susbscriptions_backward_days
 msgid "Susbscriptions Backward Days"
 msgstr "Dani unatrag pretplata"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz__event_categ_ids
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_calendar_event_search
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_search
 msgid "Tags"
 msgstr "Oznake"
 
@@ -1086,6 +997,8 @@ msgid ""
 "The changes will be applied to event records with new commercial user "
 "filled."
 msgstr ""
+"Izmjene će biti primijenjene na zapise događaja s popunjenim novim "
+"komercijalnim korisnikom."
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,help:sale_planner_calendar.field_calendar_event__partner_user_id
@@ -1094,16 +1007,17 @@ msgstr "Interni korisnik odgovoran za ovaj kontakt."
 
 #. module: sale_planner_calendar
 #. odoo-python
-#: code:addons/sale_planner_calendar/models/res_partner.py:0
+#: code:addons/sale_planner_calendar/models/res_partner.py
 #, python-format
 msgid ""
 "This partner has sale planned events\n"
 "You must change salesperson from the planner wizard"
 msgstr ""
+"Ovaj partner ima planirane događaje prodaje\n"
+"Morate promijeniti prodavca iz čarobnjaka planera"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields.selection,name:sale_planner_calendar.selection__sale_planner_calendar_reassign_wiz__week_list__thu
-#: model:ir.model.fields.selection,name:sale_planner_calendar.selection__sale_planner_calendar_wizard__week_list__thu
 msgid "Thursday"
 msgstr "Četvrtak"
 
@@ -1111,19 +1025,15 @@ msgstr "Četvrtak"
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.res_config_settings_view_form
 msgid ""
 "Time of the next day until which orders of the current day are assigned"
-msgstr ""
+msgstr "Vrijeme sljedećeg dana do kojeg se nalozi trenutnog dana dodjeljuju"
 
 #. module: sale_planner_calendar
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_calendar_event_search
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_search
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_search
 msgid "Today"
 msgstr "Danas"
 
 #. module: sale_planner_calendar
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_calendar_event_search
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_search
-#: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_search
 msgid "Tomorrow"
 msgstr "Sutra"
 
@@ -1144,7 +1054,6 @@ msgstr "Ukupno"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields.selection,name:sale_planner_calendar.selection__sale_planner_calendar_reassign_wiz__week_list__tue
-#: model:ir.model.fields.selection,name:sale_planner_calendar.selection__sale_planner_calendar_wizard__week_list__tue
 msgid "Tuesday"
 msgstr "Utorak"
 
@@ -1170,7 +1079,6 @@ msgstr "Dok"
 
 #. module: sale_planner_calendar
 #: model:ir.model,name:sale_planner_calendar.model_res_users
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__user_id
 msgid "User"
 msgstr "Korisnik"
 
@@ -1186,13 +1094,11 @@ msgstr "Povijest komunikacije Web stranice"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields.selection,name:sale_planner_calendar.selection__sale_planner_calendar_reassign_wiz__week_list__wed
-#: model:ir.model.fields.selection,name:sale_planner_calendar.selection__sale_planner_calendar_wizard__week_list__wed
 msgid "Wednesday"
 msgstr "Srijeda"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__week_list
-#: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_wizard__week_list
 msgid "Weekday"
 msgstr "Dan u sedmici"
 

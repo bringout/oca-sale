@@ -13,21 +13,25 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: sale_order_weight
 #: model_terms:ir.ui.view,arch_db:sale_order_weight.report_saleorder_document
 msgid "<span><b>Total Weight:</b></span>"
 msgstr "<span><b>Ukupna težina:</b></span>"
 
+# taken from hr.po
 #. module: sale_order_weight
 #: model:ir.model,name:sale_order_weight.model_sale_order
 msgid "Sales Order"
 msgstr "Prodajni nalog"
 
+# taken from hr.po
 #. module: sale_order_weight
 #: model:ir.model,name:sale_order_weight.model_sale_order_line
 msgid "Sales Order Line"
 msgstr "Stavka prodajnog naloga"
 
+# taken from hr.po
 #. module: sale_order_weight
 #: model_terms:ir.ui.view,arch_db:sale_order_weight.report_saleorder_document
 msgid "Weight"

@@ -90,7 +90,6 @@ msgstr "Stavka prodajne narudžbe"
 
 #. module: sale_order_line_input
 #: model:ir.actions.act_window,name:sale_order_line_input.action_sales_order_line_input
-#: model:ir.ui.menu,name:sale_order_line_input.menu_sales_order_line_input
 msgid "Sales Orders Lines"
 msgstr "Stavke prodajnih naloga"
 
@@ -100,9 +99,10 @@ msgid ""
 "Technical field to force company or get it from env user if order don't "
 "exist."
 msgstr ""
+"Tehničko polje za nametanje kompanije ili uzimanje iz korisničkih env ako "
+"nalog ne postoji."
 
 #. module: sale_order_line_input
 #: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_filter
-#: model_terms:ir.ui.view,arch_db:sale_order_line_input.view_sales_order_line_input_tree
 msgid "UoM"
 msgstr "JMJ"

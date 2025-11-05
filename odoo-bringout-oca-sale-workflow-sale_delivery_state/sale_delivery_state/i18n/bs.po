@@ -13,12 +13,15 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: sale_delivery_state
 #: model:ir.model.fields,help:sale_delivery_state.field_sale_order__force_delivery_state
 msgid ""
 "Allow to enforce done state of delivery, for instance if some quantities "
 "were cancelled"
 msgstr ""
+"Dozvoli postavljanje statusa Gotovo na isporuke, na primjer ako su neke "
+"količine otkazane"
 
 #. module: sale_delivery_state
 #: model:ir.model,name:sale_delivery_state.model_res_company
@@ -30,21 +33,25 @@ msgstr "Kompanije"
 msgid "Config Settings"
 msgstr "Postavke"
 
+# taken from hr.po
 #. module: sale_delivery_state
 #: model:ir.model.fields,field_description:sale_delivery_state.field_sale_order__delivery_status
 msgid "Delivery Status"
 msgstr "Status isporuke"
 
+# taken from hr.po
 #. module: sale_delivery_state
 #: model:ir.model.fields,field_description:sale_delivery_state.field_sale_order__force_delivery_state
 msgid "Force Delivery State"
 msgstr "Forsiraj status isporuke"
 
+# taken from hr.po
 #. module: sale_delivery_state
 #: model_terms:ir.ui.view,arch_db:sale_delivery_state.view_order_form_inherit_delivery_state
 msgid "Force delivery done"
 msgstr "Forsiraj dovršenu isporuku"
 
+# taken from hr.po
 #. module: sale_delivery_state
 #: model:ir.model.fields.selection,name:sale_delivery_state.selection__sale_order__delivery_status__full
 msgid "Fully Delivered"
@@ -56,17 +63,22 @@ msgid ""
 "If active, sale order lines containing Service products will not be "
 "evaluated by default when determining the Delivery State."
 msgstr ""
+"If active, prodajni nalog lines containing Service products will not be "
+"evaluated by default when determining the Isporuka State."
 
+# taken from hr.po
 #. module: sale_delivery_state
 #: model:ir.model.fields.selection,name:sale_delivery_state.selection__sale_order__delivery_status__pending
 msgid "Not Delivered"
 msgstr "Nije isporučeno"
 
+# taken from hr.po
 #. module: sale_delivery_state
 #: model:ir.model.fields.selection,name:sale_delivery_state.selection__sale_order__delivery_status__partial
 msgid "Partially Delivered"
 msgstr "Djelomično isporučeno"
 
+# taken from hr.po
 #. module: sale_delivery_state
 #: model:ir.model,name:sale_delivery_state.model_sale_order
 msgid "Sales Order"
@@ -84,10 +96,10 @@ msgstr "Skip Isporuka State"
 
 #. module: sale_delivery_state
 #: model:ir.model.fields,field_description:sale_delivery_state.field_res_company__skip_service_sale_delivery_state
-#: model:ir.model.fields,field_description:sale_delivery_state.field_res_config_settings__skip_service_sale_delivery_state
 msgid "Skip Service products for Sale Delivery State"
 msgstr "Skip Service products for Prodaja Isporuka State"
 
+# taken from hr.po
 #. module: sale_delivery_state
 #: model_terms:ir.ui.view,arch_db:sale_delivery_state.view_order_form_inherit_delivery_state
 msgid "Unforce delivery done"

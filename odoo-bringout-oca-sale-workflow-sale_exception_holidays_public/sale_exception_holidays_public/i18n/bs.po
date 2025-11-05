@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: sale_exception_holidays_public
 #: model:exception.rule,description:sale_exception_holidays_public.excep_commit_on_public_holiday
-#: model:exception.rule,name:sale_exception_holidays_public.excep_commit_on_public_holiday
 msgid "Delivery Date is a public holiday"
 msgstr "Isporuka Datum is a public holiday"
 

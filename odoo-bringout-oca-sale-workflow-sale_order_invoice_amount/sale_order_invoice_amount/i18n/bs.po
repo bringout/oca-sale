@@ -15,9 +15,7 @@ msgstr ""
 
 #. module: sale_order_invoice_amount
 #. odoo-javascript
-#: code:addons/sale_order_invoice_amount/static/src/xml/tax_totals.xml:0
-#: model:ir.model.fields,field_description:sale_order_invoice_amount.field_sale_order__invoiced_amount
-#: model_terms:ir.ui.view,arch_db:sale_order_invoice_amount.view_order_tree_invoiced_amount
+#: code:addons/sale_order_invoice_amount/static/src/xml/tax_totals.xml
 #, python-format
 msgid "Invoiced Amount"
 msgstr "Fakturirani iznos"
@@ -39,9 +37,7 @@ msgstr "Prodajni nalog"
 
 #. module: sale_order_invoice_amount
 #. odoo-javascript
-#: code:addons/sale_order_invoice_amount/static/src/xml/tax_totals.xml:0
-#: model:ir.model.fields,field_description:sale_order_invoice_amount.field_sale_order__uninvoiced_amount
-#: model_terms:ir.ui.view,arch_db:sale_order_invoice_amount.view_order_tree_invoiced_amount
+#: code:addons/sale_order_invoice_amount/static/src/xml/tax_totals.xml
 #, python-format
 msgid "Uninvoiced Amount"
 msgstr "Nefakturisani iznos"

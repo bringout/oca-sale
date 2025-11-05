@@ -15,12 +15,14 @@ msgstr ""
 
 #. module: sale_stock_line_sequence
 #. odoo-python
-#: code:addons/sale_stock_line_sequence/models/stock_move.py:0
+#: code:addons/sale_stock_line_sequence/models/stock_move.py
 #, python-format
 msgid ""
 "Not allowed to change the sequence of moves from the picking, you can do it "
 "from the SO."
 msgstr ""
+"Nije dozvoljeno mijenjati redoslijed kretanja na skladišnici; to možete "
+"učiniti iz prodajne narudžbe (SO)."
 
 #. module: sale_stock_line_sequence
 #: model:ir.model,name:sale_stock_line_sequence.model_sale_order

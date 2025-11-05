@@ -32,6 +32,11 @@ msgid ""
 "stored in the Stock Location of the Warehouse of this Shop, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
 msgstr ""
+"Trenutna količina proizvoda.\n"
+"U kontekstu jedne lokacije zaliha, obuhvata robu smještenu na toj lokaciji ili njenim podlokacijama.\n"
+"U kontekstu jednog skladišta, obuhvata robu smještenu na lokaciji zaliha tog skladišta ili njegovih podlokacija.\n"
+"smještenu na lokaciji zaliha skladišta ove prodavnice ili bilo koje od njegovih podlokacija.\n"
+"U suprotnom, obuhvata robu smještenu na bilo kojoj lokaciji zaliha tipa 'internal'."
 
 #. module: sale_order_product_recommendation_product_sold_by_delivery_week
 #: model:ir.model.fields,field_description:sale_order_product_recommendation_product_sold_by_delivery_week.field_sale_order_recommendation_line__qty_available

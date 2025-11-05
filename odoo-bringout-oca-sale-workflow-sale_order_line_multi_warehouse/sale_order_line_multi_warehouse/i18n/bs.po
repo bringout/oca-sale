@@ -15,8 +15,6 @@ msgstr ""
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_res_company__allow_sale_multi_warehouse
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order__allow_sale_multi_warehouse
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line__allow_sale_multi_warehouse
 msgid "Allow Sale Multi Warehouse"
 msgstr "Dozvoli više skladišta u prodaji"
 
@@ -27,13 +25,16 @@ msgstr "Alternativna skladišta"
 
 #. module: sale_order_line_multi_warehouse
 #. odoo-python
-#: code:addons/sale_order_line_multi_warehouse/models/sale_order_line.py:0
+#: code:addons/sale_order_line_multi_warehouse/models/sale_order_line.py
 #, python-format
 msgid ""
 "Amount for sale order line with product %(product)s could not be reduced "
 "when automatically adjusting quantitiy as no warehouse line could be "
 "selected."
 msgstr ""
+"Iznos za stavku prodajnog naloga s proizvodom %(product)s se ne može "
+"smanjiti pri automatskom prilagođavanju količine jer se nijedna stavka "
+"skladišta ne može odabrati."
 
 #. module: sale_order_line_multi_warehouse
 #: model_terms:ir.ui.view,arch_db:sale_order_line_multi_warehouse.so_multi_warehouse_change_wizard_view
@@ -41,6 +42,8 @@ msgid ""
 "Are you sure? Some warehouse distribution lines' warehouses might be "
 "updated."
 msgstr ""
+"Jeste li sigurni? Neka skladišta stavki distribucije skladišta mogu biti "
+"ažurirana."
 
 #. module: sale_order_line_multi_warehouse
 #: model_terms:ir.ui.view,arch_db:sale_order_line_multi_warehouse.so_multi_warehouse_change_wizard_view
@@ -49,7 +52,6 @@ msgstr "Otkaži"
 
 #. module: sale_order_line_multi_warehouse
 #: model_terms:ir.ui.view,arch_db:sale_order_line_multi_warehouse.so_line_multi_warehouse_view_order_form
-#: model_terms:ir.ui.view,arch_db:sale_order_line_multi_warehouse.so_multi_warehouse_change_wizard_view
 msgid "Change Warehouse"
 msgstr "Promijeni skladište"
 
@@ -70,21 +72,16 @@ msgstr "Postavke"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse__create_uid
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_so_multi_warehouse_change_line_wizard__create_uid
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_so_multi_warehouse_change_wizard__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse__create_date
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_so_multi_warehouse_change_line_wizard__create_date
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_so_multi_warehouse_change_wizard__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_so_multi_warehouse_change_line_wizard__sale_order_line_warehouse_id
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_so_multi_warehouse_change_wizard__current_warehouse_id
 msgid "Current Warehouse"
 msgstr "Trenutno skladište"
 
@@ -95,8 +92,6 @@ msgstr "Predefinirana mjerna jedinica za sve funkcije zalihe."
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse__display_name
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_so_multi_warehouse_change_line_wizard__display_name
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_so_multi_warehouse_change_wizard__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -117,8 +112,6 @@ msgstr "Ima nekompatibilnosti"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse__id
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_so_multi_warehouse_change_line_wizard__id
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_so_multi_warehouse_change_wizard__id
 msgid "ID"
 msgstr "ID"
 
@@ -129,22 +122,16 @@ msgstr "Nekompatibilnosti"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse____last_update
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_so_multi_warehouse_change_line_wizard____last_update
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_so_multi_warehouse_change_wizard____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse__write_uid
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_so_multi_warehouse_change_line_wizard__write_uid
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_so_multi_warehouse_change_wizard__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse__write_date
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_so_multi_warehouse_change_line_wizard__write_date
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_so_multi_warehouse_change_wizard__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -176,17 +163,20 @@ msgid ""
 "proceed as no changes in sale order lines warehouse assignments warehouses "
 "will be applied."
 msgstr ""
+"Nema nekompatibilnosti u dodjelama skladišta stavki prodajnog naloga s "
+"skladištem odabranim u polju \"Novo skladište\". Potpuno je sigurno "
+"nastaviti jer se neće primijeniti promjene u dodjelama skladišta stavki "
+"prodajnog naloga."
 
 #. module: sale_order_line_multi_warehouse
 #. odoo-python
-#: code:addons/sale_order_line_multi_warehouse/models/sale_order_line.py:0
+#: code:addons/sale_order_line_multi_warehouse/models/sale_order_line.py
 #, python-format
 msgid "Only one warehouse per line allowed"
 msgstr "Samo jedno skladište po stavci dozvoljeno"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse__product_id
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_so_multi_warehouse_change_line_wizard__product_id
 msgid "Product"
 msgstr "Artikal"
 
@@ -202,7 +192,6 @@ msgstr "Kol. isporučena"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse__product_uom_qty
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_so_multi_warehouse_change_line_wizard__product_uom_qty
 msgid "Quantity"
 msgstr "Količina"
 
@@ -228,7 +217,6 @@ msgstr "Vezana zaključnica"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model,name:sale_order_line_multi_warehouse.model_sale_order_line_warehouse
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_stock_move__sale_order_line_warehouse_id
 msgid "Sale Order Line Warehouse"
 msgstr "Skladište stavke prodajnog naloga"
 
@@ -238,6 +226,8 @@ msgid ""
 "Sale Order Lines can be split into multiple pickings, depending on the "
 "selected warehouse."
 msgstr ""
+"Stavke prodajnog naloga se mogu podijeliti u više prijema, ovisno o "
+"odabranom skladištu."
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model,name:sale_order_line_multi_warehouse.model_so_multi_warehouse_change_line_wizard
@@ -266,12 +256,14 @@ msgstr "Stavka promjene više skladišta prodajnog naloga"
 
 #. module: sale_order_line_multi_warehouse
 #. odoo-python
-#: code:addons/sale_order_line_multi_warehouse/models/sale_order.py:0
+#: code:addons/sale_order_line_multi_warehouse/models/sale_order.py
 #, python-format
 msgid ""
 "Some sale order line assignment lines are not compatible with the selected "
 "warehouse. Quotation %(order)s could not be validated."
 msgstr ""
+"Neke stavke dodjele stavki prodajnog naloga nisu kompatibilne s odabranim "
+"skladištem. Ponuda %(order)s se ne može validirati."
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model,name:sale_order_line_multi_warehouse.model_stock_move
@@ -285,8 +277,6 @@ msgstr "Skladišno pravilo"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order__suitable_warehouse_ids
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line__suitable_warehouse_ids
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse__suitable_warehouse_ids
 msgid "Suitable Warehouses"
 msgstr "Odgovarajuća skladišta"
 
@@ -297,6 +287,9 @@ msgid ""
 " the new one. If the warehouse is changed, these lines' warehouses will be "
 "updated to the new warehouse."
 msgstr ""
+"Sljedeće stavke distribucije skladišta imaju nekompatibilna skladišta s "
+"novim. Ako se skladište promijeni, skladišta ovih stavki će se ažurirati na "
+"novo skladište."
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_so_multi_warehouse_change_line_wizard__product_uom_id
@@ -310,14 +303,12 @@ msgstr "JMJ"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model,name:sale_order_line_multi_warehouse.model_stock_warehouse
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse__warehouse_id
-#: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_so_multi_warehouse_change_line_wizard__warehouse_id
 msgid "Warehouse"
 msgstr "Skladište"
 
 #. module: sale_order_line_multi_warehouse
 #. odoo-python
-#: code:addons/sale_order_line_multi_warehouse/models/sale_order_line.py:0
+#: code:addons/sale_order_line_multi_warehouse/models/sale_order_line.py
 #, python-format
 msgid "Warehouse Distribution"
 msgstr "Distribucija skladišta"
@@ -329,10 +320,11 @@ msgstr "Stavke skladišta"
 
 #. module: sale_order_line_multi_warehouse
 #. odoo-python
-#: code:addons/sale_order_line_multi_warehouse/wizard/so_multi_warehouse_change_wizard.py:0
+#: code:addons/sale_order_line_multi_warehouse/wizard/so_multi_warehouse_change_wizard.py
 #, python-format
 msgid "Warehouse cannot be changed as sale order is in %(state)s state."
-msgstr "Skladište se ne može promijeniti jer je prodajni nalog u statusu %(state)s."
+msgstr ""
+"Skladište se ne može promijeniti jer je prodajni nalog u statusu %(state)s."
 
 #. module: sale_order_line_multi_warehouse
 #: model_terms:ir.ui.view,arch_db:sale_order_line_multi_warehouse.so_line_multi_warehouse_view_order_form

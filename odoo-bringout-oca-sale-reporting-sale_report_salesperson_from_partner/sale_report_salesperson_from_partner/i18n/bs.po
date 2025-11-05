@@ -20,6 +20,5 @@ msgstr "Izvještaj analize prodaje"
 
 #. module: sale_report_salesperson_from_partner
 #: model:ir.model.fields,field_description:sale_report_salesperson_from_partner.field_sale_report__user_from_partner_id
-#: model_terms:ir.ui.view,arch_db:sale_report_salesperson_from_partner.view_order_product_search
 msgid "Salesperson From Partner"
 msgstr "Salesperson From Partner"

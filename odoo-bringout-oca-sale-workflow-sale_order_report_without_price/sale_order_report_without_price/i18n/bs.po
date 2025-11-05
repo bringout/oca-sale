@@ -19,6 +19,8 @@ msgid ""
 "(object.state in ('draft', 'sent') and 'Quotation - %s without price' % "
 "(object.name)) or 'Order - %s without price' % (object.name)"
 msgstr ""
+"(object.state in ('draft', 'sent') and 'Quotation - %s without price' % "
+"(object.name)) or 'Order - %s without price' % (object.name)"
 
 #. module: sale_order_report_without_price
 #: model:ir.actions.report,name:sale_order_report_without_price.action_report_saleorder_without_price

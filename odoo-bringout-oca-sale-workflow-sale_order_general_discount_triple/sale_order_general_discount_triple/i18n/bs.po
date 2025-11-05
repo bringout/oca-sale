@@ -30,19 +30,16 @@ msgstr "Pop. 3 (%)"
 
 #. module: sale_order_general_discount_triple
 #: model:ir.model.fields.selection,name:sale_order_general_discount_triple.selection__res_config_settings__general_discount__discount
-#: model:ir.model.fields.selection,name:sale_order_general_discount_triple.selection__res_config_settings__pricelist_discount__discount
 msgid "Discount"
 msgstr "Popust"
 
 #. module: sale_order_general_discount_triple
 #: model:ir.model.fields.selection,name:sale_order_general_discount_triple.selection__res_config_settings__general_discount__discount2
-#: model:ir.model.fields.selection,name:sale_order_general_discount_triple.selection__res_config_settings__pricelist_discount__discount2
 msgid "Discount 2"
 msgstr "Popust 2"
 
 #. module: sale_order_general_discount_triple
 #: model:ir.model.fields.selection,name:sale_order_general_discount_triple.selection__res_config_settings__general_discount__discount3
-#: model:ir.model.fields.selection,name:sale_order_general_discount_triple.selection__res_config_settings__pricelist_discount__discount3
 msgid "Discount 3"
 msgstr "Popust 3"
 

@@ -40,19 +40,16 @@ msgstr "Otkazan"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__company_id
-#: model_terms:ir.ui.view,arch_db:sale_report_delivered.view_sale_report_delivered_search
 msgid "Company"
 msgstr "Preduzeće"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__partner_id
-#: model_terms:ir.ui.view,arch_db:sale_report_delivered.view_sale_report_delivered_search
 msgid "Customer"
 msgstr "Kupac"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__country_id
-#: model_terms:ir.ui.view,arch_db:sale_report_delivered.view_sale_report_delivered_search
 msgid "Customer Country"
 msgstr "Država kupca"
 
@@ -63,13 +60,11 @@ msgstr "Nadređena tvrtka"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__industry_id
-#: model_terms:ir.ui.view,arch_db:sale_report_delivered.view_sale_report_delivered_search
 msgid "Customer Industry"
 msgstr "Kupčeva industrija"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__date
-#: model_terms:ir.ui.view,arch_db:sale_report_delivered.view_sale_report_delivered_search
 msgid "Date"
 msgstr "Datum"
 
@@ -145,13 +140,11 @@ msgstr "Cjenik"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__product_tmpl_id
-#: model_terms:ir.ui.view,arch_db:sale_report_delivered.view_sale_report_delivered_search
 msgid "Product"
 msgstr "Artikal"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__categ_id
-#: model_terms:ir.ui.view,arch_db:sale_report_delivered.view_sale_report_delivered_search
 msgid "Product Category"
 msgstr "Kategorija proizvoda"
 
@@ -207,13 +200,11 @@ msgstr "Prodajni nalozi"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__team_id
-#: model_terms:ir.ui.view,arch_db:sale_report_delivered.view_sale_report_delivered_search
 msgid "Sales Team"
 msgstr "Prodajni tim"
 
 #. module: sale_report_delivered
 #: model_terms:ir.ui.view,arch_db:sale_report_delivered.view_sale_report_delivered_graph
-#: model_terms:ir.ui.view,arch_db:sale_report_delivered.view_sale_report_delivered_search
 msgid "Sales analysis from deliveries"
 msgstr "Sales analysis from deliveries"
 
@@ -224,13 +215,11 @@ msgstr "Sales from deliveries"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__user_id
-#: model_terms:ir.ui.view,arch_db:sale_report_delivered.view_sale_report_delivered_search
 msgid "Salesperson"
 msgstr "Referent prodaje"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__user_from_partner_id
-#: model_terms:ir.ui.view,arch_db:sale_report_delivered.view_sale_report_delivered_search
 msgid "Salesperson From Partner"
 msgstr "Salesperson From Partner"
 
@@ -241,7 +230,6 @@ msgstr "Izvor"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__state
-#: model_terms:ir.ui.view,arch_db:sale_report_delivered.view_sale_report_delivered_search
 msgid "Status"
 msgstr "Status"
 
@@ -254,6 +242,11 @@ msgid ""
 "sales not having invoiced yet. If you want to analyse your turnover, you "
 "should use the Invoice Analysis report in the Accounting application."
 msgstr ""
+"This report performs analysis on your sales orders from deliveries. Analysis"
+" check your sales revenues and sort it by different group criteria "
+"(salesman, partner, product, etc.) Use this report to perform analysis on "
+"sales not having invoiced yet. If you want to analyse your turnover, you "
+"should use the Invoice Analysis report in the Accounting application."
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__product_uom

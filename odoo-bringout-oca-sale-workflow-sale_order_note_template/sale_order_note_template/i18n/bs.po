@@ -55,9 +55,6 @@ msgstr "Zadnje ažurirano"
 
 #. module: sale_order_note_template
 #: model:ir.model.fields,field_description:sale_order_note_template.field_sale_terms_template__name
-#: model_terms:ir.ui.view,arch_db:sale_order_note_template.view_sale_terms_template_form
-#: model_terms:ir.ui.view,arch_db:sale_order_note_template.view_sale_terms_template_search
-#: model_terms:ir.ui.view,arch_db:sale_order_note_template.view_sale_terms_template_tree
 msgid "Name"
 msgstr "Naziv:"
 
@@ -78,15 +75,11 @@ msgstr "Odredbe i uslovi"
 
 #. module: sale_order_note_template
 #: model:ir.ui.menu,name:sale_order_note_template.menu_sale_terms_template
-#: model_terms:ir.ui.view,arch_db:sale_order_note_template.view_sale_terms_template_form
-#: model_terms:ir.ui.view,arch_db:sale_order_note_template.view_sale_terms_template_search
 msgid "Terms and conditions Templates"
 msgstr "Template-i uslova i uvjeta"
 
 #. module: sale_order_note_template
 #: model:ir.actions.act_window,name:sale_order_note_template.action_sale_terms_template
-#: model:ir.model.fields,field_description:sale_order_note_template.field_sale_order__terms_template_id
-#: model_terms:ir.ui.view,arch_db:sale_order_note_template.view_order_form_terms_template
 msgid "Terms and conditions template"
 msgstr "Template uslova i uvjeta"
 

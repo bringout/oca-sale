@@ -20,16 +20,11 @@ msgstr "Sve količine isporučene"
 
 #. module: sale_automatic_workflow
 #: model:ir.actions.act_window,name:sale_automatic_workflow.act_sale_workflow_process_form
-#: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_order__workflow_process_id
-#: model:ir.ui.menu,name:sale_automatic_workflow.menu_act_sale_workflow_process_form
-#: model:ir.ui.menu,name:sale_automatic_workflow.menu_sale_workflow_parent
-#: model_terms:ir.ui.view,arch_db:sale_automatic_workflow.sale_workflow_process_view_form
 msgid "Automatic Workflow"
 msgstr "Automatski hodogram"
 
 #. module: sale_automatic_workflow
 #: model:ir.actions.server,name:sale_automatic_workflow.ir_cron_automatic_workflow_job_ir_actions_server
-#: model:ir.cron,cron_name:sale_automatic_workflow.ir_cron_automatic_workflow_job
 msgid "Automatic Workflow Job"
 msgstr "Posao automatskog toka rada"
 
@@ -38,12 +33,15 @@ msgstr "Posao automatskog toka rada"
 msgid "Automation Information"
 msgstr "Informacije o automatizaciji"
 
+# taken from hr.po
 #. module: sale_automatic_workflow
 #: model:sale.workflow.process,warning:sale_automatic_workflow.automatic_validation
 msgid ""
 "Be careful, if you save the order with this setting, it could be auto-"
 "confirmed, even if you are editing it."
 msgstr ""
+"Budite oprezni, ako spremite narudžbu s ovom postavkom, mogla bi biti "
+"automatski potvrđena, čak i ako je uređujete."
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__validate_picking
@@ -65,15 +63,15 @@ msgstr "Filter kreiranja fakture"
 msgid "Create Invoice Filter Domain"
 msgstr "Domen filter kreiranja fakture"
 
+# taken from hr.po
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_automatic_workflow_job__create_uid
-#: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_automatic_workflow_job__create_date
-#: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -87,9 +85,9 @@ msgstr "Isporuči sve proizvode odjednom"
 msgid "Deliver each product when available"
 msgstr "Isporuči svaki proizvod kada je dostupan"
 
+# taken from hr.po
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_automatic_workflow_job__display_name
-#: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__display_name
 msgid "Display Name"
 msgstr "Prikaži naziv"
 
@@ -105,7 +103,6 @@ msgstr "Forsiraj datum fakture"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_automatic_workflow_job__id
-#: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__id
 msgid "ID"
 msgstr "ID"
 
@@ -114,6 +111,8 @@ msgstr "ID"
 msgid ""
 "If set, displays the message when an userselects the process on a sale order"
 msgstr ""
+"Ako je postavljena, prikazuje poruku kada korisnik odabere proces na "
+"prodajnom nalogu"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,help:sale_automatic_workflow.field_sale_workflow_process__invoice_service_delivery
@@ -121,6 +120,8 @@ msgid ""
 "If this box is checked, when the first invoice is created The service sale "
 "order lines will be included and will be marked as delivered"
 msgstr ""
+"Ako je ova kućica označena, kada se kreira prva faktura, linije prodajnog "
+"naloga usluga će biti uključene i biće označene kao isporučene"
 
 #. module: sale_automatic_workflow
 #: model_terms:ir.ui.view,arch_db:sale_automatic_workflow.sale_workflow_process_view_form
@@ -137,24 +138,25 @@ msgstr "Fakturiši uslugu pri isporuci"
 msgid "Journal Entry"
 msgstr "Žurnal"
 
+# taken from hr.po
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_automatic_workflow_job____last_update
-#: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_automatic_workflow_job__write_uid
-#: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_automatic_workflow_job__write_date
-#: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
+# taken from hr.po
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__name
 msgid "Name"
@@ -212,10 +214,6 @@ msgstr "Domen filter završene prodaje"
 
 #. module: sale_automatic_workflow
 #: model:ir.model,name:sale_automatic_workflow.model_sale_workflow_process
-#: model:ir.model.fields,field_description:sale_automatic_workflow.field_account_bank_statement_line__workflow_process_id
-#: model:ir.model.fields,field_description:sale_automatic_workflow.field_account_move__workflow_process_id
-#: model:ir.model.fields,field_description:sale_automatic_workflow.field_account_payment__workflow_process_id
-#: model:ir.model.fields,field_description:sale_automatic_workflow.field_stock_picking__workflow_process_id
 msgid "Sale Workflow Process"
 msgstr "Proces toka rada prodaje"
 
@@ -240,6 +238,8 @@ msgid ""
 "Scheduler that will play automatically the validation of invoices, "
 "pickings..."
 msgstr ""
+"Scheduler that will play automatically the validation of invoices, "
+"pickings..."
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__send_invoice
@@ -271,11 +271,13 @@ msgstr "Postavi defaultni dnevnik za korišćenje na fakturi"
 msgid "Set selection based on a search filter:"
 msgstr "Postaviti odabir baziran na filter pretrage:"
 
+# taken from hr.po
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__picking_policy
 msgid "Shipping Policy"
 msgstr "Način otpreme"
 
+# taken from hr.po
 #. module: sale_automatic_workflow
 #: model:ir.model,name:sale_automatic_workflow.model_stock_move
 msgid "Stock Move"
@@ -317,6 +319,8 @@ msgid ""
 "When checked, after order confirmation, a confirmation email will be sent "
 "(if not already sent)."
 msgstr ""
+"Kada je označeno, nakon potvrde naloga, email potvrde će biti poslan (ako "
+"već nije poslan)."
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,help:sale_automatic_workflow.field_sale_workflow_process__invoice_date_is_order_date
@@ -330,7 +334,7 @@ msgstr "Opcije toka rada"
 
 #. module: sale_automatic_workflow
 #. odoo-python
-#: code:addons/sale_automatic_workflow/models/sale_order.py:0
+#: code:addons/sale_automatic_workflow/models/sale_order.py
 #, python-format
 msgid "Workflow Warning"
 msgstr "Upozorenje toka rada"

@@ -25,7 +25,6 @@ msgstr "Lojalnost"
 
 #. module: sale_loyalty_exclude
 #: model:ir.model.fields,field_description:sale_loyalty_exclude.field_product_product__loyalty_exclude
-#: model:ir.model.fields,field_description:sale_loyalty_exclude.field_product_template__loyalty_exclude
 msgid "Loyalty Exclude"
 msgstr "Izuzimanje iz lojalnosti"
 
@@ -46,6 +45,5 @@ msgstr "Prodajni nalog"
 
 #. module: sale_loyalty_exclude
 #: model:ir.model.fields,help:sale_loyalty_exclude.field_product_product__loyalty_exclude
-#: model:ir.model.fields,help:sale_loyalty_exclude.field_product_template__loyalty_exclude
 msgid "This product is excluded from loyalty programs"
 msgstr "Ovaj proizvod je izuzet iz programa lojalnosti"

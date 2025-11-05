@@ -13,25 +13,29 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: sale_automatic_workflow_payment_mode
 #: model:ir.model.fields,field_description:sale_automatic_workflow_payment_mode.field_account_payment_mode__workflow_process_id
-#: model:ir.model.fields,field_description:sale_automatic_workflow_payment_mode.field_sale_order__workflow_process_id
 msgid "Automatic Workflow"
 msgstr "Automatski hodogram"
 
+# taken from hr.po
 #. module: sale_automatic_workflow_payment_mode
 #: model:ir.model,name:sale_automatic_workflow_payment_mode.model_account_payment_mode
 msgid "Payment Modes"
 msgstr "Načini plaćanja"
 
+# taken from hr.po
 #. module: sale_automatic_workflow_payment_mode
 #: model:ir.model,name:sale_automatic_workflow_payment_mode.model_sale_order
 msgid "Sales Order"
 msgstr "Prodajni nalog"
 
+# taken from hr.po
 #. module: sale_automatic_workflow_payment_mode
 #: model:ir.model,name:sale_automatic_workflow_payment_mode.model_automatic_workflow_job
 msgid ""
 "Scheduler that will play automatically the validation of invoices, "
 "pickings..."
 msgstr ""
+"Automatski proces koji vrši plaćanje prilikom potvrđivanja računa, primki..."

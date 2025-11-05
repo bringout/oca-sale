@@ -65,14 +65,14 @@ msgstr "Marža (%)"
 
 #. module: sale_margin_update
 #. odoo-python
-#: code:addons/sale_margin_update/wizard/recalculate_price_margin.py:0
+#: code:addons/sale_margin_update/wizard/recalculate_price_margin.py
 #, python-format
 msgid "Margin can't be greater than 100"
 msgstr "Marža ne može biti veća od 100"
 
 #. module: sale_margin_update
 #. odoo-python
-#: code:addons/sale_margin_update/wizard/recalculate_price_margin.py:0
+#: code:addons/sale_margin_update/wizard/recalculate_price_margin.py
 #, python-format
 msgid "Margin can't be negative"
 msgstr "Marža ne može biti negativna"
@@ -104,14 +104,13 @@ msgstr "Stavka prodajne narudžbe"
 
 #. module: sale_margin_update
 #: model_terms:ir.ui.view,arch_db:sale_margin_update.sale_margin_sale_order
-#: model_terms:ir.ui.view,arch_db:sale_margin_update.sale_margin_sale_order_line_form
 msgid "Update Margin"
 msgstr "Ažuriraj maržu"
 
 #. module: sale_margin_update
 #. odoo-python
-#: code:addons/sale_margin_update/models/sale_order.py:0
-#: code:addons/sale_margin_update/models/sale_order_line.py:0
+#: code:addons/sale_margin_update/models/sale_order.py
 #, python-format
 msgid "Update Sale Order Line Price by Margin"
-msgstr "Daje profitabilnost računanjem razlike između jedinične cijene i troška."
+msgstr ""
+"Daje profitabilnost računanjem razlike između jedinične cijene i troška."

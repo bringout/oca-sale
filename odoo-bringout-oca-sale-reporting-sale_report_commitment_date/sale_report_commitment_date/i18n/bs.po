@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: sale_report_commitment_date
 #: model:ir.model.fields,field_description:sale_report_commitment_date.field_sale_report__commitment_date
-#: model_terms:ir.ui.view,arch_db:sale_report_commitment_date.view_order_product_search
 msgid "Commitment Date"
 msgstr "Obećani datum"
 

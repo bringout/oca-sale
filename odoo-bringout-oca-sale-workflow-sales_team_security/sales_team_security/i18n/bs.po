@@ -20,11 +20,12 @@ msgstr "Kontakt"
 
 #. module: sales_team_security
 #: model:ir.model.fields,help:sales_team_security.field_res_partner__team_id
-#: model:ir.model.fields,help:sales_team_security.field_res_users__team_id
 msgid ""
 "If set, this Sales Team will be used for sales and assignments related to "
 "this partner"
 msgstr ""
+"Ako je postavljeno, ovaj prodajni tim će se koristiti za prodaju i dodjele "
+"povezane s ovim partnerom."
 
 #. module: sales_team_security
 #: model:ir.model,name:sales_team_security.model_ir_rule
@@ -33,19 +34,16 @@ msgstr "Pravilo zapisa"
 
 #. module: sales_team_security
 #: model:ir.model.fields,field_description:sales_team_security.field_res_partner__team_id
-#: model:ir.model.fields,field_description:sales_team_security.field_res_users__team_id
 msgid "Sales Team"
 msgstr "Prodajni tim"
 
 #. module: sales_team_security
 #: model:ir.model.fields,field_description:sales_team_security.field_res_partner__user_id
-#: model:ir.model.fields,field_description:sales_team_security.field_res_users__user_id
 msgid "Salesperson"
 msgstr "Referent prodaje"
 
 #. module: sales_team_security
 #: model:ir.model.fields,help:sales_team_security.field_res_partner__user_id
-#: model:ir.model.fields,help:sales_team_security.field_res_users__user_id
 msgid "The internal user in charge of this contact."
 msgstr "Interni korisnik odgovoran za ovaj kontakt."
 
@@ -55,6 +53,7 @@ msgid ""
 "The user will have an access to the documents of the sales teams he/she "
 "belongs to."
 msgstr ""
+"korisnik će imati pristup dokumentima prodajnih timova kojima pripada."
 
 #. module: sales_team_security
 #: model:res.groups,name:sales_team_security.group_sale_team_manager

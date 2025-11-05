@@ -72,10 +72,13 @@ msgid ""
 "                            <b>Inverse:</b> Company currency to foreign currency.<br/>\n"
 "                            <b>Both:</b> Show both currency rates."
 msgstr ""
+"Odaberite kako prikazati tečaj u prodajnim nalozima.<br/>\n"
+"                            <b>Ne:</b> Ne prikazuj tečaj.<br/>\n"
+"                            <b>Normalno:</b> Strana valuta u valuti kompanije.<br/>\n"
+"                            <b>Inverzno:</b> Valuta kompanije u stranu valutu.<br/>\n"
+"                            <b>Oboje:</b> Prikaži oba tečaja."
 
 #. module: sale_order_currency_rate
 #: model:ir.model.fields,field_description:sale_order_currency_rate.field_res_company__sale_show_currency_rate
-#: model:ir.model.fields,field_description:sale_order_currency_rate.field_res_config_settings__sale_show_currency_rate
-#: model:ir.model.fields,field_description:sale_order_currency_rate.field_sale_order__sale_show_currency_rate
 msgid "Show Currency Rate"
 msgstr "Prikaži tečaj valute"

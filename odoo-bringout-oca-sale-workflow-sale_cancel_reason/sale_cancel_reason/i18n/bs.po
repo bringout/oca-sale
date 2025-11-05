@@ -13,6 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: sale_cancel_reason
 #: model_terms:ir.ui.view,arch_db:sale_cancel_reason.view_order_form
 msgid "Cancellation reason:"
@@ -24,17 +25,22 @@ msgid ""
 "Choose the reason for the cancellation of the\n"
 "                        sale order."
 msgstr ""
+"Choose the reason for the cancellation of the\n"
+"prodajni nalog."
 
+# taken from hr.po
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason__display_name
 msgid "Display Name"
@@ -45,51 +51,57 @@ msgstr "Prikaži naziv"
 msgid "ID"
 msgstr "ID"
 
+# taken from hr.po
 #. module: sale_cancel_reason
 #: model:sale.order.cancel.reason,name:sale_cancel_reason.cancel_reason_only_quotation
 msgid "Just for Quotation"
 msgstr "Samo za ponudu"
 
+# taken from hr.po
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
+# taken from hr.po
 #. module: sale_cancel_reason
 #: model:sale.order.cancel.reason,name:sale_cancel_reason.cancel_reason_other_provider
 msgid "Other Service Provider selected"
 msgstr "Odabran je drugi pružatelj usluge"
 
+# taken from hr.po
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel__reason_id
-#: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order_cancel_reason__name
 msgid "Reason"
 msgstr "Razlog"
 
+# taken from hr.po
 #. module: sale_cancel_reason
 #: model:ir.model.fields,field_description:sale_cancel_reason.field_sale_order__cancel_reason_id
 msgid "Reason for cancellation"
 msgstr "Razlog otkazivanja"
 
+# taken from hr.po
 #. module: sale_cancel_reason
 #: model:ir.actions.act_window,name:sale_cancel_reason.action_sale_order_cancel_reason
-#: model:ir.model,name:sale_cancel_reason.model_sale_order_cancel_reason
 msgid "Sale Order Cancel Reason"
 msgstr "Razlog otkazivanja ponude"
 
+# taken from hr.po
 #. module: sale_cancel_reason
 #: model:ir.ui.menu,name:sale_cancel_reason.menu_sale_order_cancel_reason
-#: model_terms:ir.ui.view,arch_db:sale_cancel_reason.view_sale_order_cancel_reason_form
 msgid "Sale Order Cancel Reasons"
 msgstr "Razlozi otkazivanja ponude"
 
@@ -103,6 +115,7 @@ msgstr "Prodajni nalog"
 msgid "Sales Order Cancel"
 msgstr "Prodajas Nalog Cancel"
 
+# taken from hr.po
 #. module: sale_cancel_reason
 #: model:sale.order.cancel.reason,name:sale_cancel_reason.cancel_reason_no_service_needed
 msgid "Service no longer needed"

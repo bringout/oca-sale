@@ -19,6 +19,8 @@ msgid ""
 "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Vrijednosti postavljene ovdje"
+" su specifične za kompaniju.\" groups=\"base.group_multi_company\"/>"
 
 #. module: sale_block_no_stock
 #: model_terms:ir.ui.view,arch_db:sale_block_no_stock.sale_order_block_wizard_view
@@ -32,7 +34,6 @@ msgstr "Adjust UoM Količina"
 
 #. module: sale_block_no_stock
 #: model:ir.model.fields,field_description:sale_block_no_stock.field_res_company__sale_line_block_allowed_groups
-#: model:ir.model.fields,field_description:sale_block_no_stock.field_res_config_settings__sale_line_block_allowed_groups
 msgid "Allowed Groups to bypass the block"
 msgstr "Allowed Grupe to bypass the block"
 
@@ -53,10 +54,11 @@ msgstr "Blocking sales due to lack of stock"
 
 #. module: sale_block_no_stock
 #. odoo-python
-#: code:addons/sale_block_no_stock/wizard/sale_order_block_wizard.py:0
+#: code:addons/sale_block_no_stock/wizard/sale_order_block_wizard.py
 #, python-format
 msgid "Cannot launch wizard from sale orders from different companies."
-msgstr "Cannot launch čarobnjak from prodajni nalogs from different companies."
+msgstr ""
+"Cannot launch čarobnjak from prodajni nalogs from different companies."
 
 #. module: sale_block_no_stock
 #: model_terms:ir.ui.view,arch_db:sale_block_no_stock.sale_order_block_wizard_view
@@ -85,19 +87,16 @@ msgstr "Confirm anyway"
 
 #. module: sale_block_no_stock
 #: model:ir.model.fields,field_description:sale_block_no_stock.field_sale_order_block_wizard__create_uid
-#: model:ir.model.fields,field_description:sale_block_no_stock.field_sale_order_block_wizard_line__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: sale_block_no_stock
 #: model:ir.model.fields,field_description:sale_block_no_stock.field_sale_order_block_wizard__create_date
-#: model:ir.model.fields,field_description:sale_block_no_stock.field_sale_order_block_wizard_line__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: sale_block_no_stock
 #: model:ir.model.fields,field_description:sale_block_no_stock.field_sale_order_block_wizard__display_name
-#: model:ir.model.fields,field_description:sale_block_no_stock.field_sale_order_block_wizard_line__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -108,7 +107,6 @@ msgstr "Field to compare against the quantity demanded"
 
 #. module: sale_block_no_stock
 #: model:ir.model.fields,field_description:sale_block_no_stock.field_res_company__sale_line_field_block
-#: model:ir.model.fields,field_description:sale_block_no_stock.field_res_config_settings__sale_line_field_block
 msgid "Field to compare quantities on Sale Order Lines"
 msgstr "Field to compare quantities on Prodaja Nalog Lines"
 
@@ -119,7 +117,6 @@ msgstr "Grupe allowed to bypass the block"
 
 #. module: sale_block_no_stock
 #: model:ir.model.fields,field_description:sale_block_no_stock.field_sale_order_block_wizard__id
-#: model:ir.model.fields,field_description:sale_block_no_stock.field_sale_order_block_wizard_line__id
 msgid "ID"
 msgstr "ID"
 
@@ -135,19 +132,16 @@ msgstr "Is Uom Adjustable"
 
 #. module: sale_block_no_stock
 #: model:ir.model.fields,field_description:sale_block_no_stock.field_sale_order_block_wizard____last_update
-#: model:ir.model.fields,field_description:sale_block_no_stock.field_sale_order_block_wizard_line____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: sale_block_no_stock
 #: model:ir.model.fields,field_description:sale_block_no_stock.field_sale_order_block_wizard__write_uid
-#: model:ir.model.fields,field_description:sale_block_no_stock.field_sale_order_block_wizard_line__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: sale_block_no_stock
 #: model:ir.model.fields,field_description:sale_block_no_stock.field_sale_order_block_wizard__write_date
-#: model:ir.model.fields,field_description:sale_block_no_stock.field_sale_order_block_wizard_line__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -168,7 +162,7 @@ msgstr "Move to New Nalog"
 
 #. module: sale_block_no_stock
 #. odoo-python
-#: code:addons/sale_block_no_stock/wizard/sale_order_block_wizard.py:0
+#: code:addons/sale_block_no_stock/wizard/sale_order_block_wizard.py
 #, python-format
 msgid "Order confirmed with errors by %s."
 msgstr "Nalog confirmed with errors by %s."
@@ -185,12 +179,14 @@ msgstr "Artikal"
 
 #. module: sale_block_no_stock
 #. odoo-python
-#: code:addons/sale_block_no_stock/wizard/sale_order_block_wizard.py:0
+#: code:addons/sale_block_no_stock/wizard/sale_order_block_wizard.py
 #, python-format
 msgid ""
 "Product <b>%(product)s</b> adjusted from <b>%(init_qty)s</b> %(uom)s to "
 "<b>%(final_qty)s</b> %(uom)s."
 msgstr ""
+"Proizvod <b>%(product)s</b> adjusted from <b>%(init_qty)s</b> %(uom)s to "
+"<b>%(final_qty)s</b> %(uom)s."
 
 #. module: sale_block_no_stock
 #: model:ir.model.fields,field_description:sale_block_no_stock.field_sale_order_block_wizard_line__product_packaging_qty
@@ -244,19 +240,21 @@ msgstr "Prodajni nalog"
 
 #. module: sale_block_no_stock
 #: model:ir.model.fields,help:sale_block_no_stock.field_res_company__sale_line_block_allowed_groups
-#: model:ir.model.fields,help:sale_block_no_stock.field_res_config_settings__sale_line_block_allowed_groups
 msgid ""
 "These groups will be able to bypass the block on the Sale Order Lines if the"
 " quantity is not enough"
 msgstr ""
+"These groups will be able to bypass the block on the Prodaja Nalog Lines if "
+"the quantity is not enough"
 
 #. module: sale_block_no_stock
 #: model:ir.model.fields,help:sale_block_no_stock.field_res_company__sale_line_field_block
-#: model:ir.model.fields,help:sale_block_no_stock.field_res_config_settings__sale_line_field_block
 msgid ""
 "This field will be checked to block the Sale Order Lines if the quantity is "
 "not enough"
 msgstr ""
+"This field will be checked to block the Prodaja Nalog Lines if the quantity "
+"is not enough"
 
 #. module: sale_block_no_stock
 #: model_terms:ir.ui.view,arch_db:sale_block_no_stock.sale_order_block_wizard_view
@@ -264,6 +262,8 @@ msgid ""
 "This order cannot be confirmed because it contains products that are not in "
 "stock. Please manage the following products before confirming the order."
 msgstr ""
+"This order cannot be confirmed because it contains products that are not in "
+"stock. Please manage the following products before confirming the order."
 
 #. module: sale_block_no_stock
 #: model:ir.model.fields,field_description:sale_block_no_stock.field_sale_order_block_wizard_line__product_uom
@@ -287,7 +287,7 @@ msgstr "You are going to move pending lines to a new order"
 
 #. module: sale_block_no_stock
 #. odoo-python
-#: code:addons/sale_block_no_stock/wizard/sale_order_block_wizard.py:0
+#: code:addons/sale_block_no_stock/wizard/sale_order_block_wizard.py
 #, python-format
 msgid "You are not allowed to confirm these orders."
 msgstr "You are not allowed to confirm these orders."

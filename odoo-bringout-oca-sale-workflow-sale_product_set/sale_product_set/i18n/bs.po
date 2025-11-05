@@ -28,17 +28,19 @@ msgstr "Dodaj bilješku"
 msgid "Add a section"
 msgstr "Dodaj odlomak"
 
+# taken from hr.po
 #. module: sale_product_set
 #: model_terms:ir.ui.view,arch_db:sale_product_set.product_set_add_form_view
-#: model_terms:ir.ui.view,arch_db:sale_product_set.view_order_stock_form
 msgid "Add set"
 msgstr "Dodaj set"
 
+# taken from hr.po
 #. module: sale_product_set
 #: model:ir.actions.act_window,name:sale_product_set.act_open_wizard_product_set_add_from_order
 msgid "Add set in sale order"
 msgstr "Dodaj set u ponudu"
 
+# taken from hr.po
 #. module: sale_product_set
 #: model_terms:ir.ui.view,arch_db:sale_product_set.product_set_add_form_view
 msgid "Add set in sale order line"
@@ -49,16 +51,19 @@ msgstr "Dodaj set u stavku ponude"
 msgid "Add set to sale order"
 msgstr "Dodaj set u prodajni nalog"
 
+# taken from hr.po
 #. module: sale_product_set
 #: model_terms:ir.ui.view,arch_db:sale_product_set.product_set_add_form_view
 msgid "Cancel"
 msgstr "Otkaži"
 
+# taken from hr.po
 #. module: sale_product_set
 #: model:ir.model.fields,field_description:sale_product_set.field_sale_product_set_wizard__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: sale_product_set
 #: model:ir.model.fields,field_description:sale_product_set.field_sale_product_set_wizard__create_date
 msgid "Created on"
@@ -74,6 +79,7 @@ msgstr "Kupac"
 msgid "Discount (%)"
 msgstr "Popust (%)"
 
+# taken from hr.po
 #. module: sale_product_set
 #: model:ir.model.fields,field_description:sale_product_set.field_sale_product_set_wizard__display_name
 msgid "Display Name"
@@ -84,44 +90,51 @@ msgstr "Prikaži naziv"
 msgid ""
 "Enable this to not add new lines for products already included in SO lines."
 msgstr ""
+"Omogućite ovo da ne dodate nove linije za proizvode već uključene u linije "
+"SO."
 
 #. module: sale_product_set
 #: model:ir.model.fields,field_description:sale_product_set.field_sale_product_set_wizard__id
 msgid "ID"
 msgstr "ID"
 
+# taken from hr.po
 #. module: sale_product_set
 #: model:ir.model.fields,field_description:sale_product_set.field_sale_product_set_wizard____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: sale_product_set
 #: model:ir.model.fields,field_description:sale_product_set.field_sale_product_set_wizard__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: sale_product_set
 #: model:ir.model.fields,field_description:sale_product_set.field_sale_product_set_wizard__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
+# taken from hr.po
 #. module: sale_product_set
 #: model:ir.model.fields,field_description:sale_product_set.field_sale_product_set_wizard__product_set_id
-#: model:ir.ui.menu,name:sale_product_set.menu_product_set_config
 msgid "Product set"
 msgstr "Set proizvoda"
 
+# taken from hr.po
 #. module: sale_product_set
 #: model:ir.model,name:sale_product_set.model_product_set_line
-#: model:ir.ui.menu,name:sale_product_set.menu_product_set_line_config
 msgid "Product set line"
 msgstr "Stavka seta proizvoda"
 
+# taken from hr.po
 #. module: sale_product_set
 #: model:ir.model.fields,field_description:sale_product_set.field_sale_product_set_wizard__product_set_line_ids
 msgid "Product set lines"
 msgstr "Stavke seta proizvoda"
 
+# taken from hr.po
 #. module: sale_product_set
 #: model:ir.model.fields,field_description:sale_product_set.field_sale_product_set_wizard__quantity
 msgid "Quantity"
@@ -137,6 +150,7 @@ msgstr "Prodajni nalog"
 msgid "Skip Existing Products"
 msgstr "Preskoči postojeće proizvode"
 
+# taken from hr.po
 #. module: sale_product_set
 #: model:ir.model,name:sale_product_set.model_sale_product_set_wizard
 msgid "Wizard model to add product set into a quotation"
@@ -144,7 +158,8 @@ msgstr "Model čarobnjaka za dodavanje setova u ponudu"
 
 #. module: sale_product_set
 #. odoo-python
-#: code:addons/sale_product_set/wizard/sale_product_set_wizard.py:0
+#: code:addons/sale_product_set/wizard/sale_product_set_wizard.py
 #, python-format
 msgid "You can use a sale order assigned only to following partner(s): {}"
-msgstr "Možete koristiti prodajni nalog dodijeljen samo sljedećim partnerima: {}"
+msgstr ""
+"Možete koristiti prodajni nalog dodijeljen samo sljedećim partnerima: {}"

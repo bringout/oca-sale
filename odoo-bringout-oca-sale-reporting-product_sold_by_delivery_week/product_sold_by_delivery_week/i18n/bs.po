@@ -25,7 +25,6 @@ msgstr "Varijanta proizvoda"
 
 #. module: product_sold_by_delivery_week
 #: model:ir.actions.server,name:product_sold_by_delivery_week.ir_cron_recalculate_all_weekly_sold_delivered_ir_actions_server
-#: model:ir.cron,cron_name:product_sold_by_delivery_week.ir_cron_recalculate_all_weekly_sold_delivered
 msgid "Recalculate Weekly Delivered Products"
 msgstr "Recalculate Weekly Delivered Products"
 
@@ -41,14 +40,11 @@ msgstr "Skladišno kretanje"
 
 #. module: product_sold_by_delivery_week
 #: model:ir.model.fields,field_description:product_sold_by_delivery_week.field_product_product__weekly_sold_delivered_shown
-#: model:ir.model.fields,field_description:product_sold_by_delivery_week.field_product_template__weekly_sold_delivered_shown
-#: model:ir.model.fields,field_description:product_sold_by_delivery_week.field_sale_order_line__weekly_sold_delivered_shown
 msgid "Weekly Sold"
 msgstr "Sedmično prodano"
 
 #. module: product_sold_by_delivery_week
 #: model:ir.model.fields,field_description:product_sold_by_delivery_week.field_product_product__weekly_sold_delivered
-#: model:ir.model.fields,field_description:product_sold_by_delivery_week.field_product_template__weekly_sold_delivered
 msgid "Weekly Sold Delivered"
 msgstr "Sedmično prodano i isporučeno"
 

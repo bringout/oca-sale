@@ -19,6 +19,8 @@ msgid ""
 ", but it's not possible based on current lead times. Odoo will adjust the "
 "date automatically. Contact your sales manager if it’s urgent."
 msgstr ""
+", ali to nije moguće na osnovu trenutnih rokova isporuke. Odoo će automatski"
+" prilagoditi datum. Kontaktirajte svog menadžera prodaje ako je hitno."
 
 #. module: sale_order_safe_commitment_date
 #: model_terms:ir.ui.view,arch_db:sale_order_safe_commitment_date.view_order_form
@@ -46,3 +48,5 @@ msgid ""
 "This is the delivery date promised to the customer. If set, the delivery "
 "order will be scheduled based on this date rather than product lead times."
 msgstr ""
+"Ovo je datum isporuke obećan kupcu. Ako je postavljen, nalog za isporuku će "
+"se planirati prema tom datumu, a ne prema rokovima isporuke proizvoda."

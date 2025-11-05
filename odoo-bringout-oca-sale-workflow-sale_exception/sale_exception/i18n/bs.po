@@ -13,12 +13,14 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: sale_exception
 #: model_terms:ir.ui.view,arch_db:sale_exception.view_order_form
 msgid ""
 "<strong>There are exceptions blocking the confirmation of this Sale "
 "Order:</strong>"
 msgstr ""
+"<strong>Postoje izuzetci koji blokiraju potvrđivanje ove ponude:</strong>"
 
 #. module: sale_exception
 #: model_terms:ir.ui.view,arch_db:sale_exception.view_order_form
@@ -26,33 +28,40 @@ msgid ""
 "<strong>There are exceptions on this line blocking the confirmation of this "
 "quotation:</strong>"
 msgstr ""
+"<strong>There are exceptions on this line blocking the confirmation of this "
+"ponuda:</strong>"
 
+# taken from hr.po
 #. module: sale_exception
 #: model:exception.rule,description:sale_exception.excep_no_dumping
 msgid "A product is sold cheaper than his cost."
 msgstr "Proizvod je prodan ispod od nabavne cijene."
 
+# taken from hr.po
 #. module: sale_exception
 #: model:ir.model.fields,field_description:sale_exception.field_exception_rule__model
 msgid "Apply on"
 msgstr "Primjeni na"
 
+# taken from hr.po
 #. module: sale_exception
 #: model:exception.rule,description:sale_exception.excep_no_sol
 msgid "At least one order line should be present in the sale"
 msgstr "Najmanje jedna stavka treba postojati u ponudi"
 
+# taken from hr.po
 #. module: sale_exception
 #: model_terms:ir.ui.view,arch_db:sale_exception.view_sales_order_filter
 msgid "Blocked in draft"
 msgstr "Blokirano u nacrtu"
 
+# taken from hr.po
 #. module: sale_exception
 #: model:ir.actions.act_window,name:sale_exception.action_sale_exception_confirm
-#: model_terms:ir.ui.view,arch_db:sale_exception.view_sale_exception_confirm
 msgid "Blocked in draft due to exceptions"
 msgstr "Blokirano u nacrtu zbog izuzetaka"
 
+# taken from hr.po
 #. module: sale_exception
 #: model_terms:ir.ui.view,arch_db:sale_exception.view_sale_exception_confirm
 msgid "Cancel"
@@ -64,17 +73,21 @@ msgid ""
 "Click here to be able to confirm this Sale Orders regardless of the "
 "exceptions."
 msgstr ""
+"Click here to be able to confirm this Prodaja Nalogs regardless of the "
+"exceptions."
 
 #. module: sale_exception
 #: model_terms:ir.ui.view,arch_db:sale_exception.view_sale_exception_confirm
 msgid "Confirm"
 msgstr "Potvrdi"
 
+# taken from hr.po
 #. module: sale_exception
 #: model:ir.model.fields,field_description:sale_exception.field_sale_exception_confirm__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: sale_exception
 #: model:ir.model.fields,field_description:sale_exception.field_sale_exception_confirm__create_date
 msgid "Created on"
@@ -85,30 +98,34 @@ msgstr "Kreirano"
 msgid "Customer sale warning"
 msgstr "Kupac sale warning"
 
+# taken from hr.po
 #. module: sale_exception
 #: model:ir.model.fields,field_description:sale_exception.field_sale_exception_confirm__display_name
 msgid "Display Name"
 msgstr "Prikaži naziv"
 
+# taken from hr.po
 #. module: sale_exception
 #: model:ir.model,name:sale_exception.model_exception_rule
+#, fuzzy
 msgid "Exception Rule"
 msgstr "Pravila izuzetaka"
 
+# taken from hr.po
 #. module: sale_exception
 #: model:ir.model.fields,field_description:sale_exception.field_sale_order__exception_ids
-#: model:ir.model.fields,field_description:sale_exception.field_sale_order_line__exception_ids
 msgid "Exceptions"
 msgstr "Izuzeci"
 
 #. module: sale_exception
 #: model:ir.model.fields,field_description:sale_exception.field_sale_order__exceptions_summary
-#: model:ir.model.fields,field_description:sale_exception.field_sale_order_line__exceptions_summary
 msgid "Exceptions Summary"
 msgstr "Opis"
 
+# taken from hr.po
 #. module: sale_exception
 #: model:ir.model.fields,field_description:sale_exception.field_sale_exception_confirm__exception_ids
+#, fuzzy
 msgid "Exceptions to resolve"
 msgstr "Pravila izuzetaka"
 
@@ -117,11 +134,10 @@ msgstr "Pravila izuzetaka"
 msgid "ID"
 msgstr "ID"
 
+# taken from hr.po
 #. module: sale_exception
 #: model:ir.model.fields,field_description:sale_exception.field_sale_exception_confirm__ignore
-#: model:ir.model.fields,field_description:sale_exception.field_sale_order__ignore_exception
-#: model:ir.model.fields,field_description:sale_exception.field_sale_order_line__ignore_exception
-#: model_terms:ir.ui.view,arch_db:sale_exception.view_order_form
+#, fuzzy
 msgid "Ignore Exceptions"
 msgstr "Izuzeci u prodaji"
 
@@ -130,16 +146,19 @@ msgstr "Izuzeci u prodaji"
 msgid "Is Exception Danger"
 msgstr "Is Exception Danger"
 
+# taken from hr.po
 #. module: sale_exception
 #: model:ir.model.fields,field_description:sale_exception.field_sale_exception_confirm____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: sale_exception
 #: model:ir.model.fields,field_description:sale_exception.field_sale_exception_confirm__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: sale_exception
 #: model:ir.model.fields,field_description:sale_exception.field_sale_exception_confirm__write_date
 msgid "Last Updated on"
@@ -150,9 +169,9 @@ msgstr "Zadnje ažurirano"
 msgid "Main Exception"
 msgstr "Glavni izuzetak"
 
+# taken from hr.po
 #. module: sale_exception
 #: model:exception.rule,description:sale_exception.excep_no_zip
-#: model:exception.rule,name:sale_exception.excep_no_zip
 msgid "No ZIP code on destination"
 msgstr "Nema PTT broja na odredištu"
 
@@ -171,9 +190,9 @@ msgstr "No free order"
 msgid "No order lines"
 msgstr "No order lines"
 
+# taken from hr.po
 #. module: sale_exception
 #: model:exception.rule,description:sale_exception.excep_no_stock
-#: model:exception.rule,name:sale_exception.excep_no_stock
 msgid "Not Enough Virtual Stock"
 msgstr "Nije dovoljna virtualna zaliha"
 
@@ -182,14 +201,15 @@ msgstr "Nije dovoljna virtualna zaliha"
 msgid "Product warning"
 msgstr "Proizvod warning"
 
+# taken from hr.po
 #. module: sale_exception
 #: model:ir.model.fields,field_description:sale_exception.field_sale_exception_confirm__related_model_id
 msgid "Sale"
 msgstr "Prodaja"
 
+# taken from hr.po
 #. module: sale_exception
 #: model:ir.actions.act_window,name:sale_exception.action_sale_test_tree
-#: model:ir.ui.menu,name:sale_exception.menu_sale_test
 msgid "Sale Exception Rules"
 msgstr "Pravila izuzetaka u prodaji"
 
@@ -208,8 +228,10 @@ msgstr "Prodajni nalog"
 msgid "Sale order line"
 msgstr "Prodaja order line"
 
+# taken from hr.po
 #. module: sale_exception
 #: model:ir.model.fields,field_description:sale_exception.field_exception_rule__sale_ids
+#, fuzzy
 msgid "Sales"
 msgstr "Prodaja"
 
@@ -225,7 +247,6 @@ msgstr "Stavka prodajne narudžbe"
 
 #. module: sale_exception
 #: model:ir.actions.server,name:sale_exception.ir_cron_test_orders_ir_actions_server
-#: model:ir.cron,cron_name:sale_exception.ir_cron_test_orders
 msgid "Test Draft Orders"
 msgstr "Test Nacrt Nalogs"
 

@@ -16,22 +16,28 @@ msgstr ""
 #. module: sale_order_line_description
 #: model:ir.model.fields,field_description:sale_order_line_description.field_res_config_settings__group_use_product_description_per_so_line
 msgid "Allow using only the product sale description on the sales order lines"
-msgstr "Dozvoli korištenje samo opisa prodaje proizvoda na stavcima prodajnih naloga"
+msgstr ""
+"Dozvoli korištenje samo opisa prodaje proizvoda na stavcima prodajnih naloga"
 
 #. module: sale_order_line_description
 #: model_terms:ir.ui.view,arch_db:sale_order_line_description.view_sales_config
 msgid ""
 "Allows you to use only product sale description on the sales order line"
 msgstr ""
+"Omogućuje korištenje samo opisa prodaje proizvoda na stavci prodajnog naloga"
 
 #. module: sale_order_line_description
 #: model:ir.model.fields,help:sale_order_line_description.field_res_config_settings__group_use_product_description_per_so_line
 msgid ""
 "Allows you to use only product sale description on the sales order line."
 msgstr ""
+"Omogućuje korištenje samo opisa prodaje proizvoda na stavci prodajnog "
+"naloga."
 
+# taken from hr.po
 #. module: sale_order_line_description
 #: model:ir.model,name:sale_order_line_description.model_res_config_settings
+#, fuzzy
 msgid "Config Settings"
 msgstr "sale.config.settings"
 
@@ -40,6 +46,7 @@ msgstr "sale.config.settings"
 msgid "Product sale description"
 msgstr "Opis prodaje proizvoda"
 
+# taken from hr.po
 #. module: sale_order_line_description
 #: model:ir.model,name:sale_order_line_description.model_sale_order_line
 msgid "Sales Order Line"

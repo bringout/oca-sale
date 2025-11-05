@@ -25,57 +25,51 @@ msgstr "Stavka prodajne narudžbe"
 
 #. module: sale_layout_category_hide_detail
 #: model:ir.model.fields,field_description:sale_layout_category_hide_detail.field_account_move_line__show_details
-#: model:ir.model.fields,field_description:sale_layout_category_hide_detail.field_sale_order_line__show_details
 msgid "Show Details"
-msgstr "Show Details"
+msgstr "Prikaži detalje"
 
 #. module: sale_layout_category_hide_detail
 #: model:ir.model.fields,field_description:sale_layout_category_hide_detail.field_account_move_line__show_line_amount
-#: model:ir.model.fields,field_description:sale_layout_category_hide_detail.field_sale_order_line__show_line_amount
 msgid "Show Line Amount"
 msgstr "Show Line Iznos"
 
 #. module: sale_layout_category_hide_detail
 #: model:ir.model.fields,field_description:sale_layout_category_hide_detail.field_account_move_line__show_section_subtotal
-#: model:ir.model.fields,field_description:sale_layout_category_hide_detail.field_sale_order_line__show_section_subtotal
 msgid "Show Section Subtotal"
 msgstr "Show Section Podzbroj"
 
 #. module: sale_layout_category_hide_detail
 #: model:ir.model.fields,field_description:sale_layout_category_hide_detail.field_account_move_line__show_subtotal
-#: model:ir.model.fields,field_description:sale_layout_category_hide_detail.field_sale_order_line__show_subtotal
 msgid "Show Subtotal"
 msgstr "Show Podzbroj"
 
 #. module: sale_layout_category_hide_detail
 #: model_terms:ir.ui.view,arch_db:sale_layout_category_hide_detail.report_saleorder_document_hide_detail
-#: model_terms:ir.ui.view,arch_db:sale_layout_category_hide_detail.sale_order_portal_content_hide_detail
 msgid "Subtotal"
 msgstr "Podukupno"
 
 #. module: sale_layout_category_hide_detail
 #. odoo-javascript
-#: code:addons/sale_layout_category_hide_detail/static/src/js/boolean_fa_icon_widget.esm.js:0
+#: code:addons/sale_layout_category_hide_detail/static/src/js/boolean_fa_icon_widget.esm.js
 #, python-format
 msgid "Switch to: details hidden"
 msgstr "Switch to: details hidden"
 
 #. module: sale_layout_category_hide_detail
 #. odoo-javascript
-#: code:addons/sale_layout_category_hide_detail/static/src/js/boolean_fa_icon_widget.esm.js:0
+#: code:addons/sale_layout_category_hide_detail/static/src/js/boolean_fa_icon_widget.esm.js
 #, python-format
 msgid "Switch to: details shown"
 msgstr "Switch to: details shown"
 
 #. module: sale_layout_category_hide_detail
 #. odoo-javascript
-#: code:addons/sale_layout_category_hide_detail/static/src/js/boolean_fa_icon_widget.esm.js:0
+#: code:addons/sale_layout_category_hide_detail/static/src/js/boolean_fa_icon_widget.esm.js
 #, python-format
 msgid "Toggle"
 msgstr "Uključi / isključi"
 
 #. module: sale_layout_category_hide_detail
 #: model:ir.model.fields,help:sale_layout_category_hide_detail.field_account_move_line__show_section_subtotal
-#: model:ir.model.fields,help:sale_layout_category_hide_detail.field_sale_order_line__show_section_subtotal
 msgid "Uncheck this if you want to hide the subtotal on section part"
 msgstr "Uncheck this if you want to hide the subtotal on section part"

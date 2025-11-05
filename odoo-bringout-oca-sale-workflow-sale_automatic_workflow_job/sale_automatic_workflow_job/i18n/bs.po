@@ -15,14 +15,14 @@ msgstr ""
 
 #. module: sale_automatic_workflow_job
 #. odoo-python
-#: code:addons/sale_automatic_workflow_job/models/automatic_workflow_job.py:0
+#: code:addons/sale_automatic_workflow_job/models/automatic_workflow_job.py
 #, python-format
 msgid "Create invoices for sales order {}"
 msgstr "Kreiraj fakture za prodajni nalog {}"
 
 #. module: sale_automatic_workflow_job
 #. odoo-python
-#: code:addons/sale_automatic_workflow_job/models/automatic_workflow_job.py:0
+#: code:addons/sale_automatic_workflow_job/models/automatic_workflow_job.py
 #, python-format
 msgid "Mark sales order {} as done"
 msgstr "Označi prodajni nalog {} kao završen"
@@ -34,7 +34,7 @@ msgstr "Posao u redu"
 
 #. module: sale_automatic_workflow_job
 #. odoo-python
-#: code:addons/sale_automatic_workflow_job/models/queue_job.py:0
+#: code:addons/sale_automatic_workflow_job/models/queue_job.py
 #, python-format
 msgid "Sale Automatic Workflow Job"
 msgstr "Posao automatskog toka rada prodaje"
@@ -45,24 +45,26 @@ msgid ""
 "Scheduler that will play automatically the validation of invoices, "
 "pickings..."
 msgstr ""
+"Scheduler that will play automatically the validation of invoices, "
+"pickings..."
 
 #. module: sale_automatic_workflow_job
 #. odoo-python
-#: code:addons/sale_automatic_workflow_job/models/automatic_workflow_job.py:0
+#: code:addons/sale_automatic_workflow_job/models/automatic_workflow_job.py
 #, python-format
 msgid "Validate invoice {}"
 msgstr "Validaj fakturu {}"
 
 #. module: sale_automatic_workflow_job
 #. odoo-python
-#: code:addons/sale_automatic_workflow_job/models/automatic_workflow_job.py:0
+#: code:addons/sale_automatic_workflow_job/models/automatic_workflow_job.py
 #, python-format
 msgid "Validate sales order {}"
 msgstr "Validaj prodajni nalog {}"
 
 #. module: sale_automatic_workflow_job
 #. odoo-python
-#: code:addons/sale_automatic_workflow_job/models/automatic_workflow_job.py:0
+#: code:addons/sale_automatic_workflow_job/models/automatic_workflow_job.py
 #, python-format
 msgid "Validate transfer {}"
 msgstr "Validaj transfer {}"

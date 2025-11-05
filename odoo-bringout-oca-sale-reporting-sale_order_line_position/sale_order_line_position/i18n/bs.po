@@ -25,7 +25,6 @@ msgstr "Postavke"
 
 #. module: sale_order_line_position
 #: model:ir.model.fields,field_description:sale_order_line_position.field_res_company__disable_sale_position_recompute
-#: model:ir.model.fields,field_description:sale_order_line_position.field_res_config_settings__disable_sale_position_recompute
 msgid "Do not recompute positions on sale orders"
 msgstr "Ne preračunaj pozicije na prodajnim nalozima"
 
@@ -41,7 +40,6 @@ msgstr "Zaključane pozicije"
 
 #. module: sale_order_line_position
 #: model_terms:ir.ui.view,arch_db:sale_order_line_position.report_saleorder_document
-#: model_terms:ir.ui.view,arch_db:sale_order_line_position.view_order_form_inherit
 msgid "Pos"
 msgstr "Poz"
 

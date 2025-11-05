@@ -19,6 +19,8 @@ msgid ""
 "<strong>Global Discounts</strong>\n"
 "                        <br/>"
 msgstr ""
+"<strong>Global Popusts</strong>\n"
+"<br/>"
 
 #. module: sale_global_discount
 #: model_terms:ir.ui.view,arch_db:sale_global_discount.report_saleorder_document
@@ -37,14 +39,13 @@ msgstr "Iznos Untaxed Before Popusts"
 
 #. module: sale_global_discount
 #. odoo-python
-#: code:addons/sale_global_discount/models/sale_order.py:0
+#: code:addons/sale_global_discount/models/sale_order.py
 #, python-format
 msgid "Incompatible taxes found for global discounts."
 msgstr "Incompatible taxes found for global discounts."
 
 #. module: sale_global_discount
 #: model:ir.model.fields,field_description:sale_global_discount.field_sale_order__global_discount_ids
-#: model_terms:ir.ui.view,arch_db:sale_global_discount.view_order_form
 msgid "Sale Global Discounts"
 msgstr "Prodaja Global Popusts"
 
@@ -75,7 +76,7 @@ msgstr "Ukupno Global Popusts"
 
 #. module: sale_global_discount
 #. odoo-python
-#: code:addons/sale_global_discount/models/sale_order.py:0
+#: code:addons/sale_global_discount/models/sale_order.py
 #, python-format
 msgid "With global discounts, taxes in lines are required."
 msgstr "With global discounts, taxes in lines are required."

@@ -20,6 +20,9 @@ msgid ""
 "orders or in customer forms. This is useful for pricelists that are created "
 "only to compute other pricelists."
 msgstr ""
+"Označite ovu kućicu ako želite spriječiti korisnike da koriste ovaj cjenik "
+"na narudžbama ili u formi kupaca. Ovo je korisno za cjenike koji su kreirani"
+" samo za izračunavanje drugih cjenika."
 
 #. module: sale_pricelist_technical
 #: model:ir.model,name:sale_pricelist_technical.model_res_partner
@@ -38,9 +41,6 @@ msgstr "Je tehničko"
 
 #. module: sale_pricelist_technical
 #: model:ir.model,name:sale_pricelist_technical.model_product_pricelist
-#: model:ir.model.fields,field_description:sale_pricelist_technical.field_res_partner__property_product_pricelist
-#: model:ir.model.fields,field_description:sale_pricelist_technical.field_res_users__property_product_pricelist
-#: model:ir.model.fields,field_description:sale_pricelist_technical.field_sale_order__pricelist_id
 msgid "Pricelist"
 msgstr "Cjenik"
 
@@ -56,8 +56,9 @@ msgstr "Tehnički cjenik"
 
 #. module: sale_pricelist_technical
 #: model:ir.model.fields,help:sale_pricelist_technical.field_res_partner__property_product_pricelist
-#: model:ir.model.fields,help:sale_pricelist_technical.field_res_users__property_product_pricelist
 msgid ""
 "This pricelist will be used, instead of the default one, for sales to the "
 "current partner"
 msgstr ""
+"Ovaj cjenovnik će se koristiti, umjesto predefinisanog, za prodaju trenutnom"
+" partneru"

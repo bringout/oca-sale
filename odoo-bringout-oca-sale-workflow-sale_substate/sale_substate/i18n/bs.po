@@ -37,6 +37,25 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        Poštovani\n"
+"        <t t-out=\"object.partner_id.name or 'kupac'\">kupac</t>\n"
+"        <br>\n"
+"        <br>\n"
+"        Hvala vam na narudžbi.\n"
+"        <br>\n"
+"        Da bismo validirali vašu narudžbu potrebna nam je pravna dokumentacija.\n"
+"        <br>\n"
+"        <br>\n"
+"        Hvala vam,\n"
+"        <br>\n"
+"        <t t-if=\"user.signature\">\n"
+"            <br>\n"
+"            <t t-out=\"user.signature or ''\"></t>\n"
+"        </t>\n"
+"    </p>\n"
+"</div>"
 
 #. module: sale_substate
 #: model:mail.template,body_html:sale_substate.mail_template_data_sale_substate_delivery
@@ -63,6 +82,26 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        Poštovani\n"
+"        <t t-out=\"object.partner_id.name or 'kupac'\">kupac</t>\n"
+"        <br>\n"
+"        Hvala vam na narudžbi.\n"
+"        <br>\n"
+"        Vaša narudžba se priprema za dostavu.\n"
+"        Dobićete link za praćenje dostave.\n"
+"        <br>\n"
+"        <br>\n"
+"\n"
+"        Hvala vam,\n"
+"        <br>\n"
+"        <t t-if=\"user.signature\">\n"
+"            <br>\n"
+"            <t t-out=\"user.signature or ''\"></t>\n"
+"        </t>\n"
+"    </p>\n"
+"</div>"
 
 #. module: sale_substate
 #: model:ir.model.fields,field_description:sale_substate.field_base_substate_type__model
@@ -106,7 +145,6 @@ msgstr "Ponuda"
 
 #. module: sale_substate
 #: model:mail.template,subject:sale_substate.mail_template_data_sale_substate_delivery
-#: model:mail.template,subject:sale_substate.mail_template_data_sale_substate_wait_docs
 msgid "Reception of {{object.name}}"
 msgstr "Prijem {{object.name}}"
 
@@ -142,12 +180,14 @@ msgstr "Podstanje"
 
 #. module: sale_substate
 #. odoo-python
-#: code:addons/sale_substate/models/sale_order.py:0
+#: code:addons/sale_substate/models/sale_order.py
 #, python-format
 msgid ""
 "The substate %(name)s is not defined for the state %(state)s but for "
 "%(target_state)s "
 msgstr ""
+"Podstanje %(name)s nije definirano za stanje %(state)s već za "
+"%(target_state)s"
 
 #. module: sale_substate
 #: model:base.substate,name:sale_substate.base_substate_valid_docs
@@ -156,7 +196,6 @@ msgstr "Za validaciju pravnih dokumenata"
 
 #. module: sale_substate
 #: model:base.substate,name:sale_substate.base_substate_wait_docs
-#: model:mail.template,name:sale_substate.mail_template_data_sale_substate_wait_docs
 msgid "Waiting for legal documents"
 msgstr "Čeka se pravna dokumentacija"
 

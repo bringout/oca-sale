@@ -29,10 +29,11 @@ msgid ""
 "If no source warehouse is selected on line, this warehouse is used as "
 "default. "
 msgstr ""
+"If no source warehouse is selected on line, this warehouse is used as "
+"default. "
 
 #. module: sale_stock_partner_warehouse
 #: model:ir.model.fields,field_description:sale_stock_partner_warehouse.field_res_partner__sale_warehouse_id
-#: model:ir.model.fields,field_description:sale_stock_partner_warehouse.field_res_users__sale_warehouse_id
 msgid "Sale Warehouse"
 msgstr "Sale Warehouse"
 

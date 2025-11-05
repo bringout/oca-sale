@@ -21,6 +21,10 @@ msgid ""
 "You sell a product by packaging of 5 products.\n"
 "When the user will put 3 as quantity, the system can force the quantity to the superior unit (5 for this example)."
 msgstr ""
+"Determine if during the creation of a sale order line, the quantity should be forced with a multiple of the packaging.\n"
+"Example:\n"
+"You sell a product by packaging of 5 products.\n"
+"When the user will put 3 as quantity, the system can force the quantity to the superior unit (5 for this example)."
 
 #. module: sell_only_by_packaging
 #: model:ir.model.fields,field_description:sell_only_by_packaging.field_product_packaging__force_sale_qty
@@ -34,32 +38,33 @@ msgstr "Level management for product.packaging"
 
 #. module: sell_only_by_packaging
 #: model:ir.model.fields,field_description:sell_only_by_packaging.field_product_product__min_sellable_qty
-#: model:ir.model.fields,field_description:sell_only_by_packaging.field_product_template__min_sellable_qty
 msgid "Min Sellable Qty"
 msgstr "Min Sellable Qty"
 
 #. module: sell_only_by_packaging
 #: model:ir.model.fields,help:sell_only_by_packaging.field_product_product__min_sellable_qty
-#: model:ir.model.fields,help:sell_only_by_packaging.field_product_template__min_sellable_qty
 msgid ""
 "Minimum sellable quantity, according to the available packagings, if Only "
 "Sell by Packaging is set."
 msgstr ""
+"Minimum sellable quantity, according to the available packagings, if Only "
+"Sell by Packaging is set."
 
 #. module: sell_only_by_packaging
 #: model:ir.model.fields,field_description:sell_only_by_packaging.field_product_product__sell_only_by_packaging
-#: model:ir.model.fields,field_description:sell_only_by_packaging.field_product_template__sell_only_by_packaging
 msgid "Only sell by packaging"
 msgstr "Only sell by packaging"
 
 #. module: sell_only_by_packaging
 #. odoo-python
-#: code:addons/sell_only_by_packaging/models/product_packaging_level.py:0
+#: code:addons/sell_only_by_packaging/models/product_packaging_level.py
 #, python-format
 msgid ""
 "Packaging level \"{}\" must stay with \"Can be sold\", at least one product "
 "configured as \"sell only by packaging\" is using it."
 msgstr ""
+"Packaging level \"{}\" must stay with \"Can be sold\", at least one product "
+"configured as \"sell only by packaging\" is using it."
 
 #. module: sell_only_by_packaging
 #: model:ir.model,name:sell_only_by_packaging.model_product_template
@@ -68,28 +73,33 @@ msgstr "Artikal"
 
 #. module: sell_only_by_packaging
 #. odoo-python
-#: code:addons/sell_only_by_packaging/models/sale_order_line.py:0
+#: code:addons/sell_only_by_packaging/models/sale_order_line.py
 #, python-format
 msgid "Product %s can only be sold with a packaging and a packaging quantity."
-msgstr "Product %s can only be sold with a packaging and a packaging quantity."
+msgstr ""
+"Product %s can only be sold with a packaging and a packaging quantity."
 
 #. module: sell_only_by_packaging
 #. odoo-python
-#: code:addons/sell_only_by_packaging/models/product_template.py:0
+#: code:addons/sell_only_by_packaging/models/product_template.py
 #, python-format
 msgid ""
 "Product %s cannot be defined to be sold only by packaging if it cannot be "
 "sold."
 msgstr ""
+"Product %s cannot be defined to be sold only by packaging if it cannot be "
+"sold."
 
 #. module: sell_only_by_packaging
 #. odoo-python
-#: code:addons/sell_only_by_packaging/models/product_template.py:0
+#: code:addons/sell_only_by_packaging/models/product_template.py
 #, python-format
 msgid ""
 "Product %s cannot be defined to be sold only by packaging if it does not "
 "have any packaging that can be sold defined."
 msgstr ""
+"Product %s cannot be defined to be sold only by packaging if it does not "
+"have any packaging that can be sold defined."
 
 #. module: sell_only_by_packaging
 #: model:ir.model,name:sell_only_by_packaging.model_product_packaging
@@ -103,11 +113,12 @@ msgstr "Varijanta proizvoda"
 
 #. module: sell_only_by_packaging
 #: model:ir.model.fields,help:sell_only_by_packaging.field_product_product__sell_only_by_packaging
-#: model:ir.model.fields,help:sell_only_by_packaging.field_product_template__sell_only_by_packaging
 msgid ""
 "Restrict the usage of this product on sale order lines without packaging "
 "defined"
 msgstr ""
+"Restrict the usage of this product on sale order lines without packaging "
+"defined"
 
 #. module: sell_only_by_packaging
 #: model:ir.model,name:sell_only_by_packaging.model_sale_order_line

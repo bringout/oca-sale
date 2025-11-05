@@ -65,7 +65,6 @@ msgstr "Model oznake stavke prodajnog naloga"
 
 #. module: sale_order_line_tag
 #: model:ir.actions.act_window,name:sale_order_line_tag.sale_order_line_tag_action
-#: model:ir.ui.menu,name:sale_order_line_tag.sale_order_line_tag_action_menu
 msgid "Sales Order Line Tags"
 msgstr "Oznake stavki prodajnog naloga"
 

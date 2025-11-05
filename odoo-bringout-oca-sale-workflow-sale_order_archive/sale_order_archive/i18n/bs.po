@@ -20,13 +20,12 @@ msgstr "Aktivan"
 
 #. module: sale_order_archive
 #: model_terms:ir.ui.view,arch_db:sale_order_archive.sale_order_archive_form_view
-#: model_terms:ir.ui.view,arch_db:sale_order_archive.sale_order_archive_search_view
 msgid "Archived"
 msgstr "Arhivirano"
 
 #. module: sale_order_archive
 #. odoo-python
-#: code:addons/sale_order_archive/models/sale_order.py:0
+#: code:addons/sale_order_archive/models/sale_order.py
 #, python-format
 msgid "Only 'Locked' or 'Canceled' orders can be archived"
 msgstr "Samo 'Zaključani' ili 'Otkazani' nalozi se mogu arhivirati"

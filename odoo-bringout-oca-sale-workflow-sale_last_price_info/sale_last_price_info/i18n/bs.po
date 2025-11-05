@@ -19,6 +19,8 @@ msgid ""
 "Creation date of draft/sent orders,\n"
 "Confirmation date of confirmed orders."
 msgstr ""
+"Datum kreiranja nacrta/poslanih narudžbi,\n"
+"Datum potvrde potvrđenih narudžbi."
 
 #. module: sale_last_price_info
 #: model:ir.model.fields,field_description:sale_last_price_info.field_product_product__last_customer_id

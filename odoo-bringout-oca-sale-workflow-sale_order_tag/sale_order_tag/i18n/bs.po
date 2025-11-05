@@ -70,7 +70,6 @@ msgstr "Zadnje ažurirano"
 
 #. module: sale_order_tag
 #: model:ir.model.fields,field_description:sale_order_tag.field_sale_order_tag__name
-#: model_terms:ir.ui.view,arch_db:sale_order_tag.sale_order_tag_form_view
 msgid "Name"
 msgstr "Naziv:"
 
@@ -81,11 +80,8 @@ msgstr "Sale Order Tag"
 
 #. module: sale_order_tag
 #: model:ir.actions.act_window,name:sale_order_tag.sale_order_tag_action
-#: model:ir.model.fields,field_description:sale_order_tag.field_sale_order__so_tag_ids
-#: model:ir.ui.menu,name:sale_order_tag.sale_order_tag_menu
-#: model_terms:ir.ui.view,arch_db:sale_order_tag.sale_order_tag_form_view
 msgid "Sale Order Tags"
-msgstr "Sale Order Tags"
+msgstr "Oznake prodajnog naloga"
 
 #. module: sale_order_tag
 #: model:ir.model,name:sale_order_tag.model_sale_order

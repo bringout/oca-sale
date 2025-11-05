@@ -16,7 +16,7 @@ msgstr ""
 #. module: sale_invoice_plan
 #: model:ir.model.fields.selection,name:sale_invoice_plan.selection__sale_invoice_plan__invoice_type__advance
 msgid "Advance"
-msgstr "Advance"
+msgstr "Avans"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_create_invoice_plan__advance
@@ -25,8 +25,6 @@ msgstr "Advance on 1st Faktura"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_invoice_plan__amount
-#: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_sale_invoice_plan_tree
-#: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_sale_invoice_plan_tree_readonly
 msgid "Amount"
 msgstr "Iznos"
 
@@ -37,14 +35,13 @@ msgstr "Iznos Fakturad"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_invoice_plan__analytic_account_id
-#: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_sale_invoice_plan_filter
 msgid "Analytic Account"
 msgstr "Analitički konto"
 
 #. module: sale_invoice_plan
 #: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_order_form_invoice_plan
 msgid "Are you sure to remove this invoice plan?"
-msgstr "Are you sure to remove this invoice plan?"
+msgstr "Da li ste sigurni da želite ukloniti ovaj plan fakturisanja?"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,help:sale_invoice_plan.field_sale_order__invoice_plan_process
@@ -53,7 +50,6 @@ msgstr "At least one invoice plan line pending to create invoice"
 
 #. module: sale_invoice_plan
 #: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_sale_create_invoice_plan
-#: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_sale_make_planned_invoice
 msgid "Cancel"
 msgstr "Otkaži"
 
@@ -64,7 +60,6 @@ msgstr "Create All Remaining Fakturas"
 
 #. module: sale_invoice_plan
 #: model:ir.actions.act_window,name:sale_invoice_plan.action_sale_create_invoice_plan
-#: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_sale_create_invoice_plan
 msgid "Create Invoice Plan"
 msgstr "Create Faktura Plan"
 
@@ -80,21 +75,16 @@ msgstr "Create Next Inovice"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_create_invoice_plan__create_uid
-#: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_invoice_plan__create_uid
-#: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_make_planned_invoice__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_create_invoice_plan__create_date
-#: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_invoice_plan__create_date
-#: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_make_planned_invoice__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_invoice_plan__partner_id
-#: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_sale_invoice_plan_filter
 msgid "Customer"
 msgstr "Kupac"
 
@@ -105,14 +95,12 @@ msgstr "Dan"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_create_invoice_plan__display_name
-#: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_invoice_plan__display_name
-#: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_make_planned_invoice__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: sale_invoice_plan
 #. odoo-python
-#: code:addons/sale_invoice_plan/tests/test_sale_invoice_plan.py:0
+#: code:addons/sale_invoice_plan/tests/test_sale_invoice_plan.py
 #, python-format
 msgid "Down payment"
 msgstr "Avansno plaćanje"
@@ -129,8 +117,6 @@ msgstr "Grupiši po"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_create_invoice_plan__id
-#: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_invoice_plan__id
-#: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_make_planned_invoice__id
 msgid "ID"
 msgstr "ID"
 
@@ -151,19 +137,19 @@ msgstr "Inovice Plan"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_invoice_plan__installment
-#: model:ir.model.fields.selection,name:sale_invoice_plan.selection__sale_invoice_plan__invoice_type__installment
-#: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_sale_invoice_plan_filter
 msgid "Installment"
-msgstr "Installment"
+msgstr "Rata"
 
 #. module: sale_invoice_plan
 #. odoo-python
-#: code:addons/sale_invoice_plan/models/sale_invoice_plan.py:0
+#: code:addons/sale_invoice_plan/models/sale_invoice_plan.py
 #, python-format
 msgid ""
 "Installment %s: already used and not allowed to delete.\n"
 "Please discard changes."
 msgstr ""
+"Rata %s: already used and not allowed to delete.\n"
+"Please discard changes."
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_create_invoice_plan__installment_date
@@ -212,7 +198,7 @@ msgstr "Fakturiši prodajnu narudžbu"
 
 #. module: sale_invoice_plan
 #. odoo-python
-#: code:addons/sale_invoice_plan/models/sale.py:0
+#: code:addons/sale_invoice_plan/models/sale.py
 #, python-format
 msgid "Invoice plan total percentage must not exceed 100%"
 msgstr "Faktura plan total percentage must not exceed 100%"
@@ -228,37 +214,33 @@ msgid ""
 "Invoices will be created in draft for this installment\n"
 "                        so that you can review them before validation."
 msgstr ""
+"Fakturas will be created in draft for this installment\n"
+"so that you can review them before validation."
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_invoice_plan__last
 msgid "Last Installment"
-msgstr "Last Installment"
+msgstr "Last Rata"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_create_invoice_plan____last_update
-#: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_invoice_plan____last_update
-#: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_make_planned_invoice____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_create_invoice_plan__write_uid
-#: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_invoice_plan__write_uid
-#: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_make_planned_invoice__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_create_invoice_plan__write_date
-#: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_invoice_plan__write_date
-#: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_make_planned_invoice__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,help:sale_invoice_plan.field_sale_invoice_plan__last
 msgid "Last installment will create invoice use remaining amount"
-msgstr "Last installment will create invoice use remaining amount"
+msgstr "Poslednji installment will create invoice use remaining amount"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields.selection,name:sale_invoice_plan.selection__sale_create_invoice_plan__interval_type__month
@@ -277,14 +259,14 @@ msgstr "No Edit"
 
 #. module: sale_invoice_plan
 #. odoo-python
-#: code:addons/sale_invoice_plan/tests/test_sale_invoice_plan.py:0
+#: code:addons/sale_invoice_plan/tests/test_sale_invoice_plan.py
 #, python-format
 msgid "No installment raises following error : %s"
 msgstr "No installment raises following error : %s"
 
 #. module: sale_invoice_plan
 #. odoo-python
-#: code:addons/sale_invoice_plan/models/sale_invoice_plan.py:0
+#: code:addons/sale_invoice_plan/models/sale_invoice_plan.py
 #, python-format
 msgid "No matched order line for invoice line"
 msgstr "No matched order line for invoice line"
@@ -301,20 +283,18 @@ msgstr "Not Fakturad & Due"
 
 #. module: sale_invoice_plan
 #. odoo-python
-#: code:addons/sale_invoice_plan/wizard/sale_create_invoice_plan.py:0
+#: code:addons/sale_invoice_plan/wizard/sale_create_invoice_plan.py
 #, python-format
 msgid "Number Installment must greater than 1"
-msgstr "Number Installment must greater than 1"
+msgstr "Number Rata must greater than 1"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_create_invoice_plan__num_installment
 msgid "Number of Installment"
-msgstr "Number of Installment"
+msgstr "Number of Rata"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_invoice_plan__percent
-#: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_order__invoice_plan_total_percent
-#: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_sale_invoice_plan_tree_readonly
 msgid "Percent"
 msgstr "Procenat"
 
@@ -325,16 +305,18 @@ msgstr "Plan Datum"
 
 #. module: sale_invoice_plan
 #. odoo-python
-#: code:addons/sale_invoice_plan/models/sale_invoice_plan.py:0
+#: code:addons/sale_invoice_plan/models/sale_invoice_plan.py
 #, python-format
 msgid ""
 "Plan quantity: %(plan_qty)s, exceed invoiceable quantity: %(invoiceable_qty)s\n"
 "Product should be delivered before invoice"
 msgstr ""
+"Plan quantity: %(plan_qty)s, exceed invoiceable quantity: %(invoiceable_qty)s\n"
+"Proizvod should be delivered before invoice"
 
 #. module: sale_invoice_plan
 #. odoo-python
-#: code:addons/sale_invoice_plan/models/sale.py:0
+#: code:addons/sale_invoice_plan/models/sale.py
 #, python-format
 msgid "Please fill percentage for all invoice plan lines"
 msgstr "Please fill percentage for all invoice plan lines"
@@ -356,14 +338,11 @@ msgstr "Avansna faktura prodaje"
 
 #. module: sale_invoice_plan
 #: model:ir.actions.act_window,name:sale_invoice_plan.action_sale_invoice_plan
-#: model:ir.ui.menu,name:sale_invoice_plan.menu_sale_invoice_plan
 msgid "Sales Invoice Plan"
 msgstr "Prodajas Faktura Plan"
 
 #. module: sale_invoice_plan
 #: model:ir.model,name:sale_invoice_plan.model_sale_order
-#: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_invoice_plan__sale_id
-#: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_sale_invoice_plan_filter
 msgid "Sales Order"
 msgstr "Prodajni nalog"
 
@@ -379,7 +358,6 @@ msgstr "Search Prodajas Faktura Plan Lines"
 
 #. module: sale_invoice_plan
 #: model:ir.model.fields,field_description:sale_invoice_plan.field_sale_invoice_plan__state
-#: model_terms:ir.ui.view,arch_db:sale_invoice_plan.view_sale_invoice_plan_filter
 msgid "Status"
 msgstr "Status"
 
@@ -420,7 +398,7 @@ msgstr "Use Faktura Plan"
 
 #. module: sale_invoice_plan
 #. odoo-python
-#: code:addons/sale_invoice_plan/models/sale.py:0
+#: code:addons/sale_invoice_plan/models/sale.py
 #, python-format
 msgid "Use Invoice Plan selected, but no plan created"
 msgstr "Use Faktura Plan selected, but no plan created"

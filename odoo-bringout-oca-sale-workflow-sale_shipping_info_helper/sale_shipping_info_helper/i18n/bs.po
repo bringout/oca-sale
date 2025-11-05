@@ -13,36 +13,43 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: sale_shipping_info_helper
 #: model:ir.model.fields,field_description:sale_shipping_info_helper.field_sale_order__item_amount_tax
 msgid "Item Amount Tax"
 msgstr "Iznos poreza stavke"
 
+# taken from hr.po
 #. module: sale_shipping_info_helper
 #: model:ir.model.fields,field_description:sale_shipping_info_helper.field_sale_order__item_amount_total
 msgid "Item Amount Total"
 msgstr "Ukupni iznos stavke"
 
+# taken from hr.po
 #. module: sale_shipping_info_helper
 #: model:ir.model.fields,field_description:sale_shipping_info_helper.field_sale_order__item_amount_untaxed
 msgid "Item Amount Untaxed"
 msgstr "Osnovica stavke"
 
+# taken from hr.po
 #. module: sale_shipping_info_helper
 #: model:ir.model,name:sale_shipping_info_helper.model_sale_order
 msgid "Sales Order"
 msgstr "Prodajni nalog"
 
+# taken from hr.po
 #. module: sale_shipping_info_helper
 #: model:ir.model.fields,field_description:sale_shipping_info_helper.field_sale_order__shipping_amount_tax
 msgid "Shipping Amount Tax"
 msgstr "Iznos poreza na dostavu"
 
+# taken from hr.po
 #. module: sale_shipping_info_helper
 #: model:ir.model.fields,field_description:sale_shipping_info_helper.field_sale_order__shipping_amount_total
 msgid "Shipping Amount Total"
 msgstr "Ukupni iznos za dostavu"
 
+# taken from hr.po
 #. module: sale_shipping_info_helper
 #: model:ir.model.fields,field_description:sale_shipping_info_helper.field_sale_order__shipping_amount_untaxed
 msgid "Shipping Amount Untaxed"

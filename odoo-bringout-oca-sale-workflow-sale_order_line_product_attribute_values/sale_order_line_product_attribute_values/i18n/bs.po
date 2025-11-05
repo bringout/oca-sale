@@ -19,6 +19,8 @@ msgid ""
 "All Product Attribute Values used directly or indirecly for this line.\n"
 "Contains information about increased price, html color, etc."
 msgstr ""
+"Sve vrijednosti atributa proizvoda korištene direktno ili indirektno za ovu stavku.\n"
+"Sadrži informacije o povećanoj cijeni, html boji, itd."
 
 #. module: sale_order_line_product_attribute_values
 #: model:ir.model.fields,help:sale_order_line_product_attribute_values.field_sale_order_line__all_product_template_attribute_value_ids
@@ -26,10 +28,11 @@ msgid ""
 "All Product Template Attribute Values used directly or indirecly for this "
 "line."
 msgstr ""
+"Sve vrijednosti atributa template proizvoda korištene direktno ili "
+"indirektno za ovu stavku."
 
 #. module: sale_order_line_product_attribute_values
 #: model:ir.model.fields,field_description:sale_order_line_product_attribute_values.field_sale_order_line__all_product_attribute_value_ids
-#: model_terms:ir.ui.view,arch_db:sale_order_line_product_attribute_values.view_sales_order_line_filter
 msgid "Attribute Values"
 msgstr "Vrijednosti značajki"
 

@@ -21,6 +21,10 @@ msgid ""
 "            in a sale order.\n"
 "        "
 msgstr ""
+"\n"
+"            Korisnik će moći da otključa isporuke koje su blokirane\n"
+"            na prodajnoj narudžbi.\n"
+"        "
 
 #. module: sale_stock_picking_blocking
 #: model_terms:ir.ui.view,arch_db:sale_stock_picking_blocking.sale_stock_picking_blocking_reason_form_view
@@ -32,11 +36,13 @@ msgstr "Applied to"
 msgid "Contact"
 msgstr "Kontakt"
 
+# taken from hr.po
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_sale_delivery_block_reason__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_sale_delivery_block_reason__create_date
 msgid "Created on"
@@ -44,14 +50,11 @@ msgstr "Kreirano"
 
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_account_payment_term__default_delivery_block_reason_id
-#: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_res_partner__default_delivery_block
-#: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_res_users__default_delivery_block
 msgid "Default Delivery Block Reason"
 msgstr "Default Delivery Block Reason"
 
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_sale_order__delivery_block_id
-#: model:ir.ui.menu,name:sale_stock_picking_blocking.menu_sale_stock_picking_blocking_reason
 msgid "Delivery Block Reason"
 msgstr "Delivery Block Reason"
 
@@ -60,11 +63,13 @@ msgstr "Delivery Block Reason"
 msgid "Delivery Blocked Sales"
 msgstr "Delivery Blocked Sales"
 
+# taken from hr.po
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_sale_delivery_block_reason__description
 msgid "Description"
 msgstr "Opis"
 
+# taken from hr.po
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_sale_delivery_block_reason__display_name
 msgid "Display Name"
@@ -75,21 +80,25 @@ msgstr "Prikaži naziv"
 msgid "ID"
 msgstr "ID"
 
+# taken from hr.po
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_sale_delivery_block_reason____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_sale_delivery_block_reason__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_sale_delivery_block_reason__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
+# taken from hr.po
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_sale_delivery_block_reason__name
 msgid "Name"
@@ -112,7 +121,6 @@ msgstr "Release Delivery Block in Sales Orders"
 
 #. module: sale_stock_picking_blocking
 #: model:ir.actions.act_window,name:sale_stock_picking_blocking.action_sale_stock_picking_blocking_reason
-#: model:ir.model,name:sale_stock_picking_blocking.model_sale_delivery_block_reason
 msgid "Sale Delivery Block Reason"
 msgstr "Sale Delivery Block Reason"
 
@@ -133,11 +141,12 @@ msgstr "Stavka prodajne narudžbe"
 
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,help:sale_stock_picking_blocking.field_res_partner__default_delivery_block
-#: model:ir.model.fields,help:sale_stock_picking_blocking.field_res_users__default_delivery_block
 msgid ""
 "Set a reason to block by default the deliveries in this customer sales "
 "orders."
 msgstr ""
+"Postavite razlog za podrazumijevano blokiranje isporuka na prodajnim "
+"narudžbama ovog kupca."
 
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,help:sale_stock_picking_blocking.field_account_payment_term__default_delivery_block_reason_id
@@ -145,3 +154,5 @@ msgid ""
 "Set a reason to block by default the deliveries in this payment term sales "
 "orders."
 msgstr ""
+"Postavite razlog za podrazumijevano blokiranje isporuka na prodajnim "
+"narudžbama s ovim uslovima plaćanja."
