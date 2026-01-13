@@ -26,7 +26,7 @@ msgstr "Kompanije"
 #. module: sale_partner_pricelist
 #: model:ir.model,name:sale_partner_pricelist.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: sale_partner_pricelist
 #: model:ir.model,name:sale_partner_pricelist.model_res_partner

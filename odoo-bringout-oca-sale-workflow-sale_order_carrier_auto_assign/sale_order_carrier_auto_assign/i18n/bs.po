@@ -42,7 +42,7 @@ msgstr "Tvrtke"
 #. module: sale_order_carrier_auto_assign
 #: model:ir.model,name:sale_order_carrier_auto_assign.model_res_config_settings
 msgid "Config Settings"
-msgstr "Konfiguracijske postavke"
+msgstr "Postavke konfiguracije"
 
 # taken from hr.po
 #. module: sale_order_carrier_auto_assign

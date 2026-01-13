@@ -35,7 +35,7 @@ msgstr "Tvrtke"
 #. module: sale_auto_remove_zero_quantity_lines
 #: model:ir.model,name:sale_auto_remove_zero_quantity_lines.model_res_config_settings
 msgid "Config Settings"
-msgstr "Konfiguracijske postavke"
+msgstr "Postavke konfiguracije"
 
 # taken from hr.po
 #. module: sale_auto_remove_zero_quantity_lines

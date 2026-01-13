@@ -41,17 +41,17 @@ msgstr "ID"
 #. module: sale_margin_update
 #: model:ir.model.fields,field_description:sale_margin_update.field_sale_recalculate_price_margin____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: sale_margin_update
 #: model:ir.model.fields,field_description:sale_margin_update.field_sale_recalculate_price_margin__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: sale_margin_update
 #: model:ir.model.fields,field_description:sale_margin_update.field_sale_recalculate_price_margin__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: sale_margin_update
 #: model:ir.model.fields,field_description:sale_margin_update.field_sale_recalculate_price_margin__line_id

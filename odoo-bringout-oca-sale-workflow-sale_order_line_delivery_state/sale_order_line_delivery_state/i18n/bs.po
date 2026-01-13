@@ -30,7 +30,7 @@ msgstr "Status isporuke"
 #. module: sale_order_line_delivery_state
 #: model:ir.model.fields.selection,name:sale_order_line_delivery_state.selection__sale_order_line__delivery_state__done
 msgid "Done"
-msgstr "Gotovo"
+msgstr "Dovršeno"
 
 #. module: sale_order_line_delivery_state
 #: model:ir.model.fields,field_description:sale_order_line_delivery_state.field_sale_order_line__force_delivery_state

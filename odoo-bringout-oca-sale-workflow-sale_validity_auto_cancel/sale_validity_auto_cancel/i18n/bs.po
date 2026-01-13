@@ -46,7 +46,7 @@ msgstr "Kompanije"
 #. module: sale_validity_auto_cancel
 #: model:ir.model,name:sale_validity_auto_cancel.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: sale_validity_auto_cancel
 #: model:ir.model,name:sale_validity_auto_cancel.model_res_partner

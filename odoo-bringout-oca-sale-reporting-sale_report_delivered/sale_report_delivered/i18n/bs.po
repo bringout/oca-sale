@@ -36,12 +36,12 @@ msgstr "Kampanja"
 #. module: sale_report_delivered
 #: model:ir.model.fields.selection,name:sale_report_delivered.selection__sale_report_delivered__state__cancel
 msgid "Cancelled"
-msgstr "Otkazan"
+msgstr "Otkazano"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__partner_id
@@ -91,7 +91,7 @@ msgstr "Bruto težina"
 #. module: sale_report_delivered
 #: model_terms:ir.ui.view,arch_db:sale_report_delivered.view_sale_report_delivered_search
 msgid "Group By"
-msgstr "Grupiši po"
+msgstr "Grupiši po..."
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__id
@@ -101,7 +101,7 @@ msgstr "ID"
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__margin
@@ -126,7 +126,7 @@ msgstr "Nalog"
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__name
 msgid "Order Reference"
-msgstr "Referenca narudžbe"
+msgstr "Referenca zahtjeva"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__picking_id
@@ -141,7 +141,7 @@ msgstr "Cjenik"
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__product_tmpl_id
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__categ_id

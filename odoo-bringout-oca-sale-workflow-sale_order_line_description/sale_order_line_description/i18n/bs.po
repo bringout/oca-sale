@@ -39,7 +39,7 @@ msgstr ""
 #: model:ir.model,name:sale_order_line_description.model_res_config_settings
 #, fuzzy
 msgid "Config Settings"
-msgstr "sale.config.settings"
+msgstr "Postavke konfiguracije"
 
 #. module: sale_order_line_description
 #: model_terms:ir.ui.view,arch_db:sale_order_line_description.view_sales_config

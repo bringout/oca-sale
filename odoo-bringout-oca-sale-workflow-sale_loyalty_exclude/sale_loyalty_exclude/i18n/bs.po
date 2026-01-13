@@ -36,7 +36,7 @@ msgstr "Nagrada za odanost"
 #. module: sale_loyalty_exclude
 #: model:ir.model,name:sale_loyalty_exclude.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: sale_loyalty_exclude
 #: model:ir.model,name:sale_loyalty_exclude.model_sale_order

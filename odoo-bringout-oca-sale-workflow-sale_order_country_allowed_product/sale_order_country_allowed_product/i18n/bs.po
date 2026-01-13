@@ -31,7 +31,7 @@ msgstr "Zanemari zemlje prodaje proizvoda"
 #. module: sale_order_country_allowed_product
 #: model:ir.model,name:sale_order_country_allowed_product.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: sale_order_country_allowed_product
 #: model:ir.model,name:sale_order_country_allowed_product.model_product_product

@@ -16,7 +16,7 @@ msgstr ""
 #. module: product_sold_by_delivery_week
 #: model:ir.model,name:product_sold_by_delivery_week.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: product_sold_by_delivery_week
 #: model:ir.model,name:product_sold_by_delivery_week.model_product_product

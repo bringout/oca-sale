@@ -68,7 +68,7 @@ msgstr "Kompanije"
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model,name:sale_order_line_multi_warehouse.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse__create_uid
@@ -123,17 +123,17 @@ msgstr "Nekompatibilnosti"
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse__move_ids
@@ -178,7 +178,7 @@ msgstr "Samo jedno skladište po stavci dozvoljeno"
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse__product_id
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line__qty_assigned_to_warehouse
