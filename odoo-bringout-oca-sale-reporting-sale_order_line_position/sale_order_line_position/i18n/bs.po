@@ -21,7 +21,7 @@ msgstr "Kompanije"
 #. module: sale_order_line_position
 #: model:ir.model,name:sale_order_line_position.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: sale_order_line_position
 #: model:ir.model.fields,field_description:sale_order_line_position.field_res_company__disable_sale_position_recompute

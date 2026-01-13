@@ -38,7 +38,7 @@ msgstr "Kompanije"
 #. module: sale_tier_validation
 #: model:ir.model,name:sale_tier_validation.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: sale_tier_validation
 #: model:ir.model.fields,field_description:sale_tier_validation.field_sale_order__has_comment

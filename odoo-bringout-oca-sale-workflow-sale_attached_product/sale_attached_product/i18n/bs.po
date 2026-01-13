@@ -46,7 +46,7 @@ msgstr "Mixin klasa za karakteristike proizvoda priloženih prodaji"
 #. module: sale_attached_product
 #: model:ir.model,name:sale_attached_product.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: sale_attached_product
 #: model:ir.model,name:sale_attached_product.model_sale_order

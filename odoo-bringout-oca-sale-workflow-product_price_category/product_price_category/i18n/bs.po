@@ -34,7 +34,7 @@ msgstr "Kreirano"
 #. module: product_price_category
 #: model:ir.model.fields,field_description:product_price_category.field_product_price_category__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Prikaži naziv"
 
 #. module: product_price_category
 #: model:ir.model.fields,field_description:product_price_category.field_product_price_category__id
@@ -45,19 +45,19 @@ msgstr "ID"
 #. module: product_price_category
 #: model:ir.model.fields,field_description:product_price_category.field_product_price_category____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 # taken from hr.po
 #. module: product_price_category
 #: model:ir.model.fields,field_description:product_price_category.field_product_price_category__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 # taken from hr.po
 #. module: product_price_category
 #: model:ir.model.fields,field_description:product_price_category.field_product_price_category__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 # taken from hr.po
 #. module: product_price_category
@@ -98,7 +98,7 @@ msgstr "Pravilo cjenika"
 #. module: product_price_category
 #: model:ir.model,name:product_price_category.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: product_price_category
 #: model:ir.model,name:product_price_category.model_product_price_category

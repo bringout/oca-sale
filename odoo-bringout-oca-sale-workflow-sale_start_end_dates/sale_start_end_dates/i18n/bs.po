@@ -99,7 +99,7 @@ msgstr "Stavka ponude"
 #. module: sale_start_end_dates
 #: model:ir.model.fields,field_description:sale_start_end_dates.field_sale_order_line__start_date
 msgid "Start Date"
-msgstr "Datum početka"
+msgstr "Početni datum"
 
 #. module: sale_start_end_dates
 #. odoo-python

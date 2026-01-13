@@ -56,27 +56,27 @@ msgstr "Stavke"
 #. module: sale_product_multi_add
 #: model:ir.model.fields,field_description:sale_product_multi_add.field_sale_import_products____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: sale_product_multi_add
 #: model:ir.model.fields,field_description:sale_product_multi_add.field_sale_import_products__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: sale_product_multi_add
 #: model:ir.model.fields,field_description:sale_product_multi_add.field_sale_import_products__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: sale_product_multi_add
 #: model:ir.model.fields,field_description:sale_product_multi_add.field_sale_import_products_items__product_id
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: sale_product_multi_add
 #: model:ir.model.fields,field_description:sale_product_multi_add.field_sale_import_products__products
 msgid "Products"
-msgstr "Proizvodi"
+msgstr "Artikli"
 
 #. module: sale_product_multi_add
 #: model:ir.model.fields,field_description:sale_product_multi_add.field_sale_import_products_items__quantity

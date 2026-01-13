@@ -21,7 +21,7 @@ msgstr "Automatsko praćenje"
 #. module: sale_order_partner_no_autofollow
 #: model:ir.model,name:sale_order_partner_no_autofollow.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: sale_order_partner_no_autofollow
 #: model:ir.model.fields,field_description:sale_order_partner_no_autofollow.field_res_config_settings__partner_disable_autofollow

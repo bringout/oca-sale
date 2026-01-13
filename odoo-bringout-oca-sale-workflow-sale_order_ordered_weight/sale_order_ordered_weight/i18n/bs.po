@@ -26,7 +26,7 @@ msgstr "Kompanije"
 #. module: sale_order_ordered_weight
 #: model:ir.model,name:sale_order_ordered_weight.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: sale_order_ordered_weight
 #: model:ir.model.fields,field_description:sale_order_ordered_weight.field_res_company__display_line_weight_on_sale_report

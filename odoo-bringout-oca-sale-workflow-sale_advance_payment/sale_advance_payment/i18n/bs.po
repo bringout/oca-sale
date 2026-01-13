@@ -60,7 +60,9 @@ msgstr "Iznos avansa mora biti pozitivan."
 #. module: sale_advance_payment
 #: model_terms:ir.ui.view,arch_db:sale_advance_payment.view_account_voucher_wizard
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr ""
+"Ova opcija uvodi dodatna polja u prodajnu narudžbu za lako planiranje "
+"dostave proizvoda: očekivani datum, datum obaveze, efikasni datum."
 
 # taken from hr.po
 #. module: sale_advance_payment
@@ -139,19 +141,19 @@ msgstr "Zapis dnevnika"
 #. module: sale_advance_payment
 #: model:ir.model.fields,field_description:sale_advance_payment.field_account_voucher_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje modificirano"
 
 # taken from hr.po
 #. module: sale_advance_payment
 #: model:ir.model.fields,field_description:sale_advance_payment.field_account_voucher_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnje ažurirao"
 
 # taken from hr.po
 #. module: sale_advance_payment
 #: model:ir.model.fields,field_description:sale_advance_payment.field_account_voucher_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 # taken from hr.po
 #. module: sale_advance_payment

@@ -58,7 +58,7 @@ msgstr "Kompanije"
 #. module: sale_order_line_cancel
 #: model:ir.model,name:sale_order_line_cancel.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: sale_order_line_cancel
 #: model:ir.model.fields,field_description:sale_order_line_cancel.field_sale_order_line_cancel__create_uid
@@ -83,17 +83,17 @@ msgstr "ID"
 #. module: sale_order_line_cancel
 #: model:ir.model.fields,field_description:sale_order_line_cancel.field_sale_order_line_cancel____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: sale_order_line_cancel
 #: model:ir.model.fields,field_description:sale_order_line_cancel.field_sale_order_line_cancel__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: sale_order_line_cancel
 #: model:ir.model.fields,field_description:sale_order_line_cancel.field_sale_order_line_cancel__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: sale_order_line_cancel
 #. odoo-python

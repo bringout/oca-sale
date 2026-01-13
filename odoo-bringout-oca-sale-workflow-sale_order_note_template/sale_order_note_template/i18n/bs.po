@@ -41,17 +41,17 @@ msgstr "ID"
 #. module: sale_order_note_template
 #: model:ir.model.fields,field_description:sale_order_note_template.field_sale_terms_template____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: sale_order_note_template
 #: model:ir.model.fields,field_description:sale_order_note_template.field_sale_terms_template__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: sale_order_note_template
 #: model:ir.model.fields,field_description:sale_order_note_template.field_sale_terms_template__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: sale_order_note_template
 #: model:ir.model.fields,field_description:sale_order_note_template.field_sale_terms_template__name

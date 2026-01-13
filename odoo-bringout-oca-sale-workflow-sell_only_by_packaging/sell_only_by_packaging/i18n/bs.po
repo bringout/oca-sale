@@ -69,7 +69,7 @@ msgstr ""
 #. module: sell_only_by_packaging
 #: model:ir.model,name:sell_only_by_packaging.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: sell_only_by_packaging
 #. odoo-python
