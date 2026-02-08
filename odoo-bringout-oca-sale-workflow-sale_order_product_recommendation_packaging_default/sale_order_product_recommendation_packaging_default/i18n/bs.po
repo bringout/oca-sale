@@ -21,7 +21,7 @@ msgstr "Pakovanje"
 #. module: sale_order_product_recommendation_packaging_default
 #: model:ir.model.fields,field_description:sale_order_product_recommendation_packaging_default.field_sale_order_recommendation_line__product_packaging_qty
 msgid "Packaging Qty."
-msgstr "[PREVOD: Packaging Qty.]"
+msgstr ""
 
 #. module: sale_order_product_recommendation_packaging_default
 #: model:ir.model.fields,help:sale_order_product_recommendation_packaging_default.field_sale_order_recommendation_line__product_packaging_id
