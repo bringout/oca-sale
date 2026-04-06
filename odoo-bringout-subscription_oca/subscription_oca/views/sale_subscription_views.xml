@@ -22,6 +22,11 @@
                         help="A given subscription can be marked as closed when, for example, renewal is not desired."
                         attrs="{'invisible': [('in_progress', '=', False)]}"
                     />
+                    <button
+                        string="Generate subscriptions"
+                        name="action_open_generate_subscriptions_wizard"
+                        type="object"
+                    />
 
                     <field
                         name="stage_id"
@@ -211,6 +216,13 @@
         <field name="model">sale.subscription</field>
         <field name="arch" type="xml">
             <tree>
+                <header>
+                    <button
+                        string="Generate subscriptions"
+                        name="action_open_generate_subscriptions_wizard"
+                        type="object"
+                    />
+                </header>
                 <field name="name" optional="show" />
                 <field name="partner_id" optional="show" />
                 <field name="recurring_next_date" optional="show" />

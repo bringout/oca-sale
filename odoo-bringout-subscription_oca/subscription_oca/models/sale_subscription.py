@@ -252,6 +252,21 @@ class SaleSubscription(models.Model):
             "res_id": False,
         }
 
+    def action_open_generate_subscriptions_wizard(self):
+        return {
+            "name": _("Generate subscriptions"),
+            "view_type": "form",
+            "view_mode": "form",
+            "res_model": "generate.subscriptions.wizard",
+            "type": "ir.actions.act_window",
+            "target": "new",
+            "res_id": False,
+            "context": {
+                "active_model": "sale.subscription",
+                "active_ids": self.ids,
+            },
+        }
+
     def close_subscription(self, close_reason_id=False):
         self.ensure_one()
         self.recurring_next_date = False
@@ -273,12 +288,18 @@ class SaleSubscription(models.Model):
             "order_line": line_ids,
         }
 
-    def _prepare_account_move(self, line_ids):
+    def _prepare_account_move(
+        self, line_ids, invoice_date=False, payment_term_id=False
+    ):
         self.ensure_one()
         values = {
             "partner_id": self.partner_id.id,
-            "invoice_date": self.recurring_next_date,
-            "invoice_payment_term_id": self.partner_id.property_payment_term_id.id,
+            "invoice_date": invoice_date or self.recurring_next_date,
+            "invoice_payment_term_id": (
+                payment_term_id.id
+                if payment_term_id
+                else self.partner_id.property_payment_term_id.id
+            ),
             "invoice_origin": self.name,
             "invoice_user_id": self.user_id.id,
             "partner_bank_id": self.company_id.partner_id.bank_ids[:1].id,
@@ -289,7 +310,7 @@ class SaleSubscription(models.Model):
             values["journal_id"] = self.journal_id.id
         return values
 
-    def create_invoice(self):
+    def create_invoice(self, invoice_date=False, payment_term_id=False):
         if not self.env["account.move"].check_access_rights("create", False):
             try:
                 self.check_access_rights("write")
@@ -300,7 +321,11 @@ class SaleSubscription(models.Model):
         for line in self.sale_subscription_line_ids:
             line_values = line._prepare_account_move_line()
             line_ids.append((0, 0, line_values))
-        invoice_values = self._prepare_account_move(line_ids)
+        invoice_values = self._prepare_account_move(
+            line_ids,
+            invoice_date=invoice_date,
+            payment_term_id=payment_term_id,
+        )
         invoice_id = (
             self.env["account.move"]
             .sudo()
@@ -381,6 +406,29 @@ class SaleSubscription(models.Model):
             "type": "ir.actions.act_window",
             "context": context,
         }
+
+    def action_generate_subscriptions(self, invoice_date=False, payment_term_id=False):
+        invoices = self.env["account.move"]
+        invoice_date = invoice_date or fields.Date.context_today(self)
+        for subscription in self:
+            invoice = subscription.create_invoice(
+                invoice_date=invoice_date,
+                payment_term_id=payment_term_id,
+            )
+            if invoice:
+                subscription.calculate_recurring_next_date(
+                    invoice_date or subscription.recurring_next_date
+                )
+                invoices |= invoice
+        action = self.env["ir.actions.act_window"]._for_xml_id(
+            "account.action_move_out_invoice_type"
+        )
+        if len(invoices) == 1:
+            action["views"] = [(self.env.ref("account.view_move_form").id, "form")]
+            action["res_id"] = invoices.id
+        else:
+            action["domain"] = [("id", "in", invoices.ids)]
+        return action
 
     @api.depends("invoice_ids", "sale_order_ids.invoice_ids")
     def _compute_account_invoice_ids_count(self):
