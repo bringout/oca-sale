@@ -332,6 +332,13 @@ msgid "Has Message"
 msgstr "Ima poruku"
 
 #. module: subscription_oca
+#. odoo-python
+#: code:addons/subscription_oca/models/sale_subscription.py:0
+#, python-format
+msgid "Generate subscriptions"
+msgstr "Generiši pretplate"
+
+#. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_close_reason_wizard__id
 msgid "ID"
 msgstr "ID"
