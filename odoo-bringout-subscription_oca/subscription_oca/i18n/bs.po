@@ -338,6 +338,7 @@ msgstr "Ima poruku"
 #: model:ir.actions.act_window,name:subscription_oca.generate_subscriptions_wizard_act_window
 #: model_terms:ir.ui.view,arch_db:subscription_oca.generate_subscriptions_wizard_view
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_form
+#: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_tree
 #, python-format
 msgid "Generate subscriptions"
 msgstr "Generiši pretplate"
