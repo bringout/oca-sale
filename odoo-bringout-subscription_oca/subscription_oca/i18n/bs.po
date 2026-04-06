@@ -1,19 +1,11 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# 	* subscription_oca
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-06 14:39+0000\n"
-"PO-Revision-Date: 2026-04-06 14:39+0000\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #. module: subscription_oca
 #: model:sale.subscription.stage,description:subscription_oca.subscription_stage_ready
@@ -22,6 +14,9 @@ msgid ""
 "        A subscription is ready to start when is not marked as in progress but it can be at any moment. If there's no 'Closed'-type stage defined, when a subscription comes to an end by automatic means, it will be marked with this stage.\n"
 "      "
 msgstr ""
+"\n"
+"        Pretplata je spremna za pokretanje kada nije označena kao u toku, ali može biti u svakom trenutku. Ako nije definirana faza tipa 'Zatvoreno', kada pretplata automatski dođe do kraja, biće označena ovom fazom.\n"
+"      "
 
 #. module: subscription_oca
 #: model:sale.subscription.stage,description:subscription_oca.subscription_stage_in_progress
@@ -30,6 +25,9 @@ msgid ""
 "        As an 'In progress'-type of stage, it will trigger the recurring invoicing process if applicable. If this stage is the first - sequence order - of the available 'In progress' types and there's a stage change from any other non-'In progress' types to this one, an invoice will be created automatically if the start date is the present day.\n"
 "      "
 msgstr ""
+"\n"
+"        Kao faza tipa 'U toku', pokrenut će proces ponavljajućeg fakturisanja ako je primjenjivo. Ako je ova faza prva - po redoslijedu - među dostupnim tipovima 'U toku' i dođe do promjene faze sa bilo kojeg drugog tipa na ovu, faktura će biti automatski kreirana ako je datum početka današnji dan.\n"
+"      "
 
 #. module: subscription_oca
 #: model:sale.subscription.stage,description:subscription_oca.subscription_stage_draft
@@ -38,6 +36,9 @@ msgid ""
 "        Draft, still working on the specifics.\n"
 "      "
 msgstr ""
+"\n"
+"        Nacrt, još se radi na detaljima.\n"
+"      "
 
 #. module: subscription_oca
 #: model:sale.subscription.stage,description:subscription_oca.subscription_stage_closed
@@ -46,21 +47,24 @@ msgid ""
 "        The final stage of a subscription. There are two ways to mark a subscription as closed. The easiest one is using the kanban card-moving capabilities, pressing the 'Close subscription' button (only available if a subscription is in progress).\n"
 "      "
 msgstr ""
+"\n"
+"        Završna faza pretplate. Postoje dva načina da se pretplata označi kao zatvorena. Najlakši je korištenjem mogućnosti pomicanja kanban kartica, pritiskom na dugme 'Zatvori pretplatu' (dostupno samo ako je pretplata u toku).\n"
+"      "
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_template_form
 msgid "<span class=\"every\">Every</span>"
-msgstr ""
+msgstr "<span class=\"every\">Svakih</span>"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_template_form
 msgid "<span class=\"mr-1\">For</span>"
-msgstr ""
+msgstr "<span class=\"mr-1\">Za</span>"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.res_partner_view_form
 msgid "<span class=\"o_stat_text\">Subscriptions</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Pretplate</span>"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_form
@@ -68,651 +72,584 @@ msgid ""
 "A given subscription can be marked as closed when, for example, renewal is "
 "not desired."
 msgstr ""
+"Pretplata može biti označena kao zatvorena kada, na primjer, obnova nije "
+"željena."
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "Potrebna akcija"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__active
 msgid "Active"
-msgstr ""
+msgstr "Aktivno"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__activity_ids
 msgid "Activities"
-msgstr ""
+msgstr "Aktivnosti"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr ""
+msgstr "Dekoracija izuzetka aktivnosti"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__activity_state
 msgid "Activity State"
-msgstr ""
+msgstr "Status aktivnosti"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__activity_type_icon
 msgid "Activity Type Icon"
-msgstr ""
+msgstr "Ikona tipa aktivnosti"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.view_subscription_stage_form
 msgid "Add new description..."
-msgstr ""
+msgstr "Dodaj novi opis..."
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__amount_tax
 msgid "Amount Tax"
-msgstr ""
+msgstr "Iznos poreza"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__amount_total
 msgid "Amount Total"
-msgstr ""
+msgstr "Ukupan iznos"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__message_attachment_count
 msgid "Attachment Count"
-msgstr ""
+msgstr "Broj priloga"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__recurring_rule_boundary
 msgid "Boundary"
-msgstr ""
+msgstr "Granica"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.close_reason_wizard_view
 msgid "Cancel"
-msgstr ""
+msgstr "Otkaži"
 
 #. module: subscription_oca
 #: model_terms:ir.actions.act_window,help:subscription_oca.subscription_stage_action
 msgid "Click to create a new subscription stage."
-msgstr ""
+msgstr "Kliknite za kreiranje nove faze pretplate."
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__close_reason_id
 msgid "Close Reason"
-msgstr ""
+msgstr "Razlog zatvaranja"
 
 #. module: subscription_oca
 #: model:ir.actions.act_window,name:subscription_oca.close_reason_wizard_act_window
-#: model_terms:ir.ui.view,arch_db:subscription_oca.close_reason_wizard_view
 msgid "Close reason"
-msgstr ""
+msgstr "Razlog zatvaranja"
 
 #. module: subscription_oca
 #: model:ir.model,name:subscription_oca.model_sale_subscription_close_reason
 msgid "Close reason model"
-msgstr ""
+msgstr "Model razloga zatvaranja"
 
 #. module: subscription_oca
 #: model:ir.model,name:subscription_oca.model_close_reason_wizard
 msgid "Close reason wizard"
-msgstr ""
+msgstr "Čarobnjak razloga zatvaranja"
 
 #. module: subscription_oca
 #: model:ir.actions.act_window,name:subscription_oca.subscription_close_reason_action
-#: model:ir.ui.menu,name:subscription_oca.subscription_close_reason_menu
 msgid "Close reasons"
-msgstr ""
+msgstr "Razlozi zatvaranja"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_form
 msgid "Close subscription"
-msgstr ""
+msgstr "Zatvori pretplatu"
 
 #. module: subscription_oca
 #: model:ir.model.fields.selection,name:subscription_oca.selection__sale_subscription_stage__type__post
-#: model:sale.subscription.stage,name:subscription_oca.subscription_stage_closed
 msgid "Closed"
-msgstr ""
+msgstr "Zatvoreno"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template__code
 msgid "Code"
-msgstr ""
+msgstr "Šifra"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__color
 msgid "Color Index"
-msgstr ""
+msgstr "Indeks boje"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__user_id
-#: model_terms:ir.ui.view,arch_db:subscription_oca.view_sale_order_pending_filter
 msgid "Commercial agent"
-msgstr ""
+msgstr "Komercijalni agent"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__company_id
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_line__company_id
 msgid "Company"
-msgstr ""
+msgstr "Kompanija"
 
 #. module: subscription_oca
 #: model:ir.ui.menu,name:subscription_oca.sale_subscription_configuration_menu
 msgid "Configuration"
-msgstr ""
+msgstr "Konfiguracija"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.close_reason_wizard_view
 msgid "Confirm"
-msgstr ""
+msgstr "Potvrdi"
 
 #. module: subscription_oca
 #: model:ir.model,name:subscription_oca.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_form
 msgid "Create Invoice"
-msgstr ""
+msgstr "Kreiraj fakturu"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_close_reason_wizard__create_uid
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__create_uid
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_close_reason__create_uid
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_line__create_uid
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_stage__create_uid
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_tag__create_uid
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Kreirao"
 
 #. module: subscription_oca
-#. odoo-python
 #: code:addons/subscription_oca/models/sale_subscription.py:0
 #, python-format
 msgid "Created invoice with reference"
-msgstr ""
+msgstr "Kreirana faktura sa referencom"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_close_reason_wizard__create_date
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__create_date
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_close_reason__create_date
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_line__create_date
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_stage__create_date
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_tag__create_date
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Kreirano"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__currency_id
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_line__currency_id
 msgid "Currency"
-msgstr ""
+msgstr "Valuta"
 
 #. module: subscription_oca
 #: model:ir.model.fields.selection,name:subscription_oca.selection__sale_subscription_template__recurring_rule_type__days
 msgid "Day(s)"
-msgstr ""
+msgstr "Dan(i)"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_kanban
 msgid "Delete"
-msgstr ""
+msgstr "Obriši"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__description
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_line__name
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_stage__description
 msgid "Description"
-msgstr ""
+msgstr "Opis"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_line__discount
 msgid "Discount (%)"
-msgstr ""
+msgstr "Popust (%)"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_close_reason_wizard__display_name
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__display_name
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_close_reason__display_name
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_line__display_name
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_tag__display_name
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Naziv za prikaz"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_stage__display_name
 msgid "Display name"
-msgstr ""
+msgstr "Naziv za prikaz"
 
 #. module: subscription_oca
 #: model:ir.model.fields.selection,name:subscription_oca.selection__sale_subscription_stage__type__draft
-#: model:ir.model.fields.selection,name:subscription_oca.selection__sale_subscription_template__invoicing_mode__draft
-#: model:sale.subscription.stage,name:subscription_oca.subscription_stage_draft
 msgid "Draft"
-msgstr ""
+msgstr "Nacrt"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template__recurring_rule_boundary
 msgid "Duration"
-msgstr ""
+msgstr "Trajanje"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_kanban
 msgid "Edit"
-msgstr ""
+msgstr "Uredi"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__stage_str
 msgid "Etapa"
-msgstr ""
+msgstr "Faza"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__date
 msgid "Finish date"
-msgstr ""
+msgstr "Datum završetka"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__fiscal_position_id
 msgid "Fiscal Position"
-msgstr ""
+msgstr "Fiskalna pozicija"
 
 #. module: subscription_oca
 #: model:ir.model.fields.selection,name:subscription_oca.selection__sale_subscription_template__recurring_rule_boundary__limited
 msgid "Fixed"
-msgstr ""
+msgstr "Ograničeno"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__message_follower_ids
 msgid "Followers"
-msgstr ""
+msgstr "Pratioci"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "Pratioci (partneri)"
 
 #. module: subscription_oca
 #: model:ir.model.fields,help:subscription_oca.field_sale_subscription__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr ""
+msgstr "Font awesome ikona npr. fa-tasks"
 
 #. module: subscription_oca
 #: model:ir.model.fields.selection,name:subscription_oca.selection__sale_subscription_template__recurring_rule_boundary__unlimited
 msgid "Forever"
-msgstr ""
+msgstr "Neograničeno"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.view_sale_order_pending_filter
 msgid "Group By"
-msgstr ""
+msgstr "Grupiši po"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__has_message
 msgid "Has Message"
-msgstr ""
+msgstr "Ima poruku"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_close_reason_wizard__id
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__id
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_close_reason__id
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_line__id
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_stage__id
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_tag__id
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__activity_exception_icon
 msgid "Icon"
-msgstr ""
+msgstr "Ikona"
 
 #. module: subscription_oca
 #: model:ir.model.fields,help:subscription_oca.field_sale_subscription__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr ""
+msgstr "Ikona za označavanje izuzetne aktivnosti."
 
 #. module: subscription_oca
 #: model:ir.model.fields,help:subscription_oca.field_sale_subscription__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Ako je označeno, nove poruke zahtijevaju vašu pažnju."
 
 #. module: subscription_oca
 #: model:ir.model.fields,help:subscription_oca.field_sale_subscription__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
+msgstr "Ako je označeno, neke poruke imaju grešku pri dostavi."
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__image
 msgid "Image"
-msgstr ""
+msgstr "Slika"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__in_progress
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_stage__in_progress
-#: model:ir.model.fields.selection,name:subscription_oca.selection__sale_subscription_stage__type__in_progress
-#: model:sale.subscription.stage,name:subscription_oca.subscription_stage_in_progress
 msgid "In progress"
-msgstr ""
+msgstr "U toku"
 
 #. module: subscription_oca
 #: model:ir.model.fields.selection,name:subscription_oca.selection__sale_subscription_template__invoicing_mode__invoice
-#: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_template_form
 msgid "Invoice"
-msgstr ""
+msgstr "Faktura"
 
 #. module: subscription_oca
 #: model:ir.model.fields.selection,name:subscription_oca.selection__sale_subscription_template__invoicing_mode__invoice_send
 msgid "Invoice & send"
-msgstr ""
+msgstr "Faktura i pošalji"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__account_invoice_ids_count
 msgid "Invoice Count"
-msgstr ""
+msgstr "Broj faktura"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template__invoice_mail_template_id
 msgid "Invoice Email"
-msgstr ""
+msgstr "Email fakture"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__invoice_ids
-#: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_form
 msgid "Invoices"
-msgstr ""
+msgstr "Fakture"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_template_form
 msgid "Invoicing"
-msgstr ""
+msgstr "Fakturisanje"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template__invoicing_mode
 msgid "Invoicing mode"
-msgstr ""
+msgstr "Način fakturisanja"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "Je pratilac"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__journal_id
 msgid "Journal"
-msgstr ""
+msgstr "Dnevnik"
 
 #. module: subscription_oca
 #: model:ir.model,name:subscription_oca.model_account_move
 msgid "Journal Entry"
-msgstr ""
+msgstr "Stavka dnevnika"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_stage__fold
 msgid "Kanban folded"
-msgstr ""
+msgstr "Kanban skupljeno"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_close_reason_wizard____last_update
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription____last_update
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_close_reason____last_update
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_line____last_update
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_stage____last_update
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_tag____last_update
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Zadnja izmjena"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_close_reason_wizard__write_uid
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__write_uid
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_close_reason__write_uid
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_line__write_uid
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_stage__write_uid
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_tag__write_uid
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Zadnji ažurirao"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_close_reason_wizard__write_date
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__write_date
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_close_reason__write_date
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_line__write_date
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_stage__write_date
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_tag__write_date
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Zadnje ažurirano"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__message_main_attachment_id
 msgid "Main Attachment"
-msgstr ""
+msgstr "Glavni prilog"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_kanban
 msgid "Menú desplegable"
-msgstr ""
+msgstr "Padajući meni"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__message_has_error
 msgid "Message Delivery error"
-msgstr ""
+msgstr "Greška dostave poruke"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__message_ids
 msgid "Messages"
-msgstr ""
+msgstr "Poruke"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_form
 msgid "Misc"
-msgstr ""
+msgstr "Razno"
 
 #. module: subscription_oca
 #: model:ir.model.fields.selection,name:subscription_oca.selection__sale_subscription_template__recurring_rule_type__months
 msgid "Month(s)"
-msgstr ""
+msgstr "Mjesec(i)"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr ""
+msgstr "Rok moje aktivnosti"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__name
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_close_reason__name
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_stage__name
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template__name
 msgid "Name"
-msgstr ""
+msgstr "Naziv"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_form
 msgid "New subscription"
-msgstr ""
+msgstr "Nova pretplata"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr ""
+msgstr "Rok sljedeće aktivnosti"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__activity_summary
 msgid "Next Activity Summary"
-msgstr ""
+msgstr "Sažetak sljedeće aktivnosti"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__activity_type_id
 msgid "Next Activity Type"
-msgstr ""
+msgstr "Tip sljedeće aktivnosti"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__recurring_next_date
-#: model_terms:ir.ui.view,arch_db:subscription_oca.view_sale_order_pending_filter
 msgid "Next invoice date"
-msgstr ""
+msgstr "Datum sljedeće fakture"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "Broj akcija"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__message_has_error_counter
 msgid "Number of errors"
-msgstr ""
+msgstr "Broj grešaka"
 
 #. module: subscription_oca
 #: model:ir.model.fields,help:subscription_oca.field_sale_subscription__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr ""
+msgstr "Broj poruka koje zahtijevaju akciju"
 
 #. module: subscription_oca
 #: model:ir.model.fields,help:subscription_oca.field_sale_subscription__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "Broj poruka sa greškom pri dostavi"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__sale_order_ids
 msgid "Orders"
-msgstr ""
+msgstr "Narudžbe"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__sale_order_id
 msgid "Origin sale order"
-msgstr ""
+msgstr "Izvorna narudžba"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_form
 msgid "Other info"
-msgstr ""
+msgstr "Ostale informacije"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__partner_id
-#: model_terms:ir.ui.view,arch_db:subscription_oca.view_sale_order_pending_filter
 msgid "Partner"
-msgstr ""
+msgstr "Partner"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.view_sale_order_pending_filter
 msgid "Pending subscriptions"
-msgstr ""
+msgstr "Pretplate na čekanju"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__pricelist_id
 msgid "Pricelist"
-msgstr ""
+msgstr "Cjenovnik"
 
 #. module: subscription_oca
 #: model:ir.model,name:subscription_oca.model_product_template
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_line__product_id
 msgid "Product"
-msgstr ""
+msgstr "Proizvod"
 
 #. module: subscription_oca
 #: model:ir.actions.act_window,name:subscription_oca.subscription_product_template_action
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template__product_ids
-#: model:ir.ui.menu,name:subscription_oca.product_subscription_menu
-#: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_template_form
 msgid "Products"
-msgstr ""
+msgstr "Proizvodi"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_line__product_uom_qty
 msgid "Quantity"
-msgstr ""
+msgstr "Količina"
 
 #. module: subscription_oca
 #: model:ir.model.fields.selection,name:subscription_oca.selection__sale_subscription_stage__type__pre
-#: model:sale.subscription.stage,name:subscription_oca.subscription_stage_ready
 msgid "Ready to start"
-msgstr ""
+msgstr "Spremno za pokretanje"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_close_reason_wizard__close_reason_id
 msgid "Reason"
-msgstr ""
+msgstr "Razlog"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template__recurring_rule_type
 msgid "Recurrence"
-msgstr ""
+msgstr "Ponavljanje"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__recurring_total
 msgid "Recurring price"
-msgstr ""
+msgstr "Ponavljajuća cijena"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__code
 msgid "Reference"
-msgstr ""
+msgstr "Referenca"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template__recurring_interval
 msgid "Repeat every"
-msgstr ""
+msgstr "Ponavljaj svakih"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__activity_user_id
 msgid "Responsible User"
-msgstr ""
+msgstr "Odgovorni korisnik"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template__recurring_rule_count
 msgid "Rule count"
-msgstr ""
+msgstr "Broj pravila"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__sale_subscription_line_ids
 msgid "Sale Subscription Line"
-msgstr ""
+msgstr "Stavka pretplate"
 
 #. module: subscription_oca
 #: model:ir.model.fields.selection,name:subscription_oca.selection__sale_subscription_template__invoicing_mode__sale_and_invoice
 msgid "Sale order & Invoice"
-msgstr ""
+msgstr "Narudžba i faktura"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__sale_order_ids_count
 msgid "Sale orders"
-msgstr ""
+msgstr "Narudžbe"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__crm_team_id
 msgid "Sale team"
-msgstr ""
+msgstr "Prodajni tim"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_form
 msgid "Sales"
-msgstr ""
+msgstr "Prodaja"
 
 #. module: subscription_oca
 #: model:ir.model,name:subscription_oca.model_sale_order
 msgid "Sales Order"
-msgstr ""
+msgstr "Narudžba"
 
 #. module: subscription_oca
 #: model:ir.model,name:subscription_oca.model_sale_order_line
 msgid "Sales Order Line"
-msgstr ""
+msgstr "Stavka narudžbe"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__sequence
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_stage__sequence
 msgid "Sequence"
-msgstr ""
+msgstr "Redoslijed"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__stage_id
-#: model_terms:ir.ui.view,arch_db:subscription_oca.view_sale_order_pending_filter
 msgid "Stage"
-msgstr ""
+msgstr "Faza"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.view_subscription_stage_form
@@ -722,11 +659,15 @@ msgid ""
 "'Closed' type of stage.                 Bear in mind that there can only be "
 "one 'Closed'-type stage."
 msgstr ""
+"Faze definišu životni ciklus date pretplate; to jest,                 "
+"pretplata može biti u fazi tipa 'Spremno za pokretanje', 'U toku' ili "
+"'Zatvoreno'.                 Imajte na umu da može postojati samo jedna faza"
+" tipa 'Zatvoreno'."
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__date_start
 msgid "Start date"
-msgstr ""
+msgstr "Datum početka"
 
 #. module: subscription_oca
 #: model:ir.model.fields,help:subscription_oca.field_sale_subscription__activity_state
@@ -736,159 +677,138 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Status na osnovu aktivnosti\n"
+"Isteklo: Rok je već prošao\n"
+"Danas: Datum aktivnosti je danas\n"
+"Planirano: Buduće aktivnosti."
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_product_product__subscribable
-#: model:ir.model.fields,field_description:subscription_oca.field_product_template__subscribable
 msgid "Subscribable product"
-msgstr ""
+msgstr "Proizvod za pretplatu"
 
 #. module: subscription_oca
 #: model:ir.model,name:subscription_oca.model_sale_subscription
-#: model:ir.model.fields,field_description:subscription_oca.field_account_bank_statement_line__subscription_id
-#: model:ir.model.fields,field_description:subscription_oca.field_account_move__subscription_id
-#: model:ir.model.fields,field_description:subscription_oca.field_account_payment__subscription_id
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_order__order_subscription_id
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_line__sale_subscription_id
-#: model_terms:ir.ui.view,arch_db:subscription_oca.view_move_form
 msgid "Subscription"
-msgstr ""
+msgstr "Pretplata"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_res_partner__subscription_count
-#: model:ir.model.fields,field_description:subscription_oca.field_res_users__subscription_count
 msgid "Subscription Count"
-msgstr ""
+msgstr "Broj pretplata"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_form
 msgid "Subscription lines"
-msgstr ""
+msgstr "Stavke pretplate"
 
 #. module: subscription_oca
 #: model:ir.model,name:subscription_oca.model_sale_subscription_line
 msgid "Subscription lines added to a given subscription"
-msgstr ""
+msgstr "Stavke pretplate dodane na datu pretplatu"
 
 #. module: subscription_oca
 #: model:ir.model,name:subscription_oca.model_sale_subscription_stage
-#: model_terms:ir.ui.view,arch_db:subscription_oca.view_subscription_stage_form
 msgid "Subscription stage"
-msgstr ""
+msgstr "Faza pretplate"
 
 #. module: subscription_oca
 #: model:ir.ui.menu,name:subscription_oca.subscription_stage_menu
 msgid "Subscription stages"
-msgstr ""
+msgstr "Faze pretplate"
 
 #. module: subscription_oca
 #: model:ir.ui.menu,name:subscription_oca.subscription_tag_menu
 msgid "Subscription tags"
-msgstr ""
+msgstr "Oznake pretplate"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_product_product__subscription_template_id
-#: model:ir.model.fields,field_description:subscription_oca.field_product_template__subscription_template_id
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__template_id
 msgid "Subscription template"
-msgstr ""
+msgstr "Predložak pretplate"
 
 #. module: subscription_oca
 #: model:ir.actions.act_window,name:subscription_oca.sale_subscription_template_act_window
-#: model:ir.model,name:subscription_oca.model_sale_subscription_template
-#: model:ir.ui.menu,name:subscription_oca.sale_template_subscription_menu
 msgid "Subscription templates"
-msgstr ""
+msgstr "Predlošci pretplate"
 
 #. module: subscription_oca
 #: model:ir.actions.act_window,name:subscription_oca.sale_subscription_action
-#: model:ir.model.fields,field_description:subscription_oca.field_res_partner__subscription_ids
-#: model:ir.model.fields,field_description:subscription_oca.field_res_users__subscription_ids
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_order__subscription_ids
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template__subscription_ids
-#: model:ir.ui.menu,name:subscription_oca.sale_subscription_menu
-#: model:ir.ui.menu,name:subscription_oca.sale_subscription_root
-#: model:ir.ui.menu,name:subscription_oca.subscription_menu
-#: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_template_form
-#: model_terms:ir.ui.view,arch_db:subscription_oca.view_sale_order_form
 msgid "Subscriptions"
-msgstr ""
+msgstr "Pretplate"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_order__subscriptions_count
 msgid "Subscriptions Count"
-msgstr ""
+msgstr "Broj pretplata"
 
 #. module: subscription_oca
 #: model:ir.actions.server,name:subscription_oca.ir_cron_subscription_management_ir_actions_server
-#: model:ir.cron,cron_name:subscription_oca.ir_cron_subscription_management
 msgid "Subscriptions management"
-msgstr ""
+msgstr "Upravljanje pretplatama"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_line__price_subtotal
 msgid "Subtotal"
-msgstr ""
+msgstr "Podzbroj"
 
 #. module: subscription_oca
 #: model:ir.actions.act_window,name:subscription_oca.subscription_stage_action
 msgid "Susbcription stages"
-msgstr ""
+msgstr "Faze pretplate"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.view_product_suscribable_filter
 msgid "Suscribable products"
-msgstr ""
+msgstr "Proizvodi za pretplatu"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_tag__name
 msgid "Tag name"
-msgstr ""
+msgstr "Naziv oznake"
 
 #. module: subscription_oca
 #: model:ir.actions.act_window,name:subscription_oca.subscription_tag_action
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__tag_ids
 msgid "Tags"
-msgstr ""
+msgstr "Oznake"
 
 #. module: subscription_oca
 #: model:ir.model,name:subscription_oca.model_sale_subscription_tag
 msgid "Tags for sale subscription"
-msgstr ""
+msgstr "Oznake za pretplatu"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_line__tax_ids
 msgid "Taxes"
-msgstr ""
+msgstr "Porezi"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_line__amount_tax_line_amount
 msgid "Taxes Amount"
-msgstr ""
+msgstr "Iznos poreza"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_template_form
 msgid "Terms and Conditions"
-msgstr ""
+msgstr "Uslovi i odredbe"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__terms
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template__description
 msgid "Terms and conditions"
-msgstr ""
+msgstr "Uslovi i odredbe"
 
 #. module: subscription_oca
-#. odoo-python
 #: code:addons/subscription_oca/models/sale_subscription_stage.py:0
 #, python-format
 msgid "There is already a Closed-type stage declared"
-msgstr ""
+msgstr "Već postoji deklarisana faza tipa Zatvoreno"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_kanban
 msgid ""
 "This bar allows to filter the opportunities based on scheduled activities."
 msgstr ""
+"Ova traka omogućava filtriranje prilika na osnovu planiranih aktivnosti."
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.view_subscription_stage_form
@@ -898,86 +818,88 @@ msgid ""
 "consequent with your needs, you could have a 'Closed'-type stage before a "
 "'Ready to start' one."
 msgstr ""
+"Ovo polje određuje vizualni redoslijed faza na Kanban i form pregledu. Iako "
+"je čisto vizualno, imajte na umu da ako redoslijed nije                 u "
+"skladu s vašim potrebama, možete imati fazu tipa 'Zatvoreno' prije faze "
+"'Spremno za pokretanje'."
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__to_renew
 msgid "To renew"
-msgstr ""
+msgstr "Za obnovu"
 
 #. module: subscription_oca
-#. odoo-python
 #: code:addons/subscription_oca/models/sale_subscription.py:0
 #, python-format
 msgid "To validate"
-msgstr ""
+msgstr "Za validaciju"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_line__price_total
-#: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_tree
 msgid "Total"
-msgstr ""
+msgstr "Ukupno"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_tree
 msgid "Total Tax"
-msgstr ""
+msgstr "Ukupan porez"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_tree
 msgid "Total subtotal"
-msgstr ""
+msgstr "Ukupan podzbroj"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_stage__type
 msgid "Type"
-msgstr ""
+msgstr "Tip"
 
 #. module: subscription_oca
 #: model:ir.model.fields,help:subscription_oca.field_sale_subscription__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr ""
+msgstr "Tip izuzetne aktivnosti na zapisu."
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_line__price_unit
 msgid "Unit price"
-msgstr ""
+msgstr "Jedinična cijena"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__website_message_ids
 msgid "Website Messages"
-msgstr ""
+msgstr "Poruke web stranice"
 
 #. module: subscription_oca
 #: model:ir.model.fields,help:subscription_oca.field_sale_subscription__website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "Historija komunikacije web stranice"
 
 #. module: subscription_oca
 #: model:ir.model.fields.selection,name:subscription_oca.selection__sale_subscription_template__recurring_rule_type__weeks
 msgid "Week(s)"
-msgstr ""
+msgstr "Sedmica(e)"
 
 #. module: subscription_oca
 #: model:ir.model.fields.selection,name:subscription_oca.selection__sale_subscription_template__recurring_rule_type__years
 msgid "Year(s)"
-msgstr ""
+msgstr "Godina(e)"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_template_form
 msgid "e.g. Monthly Subscription"
-msgstr ""
+msgstr "npr. Mjesečna pretplata"
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_template_form
 msgid "month(s)"
-msgstr ""
+msgstr "mjesec(i)"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template__product_ids_count
 msgid "product_ids"
-msgstr ""
+msgstr "product_ids"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template__subscription_count
 msgid "subscription_ids"
-msgstr ""
+msgstr "subscription_ids"
