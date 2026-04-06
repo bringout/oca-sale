@@ -1,6 +1,6 @@
 [project]
 name = "odoo-bringout-subscription_oca"
-version = "16.0.1.0.0"
+version = "16.0.1.3.0"
 description = "Subscription management - Generate recurring invoices"
 authors = [
     { name = "Ernad Husremovic", email = "hernad@bring.out.ba" }

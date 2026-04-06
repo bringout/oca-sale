@@ -139,24 +139,28 @@ class SaleSubscription(models.Model):
 
     def cron_subscription_management(self):
         today = date.today()
-        for subscription in self.search([]):
+        for subscription in self.search([], order="recurring_next_date asc"):
+            subscription = subscription.with_company(subscription.company_id)
             if subscription.in_progress:
                 if (
-                    subscription.recurring_next_date == today
+                    subscription.recurring_next_date <= today
                     and subscription.sale_subscription_line_ids
                 ):
                     try:
                         subscription.generate_invoice()
                     except Exception:
                         logger.exception("Error on subscription invoice generate")
-                if not subscription.recurring_rule_boundary:
-                    if subscription.date == today:
-                        subscription.action_close_subscription()
+                if (
+                    not subscription.recurring_rule_boundary
+                    and subscription.date <= today
+                ):
+                    subscription.close_subscription()
 
-            else:
-                if subscription.date_start == today:
-                    subscription.action_start_subscription()
-                    subscription.generate_invoice()
+            elif (
+                subscription.date_start <= today and subscription.stage_id.type == "pre"
+            ):
+                subscription.action_start_subscription()
+                subscription.generate_invoice()
 
     @api.depends("sale_subscription_line_ids")
     def _compute_total(self):
@@ -239,7 +243,6 @@ class SaleSubscription(models.Model):
         self.stage_id = in_progress_stage
 
     def action_close_subscription(self):
-        self.recurring_next_date = False
         return {
             "view_type": "form",
             "view_mode": "form",
@@ -248,6 +251,15 @@ class SaleSubscription(models.Model):
             "target": "new",
             "res_id": False,
         }
+
+    def close_subscription(self, close_reason_id=False):
+        self.ensure_one()
+        self.recurring_next_date = False
+        closed_stage = self.env["sale.subscription.stage"].search(
+            [("type", "=", "post")], limit=1
+        )
+        self.close_reason_id = close_reason_id
+        self.stage_id = closed_stage
 
     def _prepare_sale_order(self, line_ids=False):
         self.ensure_one()
@@ -271,6 +283,7 @@ class SaleSubscription(models.Model):
             "invoice_user_id": self.user_id.id,
             "partner_bank_id": self.company_id.partner_id.bank_ids[:1].id,
             "invoice_line_ids": line_ids,
+            "subscription_id": self.id,
         }
         if self.journal_id:
             values["journal_id"] = self.journal_id.id
@@ -294,7 +307,6 @@ class SaleSubscription(models.Model):
             .with_context(default_move_type="out_invoice", journal_type="sale")
             .create(invoice_values)
         )
-        self.write({"invoice_ids": [(4, invoice_id.id)]})
         return invoice_id
 
     def create_sale_order(self):
@@ -327,6 +339,7 @@ class SaleSubscription(models.Model):
                         composition_mode="comment",
                         email_layout_xmlid="mail.mail_notification_paynow",
                     )
+                    invoice.write({"is_move_sent": True})
                 invoice_number = invoice.name
                 message_body = (
                     "<b>%s</b> <a href=# data-oe-model=account.move data-oe-id=%d>%s</a>"
@@ -464,7 +477,7 @@ class SaleSubscription(models.Model):
                 values["date_start"] = values["recurring_next_date"]
             values["stage_id"] = (
                 self.env["sale.subscription.stage"]
-                .search([("type", "=", "pre")], order="sequence desc", limit=1)
+                .search([("type", "=", "draft")], order="sequence desc", limit=1)
                 .id
             )
         return super(SaleSubscription, self).create(values)
