@@ -28,7 +28,7 @@ msgstr "Pravilo cjenika"
 #. module: sale_pricelist_display_surcharge
 #: model:ir.model,name:sale_pricelist_display_surcharge.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: sale_pricelist_display_surcharge
 #: model:ir.model.fields,field_description:sale_pricelist_display_surcharge.field_product_pricelist_item__show_surcharge

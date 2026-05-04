@@ -21,4 +21,4 @@ msgstr "Izvještaj analize prodaje"
 #. module: sale_report_delivered_volume
 #: model:ir.model.fields,field_description:sale_report_delivered_volume.field_sale_report__volume_delivered
 msgid "Volume Delivered"
-msgstr "Volume Delivered"
+msgstr ""

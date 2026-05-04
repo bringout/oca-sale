@@ -16,4 +16,4 @@ msgstr ""
 #. module: sale_order_search_line
 #: model_terms:ir.ui.view,arch_db:sale_order_search_line.view_sales_order_filter_inherit
 msgid "Sales Line"
-msgstr "Sales Line"
+msgstr ""

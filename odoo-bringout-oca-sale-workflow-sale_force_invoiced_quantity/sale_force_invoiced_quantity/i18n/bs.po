@@ -36,7 +36,7 @@ msgstr "Prodaja Force Fakturad qty product 2"
 #. module: sale_force_invoiced_quantity
 #: model:ir.model,name:sale_force_invoiced_quantity.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: sale_force_invoiced_quantity
 #: model:ir.model.fields,help:sale_force_invoiced_quantity.field_sale_order_line__force_invoiced_quantity

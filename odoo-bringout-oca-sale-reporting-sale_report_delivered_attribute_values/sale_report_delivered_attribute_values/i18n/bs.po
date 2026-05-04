@@ -25,7 +25,7 @@ msgstr ""
 #. module: sale_report_delivered_attribute_values
 #: model_terms:ir.ui.view,arch_db:sale_report_delivered_attribute_values.view_sale_report_delivered_search
 msgid "Attribue Value"
-msgstr "Attribue Value"
+msgstr ""
 
 #. module: sale_report_delivered_attribute_values
 #: model_terms:ir.ui.view,arch_db:sale_report_delivered_attribute_values.view_sale_report_delivered_search
@@ -45,4 +45,4 @@ msgstr "Stavka prodaje"
 #. module: sale_report_delivered_attribute_values
 #: model:ir.model,name:sale_report_delivered_attribute_values.model_sale_report_delivered
 msgid "Sales Delivered Analysis Report"
-msgstr "Sales Delivered Analysis Report"
+msgstr ""

@@ -16,7 +16,7 @@ msgstr ""
 #. module: sale_order_tag
 #: model:ir.model.fields,field_description:sale_order_tag.field_sale_order_tag__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: sale_order_tag
 #: model:ir.model.fields,field_description:sale_order_tag.field_sale_order_tag__color
@@ -26,7 +26,7 @@ msgstr "Indeks boje"
 #. module: sale_order_tag
 #: model:ir.model.fields,field_description:sale_order_tag.field_sale_order_tag__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: sale_order_tag
 #: model:ir.model.fields,field_description:sale_order_tag.field_sale_order_tag__create_uid
@@ -46,7 +46,7 @@ msgstr "Opis"
 #. module: sale_order_tag
 #: model:ir.model.fields,field_description:sale_order_tag.field_sale_order_tag__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: sale_order_tag
 #: model:ir.model.fields,field_description:sale_order_tag.field_sale_order_tag__id
@@ -56,7 +56,7 @@ msgstr "ID"
 #. module: sale_order_tag
 #: model:ir.model.fields,field_description:sale_order_tag.field_sale_order_tag____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: sale_order_tag
 #: model:ir.model.fields,field_description:sale_order_tag.field_sale_order_tag__write_uid
@@ -71,12 +71,12 @@ msgstr "Zadnje ažurirano"
 #. module: sale_order_tag
 #: model:ir.model.fields,field_description:sale_order_tag.field_sale_order_tag__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: sale_order_tag
 #: model:ir.model,name:sale_order_tag.model_sale_order_tag
 msgid "Sale Order Tag"
-msgstr "Sale Order Tag"
+msgstr ""
 
 #. module: sale_order_tag
 #: model:ir.actions.act_window,name:sale_order_tag.sale_order_tag_action
@@ -86,7 +86,7 @@ msgstr "Oznake prodajnog naloga"
 #. module: sale_order_tag
 #: model:ir.model,name:sale_order_tag.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_order_tag
 #: model:ir.model.fields,field_description:sale_order_tag.field_sale_order_tag__team_ids
@@ -96,7 +96,7 @@ msgstr "Prodajni timovi"
 #. module: sale_order_tag
 #: model:ir.model.fields,field_description:sale_order_tag.field_sale_order_tag__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: sale_order_tag
 #: model:ir.model.constraint,message:sale_order_tag.constraint_sale_order_tag_name_uniq
@@ -106,4 +106,4 @@ msgstr "Naziv oznake već postoji !"
 #. module: sale_order_tag
 #: model_terms:ir.ui.view,arch_db:sale_order_tag.sale_order_tag_view_form
 msgid "tag..."
-msgstr "tag..."
+msgstr ""

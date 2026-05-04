@@ -50,7 +50,7 @@ msgstr "Opis prodaje proizvoda"
 #. module: sale_order_line_description
 #: model:ir.model,name:sale_order_line_description.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka ponude"
+msgstr "Stavka narudžbe"
 
 #. module: sale_order_line_description
 #: model:res.groups,name:sale_order_line_description.group_use_product_description_per_so_line

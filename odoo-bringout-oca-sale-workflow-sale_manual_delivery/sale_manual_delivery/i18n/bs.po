@@ -81,7 +81,7 @@ msgstr "Opis"
 #. module: sale_manual_delivery
 #: model:ir.model.fields,field_description:sale_manual_delivery.field_manual_delivery__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: sale_manual_delivery
 #: model_terms:ir.actions.act_window,help:sale_manual_delivery.action_order_line_delivery_tree
@@ -106,7 +106,7 @@ msgstr ""
 #. module: sale_manual_delivery
 #: model:ir.model.fields,field_description:sale_manual_delivery.field_manual_delivery____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: sale_manual_delivery
 #: model:ir.model.fields,field_description:sale_manual_delivery.field_manual_delivery__write_uid
@@ -146,7 +146,7 @@ msgstr "Naručeno"
 
 #. module: sale_manual_delivery
 #. odoo-python
-#: code:addons/sale_manual_delivery/wizard/manual_delivery.py
+#: code:addons/sale_manual_delivery/wizard/manual_delivery.py:0
 #, python-format
 msgid "Please select one partner at a time"
 msgstr "Molimo odaberite jednog partnera u isto vrijeme"
@@ -164,7 +164,7 @@ msgstr "Grupa naručivanja"
 #. module: sale_manual_delivery
 #: model:ir.model.fields,field_description:sale_manual_delivery.field_manual_delivery_line__product_id
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: sale_manual_delivery
 #: model:ir.model.fields,field_description:sale_manual_delivery.field_manual_delivery_line__quantity
@@ -206,12 +206,12 @@ msgstr "Vezana zaključnica"
 #. module: sale_manual_delivery
 #: model:ir.model,name:sale_manual_delivery.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_manual_delivery
 #: model:ir.model,name:sale_manual_delivery.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: sale_manual_delivery
 #: model_terms:ir.ui.view,arch_db:sale_manual_delivery.view_sales_order_undelivered_line_filter
@@ -259,7 +259,7 @@ msgstr "ID čarobnjaka"
 
 #. module: sale_manual_delivery
 #. odoo-python
-#: code:addons/sale_manual_delivery/wizard/manual_delivery_line.py
+#: code:addons/sale_manual_delivery/wizard/manual_delivery_line.py:0
 #, python-format
 msgid ""
 "You can not deliver more than the remaining quantity. If you need to do so, "
@@ -270,7 +270,7 @@ msgstr ""
 
 #. module: sale_manual_delivery
 #. odoo-python
-#: code:addons/sale_manual_delivery/models/sale_order.py
+#: code:addons/sale_manual_delivery/models/sale_order.py:0
 #, python-format
 msgid ""
 "You can only change to/from manual delivery in a quote, not a confirmed "

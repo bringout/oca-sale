@@ -102,7 +102,7 @@ msgstr "Kupac sale warning"
 #. module: sale_exception
 #: model:ir.model.fields,field_description:sale_exception.field_sale_exception_confirm__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 # taken from hr.po
 #. module: sale_exception
@@ -144,13 +144,13 @@ msgstr "Izuzeci u prodaji"
 #. module: sale_exception
 #: model:ir.model.fields,field_description:sale_exception.field_sale_order_line__is_exception_danger
 msgid "Is Exception Danger"
-msgstr "Is Exception Danger"
+msgstr ""
 
 # taken from hr.po
 #. module: sale_exception
 #: model:ir.model.fields,field_description:sale_exception.field_sale_exception_confirm____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: sale_exception
@@ -178,17 +178,17 @@ msgstr "Nema PTT broja na odredištu"
 #. module: sale_exception
 #: model:exception.rule,name:sale_exception.excep_no_dumping
 msgid "No dumping"
-msgstr "No dumping"
+msgstr ""
 
 #. module: sale_exception
 #: model:exception.rule,name:sale_exception.excep_no_free
 msgid "No free order"
-msgstr "No free order"
+msgstr ""
 
 #. module: sale_exception
 #: model:exception.rule,name:sale_exception.excep_no_sol
 msgid "No order lines"
-msgstr "No order lines"
+msgstr ""
 
 # taken from hr.po
 #. module: sale_exception
@@ -238,12 +238,12 @@ msgstr "Prodaja"
 #. module: sale_exception
 #: model:ir.model,name:sale_exception.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_exception
 #: model:ir.model,name:sale_exception.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: sale_exception
 #: model:ir.actions.server,name:sale_exception.ir_cron_test_orders_ir_actions_server
@@ -253,14 +253,14 @@ msgstr "Test Nacrt Nalogs"
 #. module: sale_exception
 #: model:exception.rule,description:sale_exception.exception_partner_sale_warning
 msgid "The customer has a sale warning in his form"
-msgstr "The customer has a sale warning in his form"
+msgstr ""
 
 #. module: sale_exception
 #: model:exception.rule,description:sale_exception.exception_product_sale_warning
 msgid "The product has a warning in his form"
-msgstr "The product has a warning in his form"
+msgstr ""
 
 #. module: sale_exception
 #: model:exception.rule,description:sale_exception.excep_no_free
 msgid "The total can't be 0"
-msgstr "The total can't be 0"
+msgstr ""

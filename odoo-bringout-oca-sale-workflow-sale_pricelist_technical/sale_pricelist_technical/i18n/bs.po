@@ -42,12 +42,12 @@ msgstr "Je tehničko"
 #. module: sale_pricelist_technical
 #: model:ir.model,name:sale_pricelist_technical.model_product_pricelist
 msgid "Pricelist"
-msgstr "Cjenik"
+msgstr "Cjenovnik"
 
 #. module: sale_pricelist_technical
 #: model:ir.model,name:sale_pricelist_technical.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_pricelist_technical
 #: model:product.pricelist,name:sale_pricelist_technical.technical_pricelist

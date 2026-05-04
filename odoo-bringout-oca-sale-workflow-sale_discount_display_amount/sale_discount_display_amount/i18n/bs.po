@@ -29,13 +29,13 @@ msgstr "Podzbroj popusta"
 #. module: sale_discount_display_amount
 #: model:ir.model,name:sale_discount_display_amount.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 # taken from hr.po
 #. module: sale_discount_display_amount
 #: model:ir.model,name:sale_discount_display_amount.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajnog naloga"
+msgstr "Stavka narudžbe"
 
 # taken from hr.po
 #. module: sale_discount_display_amount

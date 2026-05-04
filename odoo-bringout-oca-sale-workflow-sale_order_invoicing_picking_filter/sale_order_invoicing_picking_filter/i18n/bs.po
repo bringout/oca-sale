@@ -52,12 +52,12 @@ msgstr "Avansna faktura prodaje"
 #. module: sale_order_invoicing_picking_filter
 #: model:ir.model,name:sale_order_invoicing_picking_filter.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_order_invoicing_picking_filter
 #: model:ir.model,name:sale_order_invoicing_picking_filter.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: sale_order_invoicing_picking_filter
 #: model:ir.model.fields,field_description:sale_order_invoicing_picking_filter.field_sale_advance_payment_inv__there_are_service_product

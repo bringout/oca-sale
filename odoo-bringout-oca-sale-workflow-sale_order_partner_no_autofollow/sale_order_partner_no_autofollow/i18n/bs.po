@@ -36,4 +36,4 @@ msgstr "Kupac neće biti automatski dodan kao pratilac na prodajnim nalozima"
 #. module: sale_order_partner_no_autofollow
 #: model:ir.model,name:sale_order_partner_no_autofollow.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"

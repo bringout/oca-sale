@@ -23,13 +23,13 @@ msgstr "<span><b>Ukupna težina:</b></span>"
 #. module: sale_order_weight
 #: model:ir.model,name:sale_order_weight.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 # taken from hr.po
 #. module: sale_order_weight
 #: model:ir.model,name:sale_order_weight.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajnog naloga"
+msgstr "Stavka narudžbe"
 
 # taken from hr.po
 #. module: sale_order_weight

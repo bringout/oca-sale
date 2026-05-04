@@ -29,7 +29,7 @@ msgstr "Iznos prodajnog naloga u valuti kompanije"
 #. module: sale_company_currency
 #: model:ir.model,name:sale_company_currency.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 # taken from hr.po
 #. module: sale_company_currency

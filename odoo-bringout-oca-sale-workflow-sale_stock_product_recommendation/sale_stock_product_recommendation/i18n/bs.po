@@ -16,7 +16,7 @@ msgstr ""
 #. module: sale_stock_product_recommendation
 #: model:ir.model.fields,field_description:sale_stock_product_recommendation.field_sale_order_recommendation_line__display_qty_widget
 msgid "Display Qty Widget"
-msgstr "Display Qty Widget"
+msgstr ""
 
 #. module: sale_stock_product_recommendation
 #: model:ir.model.fields,field_description:sale_stock_product_recommendation.field_sale_order_recommendation_line__forecast_expected_date
@@ -46,7 +46,7 @@ msgstr "Kol.za isporuku"
 #. module: sale_stock_product_recommendation
 #: model:ir.model,name:sale_stock_product_recommendation.model_sale_order_recommendation_line
 msgid "Recommended product for current sale order"
-msgstr "Recommended product for current sale order"
+msgstr ""
 
 #. module: sale_stock_product_recommendation
 #: model:ir.model.fields,field_description:sale_stock_product_recommendation.field_sale_order_recommendation_line__scheduled_date
@@ -56,7 +56,7 @@ msgstr "Zakazani datum"
 #. module: sale_stock_product_recommendation
 #: model:ir.model.fields,field_description:sale_stock_product_recommendation.field_sale_order_recommendation_line__state
 msgid "Status"
-msgstr "Status"
+msgstr ""
 
 #. module: sale_stock_product_recommendation
 #: model:ir.model.fields,field_description:sale_stock_product_recommendation.field_sale_order_recommendation_line__move_ids

@@ -61,7 +61,7 @@ msgstr "Normalan"
 #. module: sale_order_currency_rate
 #: model:ir.model,name:sale_order_currency_rate.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_order_currency_rate
 #: model_terms:ir.ui.view,arch_db:sale_order_currency_rate.res_config_settings_view

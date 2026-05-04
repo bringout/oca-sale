@@ -21,12 +21,12 @@ msgstr "Je depozit kontejnera"
 #. module: sale_product_packaging_container_deposit
 #: model:ir.model,name:sale_product_packaging_container_deposit.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_product_packaging_container_deposit
 #: model:ir.model,name:sale_product_packaging_container_deposit.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: sale_product_packaging_container_deposit
 #: model:ir.model,name:sale_product_packaging_container_deposit.model_stock_move

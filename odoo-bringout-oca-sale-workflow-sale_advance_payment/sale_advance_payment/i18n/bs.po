@@ -34,7 +34,7 @@ msgstr "Status avansnog plaćanja"
 #. module: sale_advance_payment
 #: model:ir.model.fields,field_description:sale_advance_payment.field_account_voucher_wizard__amount_total
 msgid "Amount Total"
-msgstr "Ukupni iznos"
+msgstr "Ukupan iznos"
 
 # taken from hr.po
 #. module: sale_advance_payment
@@ -51,7 +51,7 @@ msgstr "Iznos u valuti naloga"
 # taken from hr.po
 #. module: sale_advance_payment
 #. odoo-python
-#: code:addons/sale_advance_payment/wizard/sale_advance_payment_wzd.py
+#: code:addons/sale_advance_payment/wizard/sale_advance_payment_wzd.py:0
 #, python-format
 msgid "Amount of advance must be positive."
 msgstr "Iznos avansa mora biti pozitivan."
@@ -60,9 +60,7 @@ msgstr "Iznos avansa mora biti pozitivan."
 #. module: sale_advance_payment
 #: model_terms:ir.ui.view,arch_db:sale_advance_payment.view_account_voucher_wizard
 msgid "Cancel"
-msgstr ""
-"Ova opcija uvodi dodatna polja u prodajnu narudžbu za lako planiranje "
-"dostave proizvoda: očekivani datum, datum obaveze, efikasni datum."
+msgstr "Otkaži"
 
 # taken from hr.po
 #. module: sale_advance_payment
@@ -98,7 +96,7 @@ msgstr "Datum"
 #. module: sale_advance_payment
 #: model:ir.model.fields,field_description:sale_advance_payment.field_account_voucher_wizard__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: sale_advance_payment
 #: model:ir.model.fields,field_description:sale_advance_payment.field_account_voucher_wizard__id
@@ -114,7 +112,7 @@ msgstr "Ulazno"
 # taken from hr.po
 #. module: sale_advance_payment
 #. odoo-python
-#: code:addons/sale_advance_payment/wizard/sale_advance_payment_wzd.py
+#: code:addons/sale_advance_payment/wizard/sale_advance_payment_wzd.py:0
 #, python-format
 msgid "Inbound amount of advance is greater than residual amount on sale"
 msgstr "Ulazni iznos avansa je veći od dospjelog iznosa prodaje"
@@ -129,25 +127,25 @@ msgstr "Dnevnik"
 #. module: sale_advance_payment
 #: model:ir.model.fields,field_description:sale_advance_payment.field_account_voucher_wizard__journal_currency_id
 msgid "Journal Currency"
-msgstr "Valuta dnevnika"
+msgstr "Dnevnik valute"
 
 # taken from hr.po
 #. module: sale_advance_payment
 #: model:ir.model,name:sale_advance_payment.model_account_move
 msgid "Journal Entry"
-msgstr "Zapis dnevnika"
+msgstr "Stavka dnevnika"
 
 # taken from hr.po
 #. module: sale_advance_payment
 #: model:ir.model.fields,field_description:sale_advance_payment.field_account_voucher_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje modificirano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: sale_advance_payment
 #: model:ir.model.fields,field_description:sale_advance_payment.field_account_voucher_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirao"
+msgstr "Zadnji ažurirao"
 
 # taken from hr.po
 #. module: sale_advance_payment
@@ -159,7 +157,7 @@ msgstr "Zadnje ažurirano"
 #. module: sale_advance_payment
 #: model_terms:ir.ui.view,arch_db:sale_advance_payment.view_account_voucher_wizard
 msgid "Make advance payment"
-msgstr "Upravljaj datumima dostave iz prodajnih narudžbi."
+msgstr "Napravi avansno plaćanje"
 
 # taken from hr.po
 #. module: sale_advance_payment
@@ -177,7 +175,7 @@ msgstr "Operacija"
 #. module: sale_advance_payment
 #: model:ir.model.fields,field_description:sale_advance_payment.field_account_voucher_wizard__order_id
 msgid "Order"
-msgstr "Ponuda"
+msgstr "Nalog"
 
 # taken from hr.po
 #. module: sale_advance_payment
@@ -200,7 +198,7 @@ msgstr "Izlazno"
 # taken from hr.po
 #. module: sale_advance_payment
 #. odoo-python
-#: code:addons/sale_advance_payment/wizard/sale_advance_payment_wzd.py
+#: code:addons/sale_advance_payment/wizard/sale_advance_payment_wzd.py:0
 #, python-format
 msgid "Outbound amount of advance is greater than the advanced paid amount"
 msgstr "Izlazni iznos avansa je veći od avansno plaćenog iznosa"
@@ -215,7 +213,7 @@ msgstr "Plaćeno"
 #. module: sale_advance_payment
 #: model:ir.model.fields.selection,name:sale_advance_payment.selection__sale_order__advance_payment_status__partial
 msgid "Partially Paid"
-msgstr "Djelomično plaćeno"
+msgstr "Djelimično plaćeno"
 
 # taken from hr.po
 #. module: sale_advance_payment
@@ -238,12 +236,12 @@ msgstr "Vrsta plaćanja"
 #. module: sale_advance_payment
 #: model_terms:ir.ui.view,arch_db:sale_advance_payment.view_order_form
 msgid "Payment advances"
-msgstr "Avans plaćanja"
+msgstr "Avansna plaćanja"
 
 #. module: sale_advance_payment
 #: model:ir.model.fields,field_description:sale_advance_payment.field_sale_order__payment_line_ids
 msgid "Payment move lines"
-msgstr "Linije kretanja plaćanja"
+msgstr "Stavke plaćanja"
 
 #. module: sale_advance_payment
 #: model:ir.model,name:sale_advance_payment.model_account_payment
@@ -268,11 +266,11 @@ msgstr "Prodaja"
 #. module: sale_advance_payment
 #: model:ir.model,name:sale_advance_payment.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_advance_payment
 #. odoo-python
-#: code:addons/sale_advance_payment/wizard/sale_advance_payment_wzd.py
+#: code:addons/sale_advance_payment/wizard/sale_advance_payment_wzd.py:0
 #, python-format
 msgid ""
 "The amount to advance must always be positive. Please use the payment type "

@@ -46,7 +46,7 @@ msgstr "Kreirano"
 #. module: sale_order_mass_action
 #: model:ir.model.fields,field_description:sale_order_mass_action.field_sale_order_mass_action_wizard__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: sale_order_mass_action
 #: model:ir.model.fields,field_description:sale_order_mass_action.field_sale_order_mass_action_wizard__id
@@ -56,7 +56,7 @@ msgstr "ID"
 #. module: sale_order_mass_action
 #: model:ir.model.fields,field_description:sale_order_mass_action.field_sale_order_mass_action_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: sale_order_mass_action
 #: model:ir.model.fields,field_description:sale_order_mass_action.field_sale_order_mass_action_wizard__write_uid
@@ -85,7 +85,7 @@ msgstr "Masovna akcija prodajnog naloga"
 
 #. module: sale_order_mass_action
 #. odoo-python
-#: code:addons/sale_order_mass_action/wizards/sale_order_mass_action_wizard.py
+#: code:addons/sale_order_mass_action/wizards/sale_order_mass_action_wizard.py:0
 #, python-format
 msgid "The following orders has been updated : %(order_names)s"
 msgstr "Sljedeći nalozi su ažurirani: %(order_names)s"

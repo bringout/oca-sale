@@ -21,4 +21,4 @@ msgstr "Pakiranje proizvoda"
 #. module: sale_packaging_default
 #: model:ir.model,name:sale_packaging_default.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"

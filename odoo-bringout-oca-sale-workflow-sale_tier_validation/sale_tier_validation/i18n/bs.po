@@ -72,7 +72,7 @@ msgstr "Sljedeća ovjera"
 
 #. module: sale_tier_validation
 #. odoo-python
-#: code:addons/sale_tier_validation/reports/sale_report.py
+#: code:addons/sale_tier_validation/reports/sale_report.py:0
 #, python-format
 msgid "Quotation printing is blocked until the order is approved."
 msgstr "Štampanje ponude je blokirano dok nalog nije odobren."
@@ -110,7 +110,7 @@ msgstr "Blokiranje štampanja prodajnog izvještaja"
 #. module: sale_tier_validation
 #: model:ir.model,name:sale_tier_validation.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_tier_validation
 #: model:ir.model,name:sale_tier_validation.model_tier_definition

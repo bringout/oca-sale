@@ -35,7 +35,7 @@ msgstr "Osnovica stavke"
 #. module: sale_shipping_info_helper
 #: model:ir.model,name:sale_shipping_info_helper.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 # taken from hr.po
 #. module: sale_shipping_info_helper

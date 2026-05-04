@@ -25,22 +25,22 @@ msgstr ""
 #. module: sale_order_safe_commitment_date
 #: model_terms:ir.ui.view,arch_db:sale_order_safe_commitment_date.view_order_form
 msgid "<i class=\"fa fa-warning\"/> You requested delivery on"
-msgstr "<i class=\"fa fa-warning\"/> You requested delivery on"
+msgstr ""
 
 #. module: sale_order_safe_commitment_date
 #: model:ir.model.fields,field_description:sale_order_safe_commitment_date.field_sale_order__date_for_commitment
 msgid "Delivery date"
-msgstr "Delivery date"
+msgstr ""
 
 #. module: sale_order_safe_commitment_date
 #: model:ir.model.fields,field_description:sale_order_safe_commitment_date.field_sale_order__is_commitment_date_unsafe
 msgid "Is Commitment Date Unsafe"
-msgstr "Is Commitment Date Unsafe"
+msgstr ""
 
 #. module: sale_order_safe_commitment_date
 #: model:ir.model,name:sale_order_safe_commitment_date.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_order_safe_commitment_date
 #: model:ir.model.fields,help:sale_order_safe_commitment_date.field_sale_order__date_for_commitment

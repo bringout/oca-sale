@@ -16,4 +16,4 @@ msgstr ""
 #. module: sale_stock_cancel_restriction
 #: model:ir.model,name:sale_stock_cancel_restriction.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"

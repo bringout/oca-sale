@@ -16,24 +16,24 @@ msgstr ""
 #. module: sale_order_product_recommendation_elaboration
 #: model:ir.model.fields,field_description:sale_order_product_recommendation_elaboration.field_sale_order_recommendation_line__elaboration_note
 msgid "Elaboration Note"
-msgstr "Elaboration Note"
+msgstr ""
 
 #. module: sale_order_product_recommendation_elaboration
 #: model:ir.model.fields,field_description:sale_order_product_recommendation_elaboration.field_sale_order_recommendation_line__elaboration_ids
 msgid "Elaborations"
-msgstr "Elaborations"
+msgstr ""
 
 #. module: sale_order_product_recommendation_elaboration
 #: model:ir.model.fields,field_description:sale_order_product_recommendation_elaboration.field_sale_order_recommendation_line__is_elaboration
 msgid "Is Elaboration"
-msgstr "Is Elaboration"
+msgstr ""
 
 #. module: sale_order_product_recommendation_elaboration
 #: model:ir.model,name:sale_order_product_recommendation_elaboration.model_sale_order_recommendation_line
 msgid "Recommended product for current sale order"
-msgstr "Recommended product for current sale order"
+msgstr ""
 
 #. module: sale_order_product_recommendation_elaboration
 #: model:ir.model,name:sale_order_product_recommendation_elaboration.model_sale_order_recommendation
 msgid "Recommended products for current sale order"
-msgstr "Recommended products for current sale order"
+msgstr ""

@@ -21,4 +21,4 @@ msgstr "Isporuka Datum is a public holiday"
 #. module: sale_exception_holidays_public
 #: model:ir.model,name:sale_exception_holidays_public.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"

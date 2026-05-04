@@ -41,18 +41,18 @@ msgstr "Kontrola fakturisanja po zadatku"
 #. module: sale_order_invoicing_finished_task
 #: model:ir.model,name:sale_order_invoicing_finished_task.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: sale_order_invoicing_finished_task
 #: model:ir.model,name:sale_order_invoicing_finished_task.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 # taken from hr.po
 #. module: sale_order_invoicing_finished_task
 #: model:ir.model,name:sale_order_invoicing_finished_task.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka ponude"
+msgstr "Stavka narudžbe"
 
 #. module: sale_order_invoicing_finished_task
 #: model:ir.model,name:sale_order_invoicing_finished_task.model_project_task
@@ -71,7 +71,7 @@ msgstr "Zadaci"
 
 #. module: sale_order_invoicing_finished_task
 #. odoo-python
-#: code:addons/sale_order_invoicing_finished_task/models/project.py
+#: code:addons/sale_order_invoicing_finished_task/models/project.py:0
 #, python-format
 msgid ""
 "You cannot create/modify a task related with a invoiced, done or cancel sale"

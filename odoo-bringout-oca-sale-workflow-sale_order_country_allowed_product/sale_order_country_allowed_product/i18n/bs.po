@@ -31,7 +31,7 @@ msgstr "Zanemari zemlje prodaje proizvoda"
 #. module: sale_order_country_allowed_product
 #: model:ir.model,name:sale_order_country_allowed_product.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: sale_order_country_allowed_product
 #: model:ir.model,name:sale_order_country_allowed_product.model_product_product
@@ -45,7 +45,7 @@ msgstr "Dozvolje zemlje za prodaju"
 
 #. module: sale_order_country_allowed_product
 #. odoo-python
-#: code:addons/sale_order_country_allowed_product/models/sale_order.py
+#: code:addons/sale_order_country_allowed_product/models/sale_order.py:0
 #, python-format
 msgid ""
 "Sale order cannot be validated as some products are not available in the "
@@ -57,16 +57,16 @@ msgstr ""
 #. module: sale_order_country_allowed_product
 #: model:ir.model,name:sale_order_country_allowed_product.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_order_country_allowed_product
 #: model:ir.model,name:sale_order_country_allowed_product.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: sale_order_country_allowed_product
 #. odoo-python
-#: code:addons/sale_order_country_allowed_product/models/sale_order.py
+#: code:addons/sale_order_country_allowed_product/models/sale_order.py:0
 #, python-format
 msgid ""
 "The following products are not available in the shipping country: "

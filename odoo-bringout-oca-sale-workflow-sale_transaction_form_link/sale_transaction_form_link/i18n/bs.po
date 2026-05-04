@@ -21,7 +21,7 @@ msgstr "Broj transakcija plaćanja"
 #. module: sale_transaction_form_link
 #: model:ir.model,name:sale_transaction_form_link.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_transaction_form_link
 #: model_terms:ir.ui.view,arch_db:sale_transaction_form_link.sale_order_form_view

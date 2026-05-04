@@ -21,7 +21,7 @@ msgstr "Atribut artikla"
 #. module: sale_order_line_field_from_product_attribute
 #: model:ir.model,name:sale_order_line_field_from_product_attribute.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: sale_order_line_field_from_product_attribute
 #: model:ir.model.fields,field_description:sale_order_line_field_from_product_attribute.field_product_attribute__store_in_field

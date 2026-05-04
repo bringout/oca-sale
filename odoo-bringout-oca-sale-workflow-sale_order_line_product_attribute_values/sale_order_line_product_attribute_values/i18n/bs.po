@@ -49,7 +49,7 @@ msgstr "Vrijednosti atributa template proizvoda"
 #. module: sale_order_line_product_attribute_values
 #: model:ir.model,name:sale_order_line_product_attribute_values.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: sale_order_line_product_attribute_values
 #: model_terms:ir.ui.view,arch_db:sale_order_line_product_attribute_values.sale_order_line_view_form_readonly

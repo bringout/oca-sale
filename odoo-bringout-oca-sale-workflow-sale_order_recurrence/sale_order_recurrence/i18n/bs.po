@@ -16,7 +16,7 @@ msgstr ""
 #. module: sale_order_recurrence
 #: model:ir.model.fields,field_description:sale_order_recurrence.field_sale_order_recurrence_wizard__begin_date
 msgid "Begin Date"
-msgstr "Begin Date"
+msgstr ""
 
 #. module: sale_order_recurrence
 #: model_terms:ir.ui.view,arch_db:sale_order_recurrence.view_sale_order_recurrence_wizard_form
@@ -41,7 +41,7 @@ msgstr "Datum dostave"
 #. module: sale_order_recurrence
 #: model:ir.model.fields,field_description:sale_order_recurrence.field_sale_order_recurrence_wizard__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: sale_order_recurrence
 #: model_terms:ir.ui.view,arch_db:sale_order_recurrence.view_sale_order_recurrence_wizard_form
@@ -51,7 +51,7 @@ msgstr "Dupliciraj"
 #. module: sale_order_recurrence
 #: model_terms:ir.ui.view,arch_db:sale_order_recurrence.view_sale_order_recurrence_wizard_form
 msgid "Duplicate and Open"
-msgstr "Duplicate and Open"
+msgstr ""
 
 #. module: sale_order_recurrence
 #: model:ir.model.fields,field_description:sale_order_recurrence.field_sale_order_recurrence_wizard__id
@@ -61,12 +61,12 @@ msgstr "ID"
 #. module: sale_order_recurrence
 #: model:ir.model.fields,field_description:sale_order_recurrence.field_sale_order_recurrence_wizard__include_current_date
 msgid "Include Current Date"
-msgstr "Include Current Date"
+msgstr ""
 
 #. module: sale_order_recurrence
 #: model:ir.model.fields,field_description:sale_order_recurrence.field_sale_order_recurrence_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: sale_order_recurrence
 #: model:ir.model.fields,field_description:sale_order_recurrence.field_sale_order_recurrence_wizard__write_uid
@@ -86,7 +86,7 @@ msgstr "Mjesečno"
 #. module: sale_order_recurrence
 #: model:ir.model.fields,field_description:sale_order_recurrence.field_sale_order_recurrence_wizard__date_line_ids
 msgid "New Dates"
-msgstr "New Dates"
+msgstr ""
 
 #. module: sale_order_recurrence
 #: model:ir.model.fields,field_description:sale_order_recurrence.field_sale_order_recurrence_wizard__partner_id
@@ -96,7 +96,7 @@ msgstr "Partner"
 #. module: sale_order_recurrence
 #: model:ir.model.fields,field_description:sale_order_recurrence.field_sale_order_recurrence_wizard__recurrence_duration
 msgid "Recurrence Duration"
-msgstr "Recurrence Duration"
+msgstr ""
 
 #. module: sale_order_recurrence
 #: model:ir.model.fields,field_description:sale_order_recurrence.field_sale_order_recurrence_wizard__recurrence_type
@@ -106,7 +106,7 @@ msgstr "Recurrence Tip"
 #. module: sale_order_recurrence
 #: model:ir.actions.act_window,name:sale_order_recurrence.action_sale_order_recurrence_wizard
 msgid "Recurrence Wizard"
-msgstr "Recurrence Wizard"
+msgstr ""
 
 #. module: sale_order_recurrence
 #: model:ir.model.fields,field_description:sale_order_recurrence.field_sale_order_recurrence_wizard__order_id
@@ -116,17 +116,17 @@ msgstr "Prodajni nalog"
 #. module: sale_order_recurrence
 #: model:ir.model,name:sale_order_recurrence.model_sale_order_recurrence_wizard
 msgid "Sale Order Duplication Wizard"
-msgstr "Sale Order Duplication Wizard"
+msgstr ""
 
 #. module: sale_order_recurrence
 #: model:ir.model,name:sale_order_recurrence.model_sale_order_recurrence_wizard_date_line
 msgid "Sale Order Duplication Wizard Line"
-msgstr "Sale Order Duplication Wizard Line"
+msgstr ""
 
 #. module: sale_order_recurrence
 #: model_terms:ir.ui.view,arch_db:sale_order_recurrence.view_sale_order_recurrence_wizard_form
 msgid "Sale to duplicate"
-msgstr "Sale to duplicate"
+msgstr ""
 
 #. module: sale_order_recurrence
 #: model_terms:ir.ui.view,arch_db:sale_order_recurrence.view_sale_order_recurrence_wizard_form

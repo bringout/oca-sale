@@ -21,7 +21,7 @@ msgstr "# Linija"
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__amount_cost
 msgid "Amount cost"
-msgstr "Amount cost"
+msgstr ""
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__analytic_account_id
@@ -41,7 +41,7 @@ msgstr "Otkazan"
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__partner_id
@@ -71,7 +71,7 @@ msgstr "Datum"
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields.selection,name:sale_report_delivered.selection__sale_report_delivered__state__draft
@@ -101,17 +101,17 @@ msgstr "ID"
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__margin
 msgid "Margin delivered"
-msgstr "Margin delivered"
+msgstr ""
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__margin_percent
 msgid "Margin delivered(%)"
-msgstr "Margin delivered(%)"
+msgstr ""
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__medium_id
@@ -136,12 +136,12 @@ msgstr "Skladišnice"
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__pricelist_id
 msgid "Pricelist"
-msgstr "Cjenik"
+msgstr "Cjenovnik"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__product_tmpl_id
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__categ_id
@@ -176,12 +176,12 @@ msgstr "Analiza prodaje"
 #. module: sale_report_delivered
 #: model:ir.actions.act_window,name:sale_report_delivered.action_sale_report_delivered
 msgid "Sales Analysis From Deliveries"
-msgstr "Sales Analysis From Deliveries"
+msgstr ""
 
 #. module: sale_report_delivered
 #: model:ir.model,name:sale_report_delivered.model_sale_report_delivered
 msgid "Sales Delivered Analysis Report"
-msgstr "Sales Delivered Analysis Report"
+msgstr ""
 
 #. module: sale_report_delivered
 #: model:ir.model.fields.selection,name:sale_report_delivered.selection__sale_report_delivered__state__done
@@ -191,7 +191,7 @@ msgstr "Prodaja završena"
 #. module: sale_report_delivered
 #: model:ir.model.fields.selection,name:sale_report_delivered.selection__sale_report_delivered__state__sale
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_report_delivered
 #: model_terms:ir.ui.view,arch_db:sale_report_delivered.view_sale_report_delivered_search
@@ -206,12 +206,12 @@ msgstr "Prodajni tim"
 #. module: sale_report_delivered
 #: model_terms:ir.ui.view,arch_db:sale_report_delivered.view_sale_report_delivered_graph
 msgid "Sales analysis from deliveries"
-msgstr "Sales analysis from deliveries"
+msgstr ""
 
 #. module: sale_report_delivered
 #: model:ir.ui.menu,name:sale_report_delivered.menu_report_sale_stock_delivery
 msgid "Sales from deliveries"
-msgstr "Sales from deliveries"
+msgstr ""
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__user_id
@@ -221,7 +221,7 @@ msgstr "Referent prodaje"
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__user_from_partner_id
 msgid "Salesperson From Partner"
-msgstr "Salesperson From Partner"
+msgstr ""
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__source_id
@@ -231,7 +231,7 @@ msgstr "Izvor"
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__state
 msgid "Status"
-msgstr "Status"
+msgstr ""
 
 #. module: sale_report_delivered
 #: model_terms:ir.actions.act_window,help:sale_report_delivered.action_sale_report_delivered
@@ -242,11 +242,6 @@ msgid ""
 "sales not having invoiced yet. If you want to analyse your turnover, you "
 "should use the Invoice Analysis report in the Accounting application."
 msgstr ""
-"This report performs analysis on your sales orders from deliveries. Analysis"
-" check your sales revenues and sort it by different group criteria "
-"(salesman, partner, product, etc.) Use this report to perform analysis on "
-"sales not having invoiced yet. If you want to analyse your turnover, you "
-"should use the Invoice Analysis report in the Accounting application."
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__product_uom
@@ -256,7 +251,7 @@ msgstr "Jedinica mjere"
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__price_subtotal
 msgid "Untaxed total delivered"
-msgstr "Untaxed total delivered"
+msgstr ""
 
 #. module: sale_report_delivered
 #: model:ir.model.fields,field_description:sale_report_delivered.field_sale_report_delivered__volume

@@ -47,14 +47,11 @@ msgid ""
 "                            Discount:\n"
 "                        </span>"
 msgstr ""
-"<span>\n"
-"                            Discount:\n"
-"                        </span>"
 
 #. module: sale_order_product_picker
 #: model_terms:ir.ui.view,arch_db:sale_order_product_picker.view_order_form
 msgid "<span>%</span>"
-msgstr "<span>%</span>"
+msgstr ""
 
 #. module: sale_order_product_picker
 #: model_terms:ir.ui.view,arch_db:sale_order_product_picker.view_order_form
@@ -70,8 +67,6 @@ msgid ""
 "<strong style=\"font-size: 1.2em\">+1\n"
 "                                                                </strong>"
 msgstr ""
-"<strong style=\"font-size: 1.2em\">+1\n"
-"                                                                </strong>"
 
 #. module: sale_order_product_picker
 #: model_terms:ir.ui.view,arch_db:sale_order_product_picker.view_order_form
@@ -81,7 +76,7 @@ msgstr "Atribut"
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order__picker_product_attribute_value_id
 msgid "Attribute value"
-msgstr "Attribute value"
+msgstr ""
 
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order__picker_only_available
@@ -101,7 +96,7 @@ msgstr "Komercijalne ponude"
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__compute_price_unit
 msgid "Compute Price Unit"
-msgstr "Compute Price Unit"
+msgstr ""
 
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__create_uid
@@ -136,7 +131,7 @@ msgstr "Popust (%)"
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__product_no_variant_attribute_value_ids
@@ -146,12 +141,12 @@ msgstr "Dodatne vrijednosti"
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order__picker_filter
 msgid "Filter"
-msgstr "Filter"
+msgstr ""
 
 #. module: sale_order_product_picker
 #: model:ir.model.fields,help:sale_order_product_picker.field_sale_order__picker_product_attribute_value_id
 msgid "Filter products by attribute value"
-msgstr "Filter products by attribute value"
+msgstr ""
 
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__id
@@ -171,7 +166,7 @@ msgstr "Unesite kod ili naziv proizvoda"
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_line__is_different_price
 msgid "Is Different Price"
-msgstr "Is Different Price"
+msgstr ""
 
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__is_in_order
@@ -181,7 +176,7 @@ msgstr "Je u narudžbi"
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__write_uid
@@ -196,17 +191,17 @@ msgstr "Zadnje ažurirano"
 #. module: sale_order_product_picker
 #: model:ir.model.fields.selection,name:sale_order_product_picker.selection__sale_order__picker_price_origin__last_sale_price
 msgid "Last price"
-msgstr "Last price"
+msgstr ""
 
 #. module: sale_order_product_picker
 #: model:ir.model.fields.selection,name:sale_order_product_picker.selection__sale_order__picker_origin_data__sale_order
 msgid "Last sales"
-msgstr "Last sales"
+msgstr ""
 
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__line_price_reduce
 msgid "Line Price Reduce"
-msgstr "Line Price Reduce"
+msgstr ""
 
 #. module: sale_order_product_picker
 #: model_terms:ir.ui.view,arch_db:sale_order_product_picker.view_order_form
@@ -216,7 +211,7 @@ msgstr "Upravljaj filterima proizvoda (Ponovo učitaj nakon modifikacije)"
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__multiple_discounts
 msgid "Multiple Discounts"
-msgstr "Multiple Discounts"
+msgstr ""
 
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__qty_available
@@ -236,22 +231,22 @@ msgstr "Izvor"
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order__picker_ids
 msgid "Picker"
-msgstr "Picker"
+msgstr ""
 
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order__picker_order
 msgid "Picker Order"
-msgstr "Picker Order"
+msgstr ""
 
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order__picker_origin_data
 msgid "Picker Origin Data"
-msgstr "Picker Origin Data"
+msgstr ""
 
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order__picker_price_origin
 msgid "Picker Price Origin"
-msgstr "Picker Price Origin"
+msgstr ""
 
 #. module: sale_order_product_picker
 #: model_terms:ir.ui.view,arch_db:sale_order_product_picker.view_order_form
@@ -276,7 +271,7 @@ msgstr "Stavka cjenika"
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__product_id
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_line__categ_id
@@ -301,12 +296,12 @@ msgstr "Stavka prodaje"
 #. module: sale_order_product_picker
 #: model:ir.model,name:sale_order_product_picker.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_order_product_picker
 #: model:ir.model,name:sale_order_product_picker.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_line__list_price
@@ -316,12 +311,12 @@ msgstr "Prodajna cijena"
 #. module: sale_order_product_picker
 #: model:ir.ui.menu,name:sale_order_product_picker.menu_email_campaigns
 msgid "Salesman Quotations"
-msgstr "Salesman Quotations"
+msgstr ""
 
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order__product_name_search
 msgid "Search product"
-msgstr "Search product"
+msgstr ""
 
 #. module: sale_order_product_picker
 #: model:ir.model,name:sale_order_product_picker.model_ir_config_parameter
@@ -331,7 +326,7 @@ msgstr "Sistemski parametar"
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__times_delivered
 msgid "Times Delivered"
-msgstr "Times Delivered"
+msgstr ""
 
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__to_process
@@ -346,7 +341,7 @@ msgstr "Omjer jedinice"
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__unit_name
 msgid "Unit Name"
-msgstr "Unit Name"
+msgstr ""
 
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__price_unit
@@ -361,7 +356,7 @@ msgstr "Jedinica mjere"
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order__use_delivery_address
 msgid "Use Delivery Address"
-msgstr "Use Delivery Address"
+msgstr ""
 
 #. module: sale_order_product_picker
 #: model:ir.model.fields,field_description:sale_order_product_picker.field_sale_order_picker__warehouse_id
@@ -370,7 +365,7 @@ msgstr "Skladište"
 
 #. module: sale_order_product_picker
 #. odoo-javascript
-#: code:addons/sale_order_product_picker/static/src/form/form_controller.esm.js
+#: code:addons/sale_order_product_picker/static/src/form/form_controller.esm.js:0
 #, python-format
 msgid "You must wait for the picker lines to be written"
 msgstr "Morate sačekati da se stavke picker-a upišu"
@@ -378,4 +373,4 @@ msgstr "Morate sačekati da se stavke picker-a upišu"
 #. module: sale_order_product_picker
 #: model:ir.model,name:sale_order_product_picker.model_sale_order_picker
 msgid "sale.order.picker"
-msgstr "sale.order.picker"
+msgstr ""

@@ -22,7 +22,7 @@ msgstr "Grupa naručivanja"
 #. module: sale_procurement_group_by_line
 #: model:ir.model,name:sale_procurement_group_by_line.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka ponude"
+msgstr "Stavka narudžbe"
 
 #. module: sale_procurement_group_by_line
 #: model:ir.model,name:sale_procurement_group_by_line.model_stock_move

@@ -166,7 +166,7 @@ msgstr "Podstanje prodajnog naloga"
 #. module: sale_substate
 #: model:ir.model,name:sale_substate.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_substate
 #: model:ir.model.fields,field_description:sale_substate.field_sale_order__substate_id
@@ -180,7 +180,7 @@ msgstr "Podstanje"
 
 #. module: sale_substate
 #. odoo-python
-#: code:addons/sale_substate/models/sale_order.py
+#: code:addons/sale_substate/models/sale_order.py:0
 #, python-format
 msgid ""
 "The substate %(name)s is not defined for the state %(state)s but for "

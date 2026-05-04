@@ -19,8 +19,6 @@ msgid ""
 "Allow to enforce done state of delivery, for instance if some quantities "
 "were cancelled"
 msgstr ""
-"Allow to enforce done state of delivery, for instance if some quantities "
-"were cancelled"
 
 #. module: sale_order_line_delivery_state
 #: model:ir.model.fields,field_description:sale_order_line_delivery_state.field_sale_order_line__delivery_state
@@ -55,7 +53,7 @@ msgstr "Djelomično obrađeno"
 #. module: sale_order_line_delivery_state
 #: model:ir.model,name:sale_order_line_delivery_state.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: sale_order_line_delivery_state
 #: model_terms:ir.ui.view,arch_db:sale_order_line_delivery_state.view_order_form

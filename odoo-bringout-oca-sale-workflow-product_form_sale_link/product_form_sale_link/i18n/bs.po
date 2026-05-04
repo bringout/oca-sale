@@ -41,7 +41,7 @@ msgstr "Stavke prodajnih naloga"
 #. module: product_form_sale_link
 #: model_terms:ir.ui.view,arch_db:product_form_sale_link.product_product_form_view
 msgid "Sales"
-msgstr "Prodaje"
+msgstr "Prodaja"
 
 # taken from hr.po
 #. module: product_form_sale_link

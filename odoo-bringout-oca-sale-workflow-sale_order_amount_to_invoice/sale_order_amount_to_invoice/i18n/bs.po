@@ -16,7 +16,7 @@ msgstr ""
 #. module: sale_order_amount_to_invoice
 #: model:ir.model,name:sale_order_amount_to_invoice.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_order_amount_to_invoice
 #: model_terms:ir.ui.view,arch_db:sale_order_amount_to_invoice.view_order_form

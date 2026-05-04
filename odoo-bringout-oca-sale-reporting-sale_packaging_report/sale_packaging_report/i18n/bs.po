@@ -21,7 +21,7 @@ msgstr "Pakovanje"
 #. module: sale_packaging_report
 #: model:ir.model.fields,field_description:sale_packaging_report.field_sale_report__product_packaging_qty_delivered
 msgid "Packaging Delivered Qty"
-msgstr "Packaging Delivered Qty"
+msgstr ""
 
 #. module: sale_packaging_report
 #: model:ir.model.fields,field_description:sale_packaging_report.field_sale_report__product_packaging_qty

@@ -56,9 +56,9 @@ msgstr "Popust cjenovnika"
 #. module: sale_order_general_discount_triple
 #: model:ir.model,name:sale_order_general_discount_triple.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_order_general_discount_triple
 #: model:ir.model,name:sale_order_general_discount_triple.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"

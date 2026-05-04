@@ -51,7 +51,7 @@ msgstr "Potvrdi i prenesi preuzimanje"
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__create_invoice
 msgid "Create Invoice"
-msgstr "Kreiraj račun"
+msgstr "Kreiraj fakturu"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__create_invoice_filter_id
@@ -89,7 +89,7 @@ msgstr "Isporuči svaki proizvod kada je dostupan"
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_automatic_workflow_job__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__payment_filter_domain
@@ -136,13 +136,13 @@ msgstr "Fakturiši uslugu pri isporuci"
 #. module: sale_automatic_workflow
 #: model:ir.model,name:sale_automatic_workflow.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 # taken from hr.po
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_automatic_workflow_job____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: sale_automatic_workflow
@@ -160,7 +160,7 @@ msgstr "Zadnje ažurirano"
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__name
 msgid "Name"
-msgstr "Ime"
+msgstr "Naziv"
 
 #. module: sale_automatic_workflow
 #: model_terms:ir.ui.view,arch_db:sale_automatic_workflow.sale_workflow_process_view_form
@@ -225,7 +225,7 @@ msgstr "Dnevnik prodaje"
 #. module: sale_automatic_workflow
 #: model:ir.model,name:sale_automatic_workflow.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__team_id
@@ -238,8 +238,6 @@ msgid ""
 "Scheduler that will play automatically the validation of invoices, "
 "pickings..."
 msgstr ""
-"Scheduler that will play automatically the validation of invoices, "
-"pickings..."
 
 #. module: sale_automatic_workflow
 #: model:ir.model.fields,field_description:sale_automatic_workflow.field_sale_workflow_process__send_invoice
@@ -334,7 +332,7 @@ msgstr "Opcije toka rada"
 
 #. module: sale_automatic_workflow
 #. odoo-python
-#: code:addons/sale_automatic_workflow/models/sale_order.py
+#: code:addons/sale_automatic_workflow/models/sale_order.py:0
 #, python-format
 msgid "Workflow Warning"
 msgstr "Upozorenje toka rada"

@@ -58,4 +58,4 @@ msgstr ""
 #. module: sales_team_security
 #: model:res.groups,name:sales_team_security.group_sale_team_manager
 msgid "User: Team Documents Only"
-msgstr "User: Team Documents Only"
+msgstr ""

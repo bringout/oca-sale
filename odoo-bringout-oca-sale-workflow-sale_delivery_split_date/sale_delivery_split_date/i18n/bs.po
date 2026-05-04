@@ -16,7 +16,7 @@ msgstr ""
 #. module: sale_delivery_split_date
 #: model:ir.model,name:sale_delivery_split_date.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: sale_delivery_split_date
 #: model_terms:ir.ui.view,arch_db:sale_delivery_split_date.view_picking_internal_search

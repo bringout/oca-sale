@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: sale_stock_line_sequence
 #. odoo-python
-#: code:addons/sale_stock_line_sequence/models/stock_move.py
+#: code:addons/sale_stock_line_sequence/models/stock_move.py:0
 #, python-format
 msgid ""
 "Not allowed to change the sequence of moves from the picking, you can do it "
@@ -27,7 +27,7 @@ msgstr ""
 #. module: sale_stock_line_sequence
 #: model:ir.model,name:sale_stock_line_sequence.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_stock_line_sequence
 #: model:ir.model,name:sale_stock_line_sequence.model_stock_move

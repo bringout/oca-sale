@@ -16,7 +16,7 @@ msgstr ""
 #. module: sale_pricelist_from_commitment_date
 #: model:ir.model,name:sale_pricelist_from_commitment_date.model_product_pricelist
 msgid "Pricelist"
-msgstr "Cjenik"
+msgstr "Cjenovnik"
 
 #. module: sale_pricelist_from_commitment_date
 #: model:ir.model,name:sale_pricelist_from_commitment_date.model_product_pricelist_item
@@ -26,4 +26,4 @@ msgstr "Pravilo cjenika"
 #. module: sale_pricelist_from_commitment_date
 #: model:ir.model,name:sale_pricelist_from_commitment_date.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"

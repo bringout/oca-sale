@@ -22,4 +22,4 @@ msgstr "Nadređena tvrtka"
 #. module: sale_commercial_partner
 #: model:ir.model,name:sale_commercial_partner.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"

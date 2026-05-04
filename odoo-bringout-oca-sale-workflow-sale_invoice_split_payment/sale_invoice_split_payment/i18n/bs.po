@@ -16,4 +16,4 @@ msgstr ""
 #. module: sale_invoice_split_payment
 #: model:ir.model,name:sale_invoice_split_payment.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"

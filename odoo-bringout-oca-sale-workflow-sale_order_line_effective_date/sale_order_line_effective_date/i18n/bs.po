@@ -46,4 +46,4 @@ msgstr "Zadnji efektivni datum"
 #. module: sale_order_line_effective_date
 #: model:ir.model,name:sale_order_line_effective_date.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"

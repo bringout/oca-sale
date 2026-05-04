@@ -16,4 +16,4 @@ msgstr ""
 #. module: sale_report_delivered_deposit
 #: model:ir.model,name:sale_report_delivered_deposit.model_sale_report_delivered
 msgid "Sales Delivered Analysis Report"
-msgstr "Sales Delivered Analysis Report"
+msgstr ""

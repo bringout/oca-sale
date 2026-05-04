@@ -21,11 +21,11 @@ msgstr "Premjesti u opciono"
 #. module: sale_order_line_move_to_optional
 #: model:ir.model,name:sale_order_line_move_to_optional.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: sale_order_line_move_to_optional
 #. odoo-python
-#: code:addons/sale_order_line_move_to_optional/models/sale_order.py
+#: code:addons/sale_order_line_move_to_optional/models/sale_order.py:0
 #, python-format
 msgid "You cannot add options to a confirmed order."
 msgstr "Ne možete dodati opcije na potvrđenu narudžbu."

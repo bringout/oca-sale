@@ -16,7 +16,7 @@ msgstr ""
 #. module: sale_report_country_state
 #: model:ir.model.fields,field_description:sale_report_country_state.field_sale_report__state_id
 msgid "Customer State"
-msgstr "Customer State"
+msgstr ""
 
 #. module: sale_report_country_state
 #: model:ir.model,name:sale_report_country_state.model_sale_report

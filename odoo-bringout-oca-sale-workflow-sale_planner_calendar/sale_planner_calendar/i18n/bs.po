@@ -59,7 +59,7 @@ msgstr "Napredni ciklus"
 
 #. module: sale_planner_calendar
 #. odoo-python
-#: code:addons/sale_planner_calendar/models/sale_planner_calendar_summary.py
+#: code:addons/sale_planner_calendar/models/sale_planner_calendar_summary.py:0
 #, python-format
 msgid ""
 "Already exists a summary with same user, date and event type)\n"
@@ -196,7 +196,7 @@ msgstr "Kompanije"
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: sale_planner_calendar
 #: model:ir.model,name:sale_planner_calendar.model_res_config_settings
@@ -251,7 +251,7 @@ msgstr "Datum"
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_issue_type__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: sale_planner_calendar
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_form
@@ -346,7 +346,7 @@ msgstr "Pratioci"
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratioci (Partneri)"
+msgstr "Pratioci (partneri)"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,help:sale_planner_calendar.field_calendar_event_type__icon
@@ -404,12 +404,12 @@ msgstr "Ikona"
 #. module: sale_planner_calendar
 #: model:ir.model.fields,help:sale_planner_calendar.field_sale_planner_calendar_summary__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
+msgstr "Ako je označeno, nove poruke zahtijevaju vašu pažnju."
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,help:sale_planner_calendar.field_sale_planner_calendar_summary__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
+msgstr "Ako je označeno, neke poruke imaju grešku pri dostavi."
 
 #. module: sale_planner_calendar
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_reassign_wiz
@@ -448,7 +448,7 @@ msgstr "Je dinamički krajnji datum"
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__message_is_follower
 msgid "Is Follower"
-msgstr "Pratilac"
+msgstr "Je pratilac"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_res_partner__is_sale_planner_contact
@@ -478,7 +478,7 @@ msgstr "Problemi"
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_issue_type____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_issue_type__write_uid
@@ -508,7 +508,7 @@ msgstr "URL lokacije"
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "Glavna zakačka"
+msgstr "Glavni prilog"
 
 #. module: sale_planner_calendar
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_search
@@ -523,7 +523,7 @@ msgstr "Tipovi sastanka"
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__message_has_error
 msgid "Message Delivery error"
-msgstr "Greška pri isporuci poruke"
+msgstr "Greška dostave poruke"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__message_ids
@@ -563,7 +563,7 @@ msgstr "Moji rezimei"
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_issue_type__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__new_end
@@ -572,7 +572,7 @@ msgstr "Novi kraj"
 
 #. module: sale_planner_calendar
 #. odoo-javascript
-#: code:addons/sale_planner_calendar/static/src/xml/sale_planner_calendar_event_sales.xml
+#: code:addons/sale_planner_calendar/static/src/xml/sale_planner_calendar_event_sales.xml:0
 #, python-format
 msgid "New Quotation"
 msgstr "Novi predračun"
@@ -620,12 +620,12 @@ msgstr "Broj grešaka"
 #. module: sale_planner_calendar
 #: model:ir.model.fields,help:sale_planner_calendar.field_sale_planner_calendar_summary__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr "Broj poruka koje zahtijevaju aktivnost"
+msgstr "Broj poruka koje zahtijevaju akciju"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,help:sale_planner_calendar.field_sale_planner_calendar_summary__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Broj poruka sa greškama pri isporuci"
+msgstr "Broj poruka sa greškom pri dostavi"
 
 #. module: sale_planner_calendar
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_wizard
@@ -655,7 +655,7 @@ msgstr "Nalog"
 #. module: sale_planner_calendar
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_summary_form
 msgid "Orders"
-msgstr "Nalozi"
+msgstr "Narudžbe"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_line_wiz__partner_id
@@ -809,7 +809,7 @@ msgstr "Čarobnjak plaćanja prodajne fakture"
 
 #. module: sale_planner_calendar
 #. odoo-python
-#: code:addons/sale_planner_calendar/models/sale_order.py
+#: code:addons/sale_planner_calendar/models/sale_order.py:0
 #, python-format
 msgid "Sale off planning"
 msgstr "Prodaja van planiranja"
@@ -826,7 +826,7 @@ msgstr "Događaj kalendarskog planera prodaje"
 
 #. module: sale_planner_calendar
 #. odoo-python
-#: code:addons/sale_planner_calendar/models/res_users.py
+#: code:addons/sale_planner_calendar/models/res_users.py:0
 #, python-format
 msgid "Sale planner calendar events"
 msgstr "Događaji kalendarskog planera prodaje"
@@ -885,7 +885,7 @@ msgstr "Partner planera prodaje"
 #. module: sale_planner_calendar
 #: model:ir.model,name:sale_planner_calendar.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_reassign_wiz__user_id
@@ -959,7 +959,7 @@ msgstr "Započni"
 #. module: sale_planner_calendar
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_calendar_event_tree_primary_only
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Početni Datum"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__state
@@ -1007,7 +1007,7 @@ msgstr "Interni korisnik odgovoran za ovaj kontakt."
 
 #. module: sale_planner_calendar
 #. odoo-python
-#: code:addons/sale_planner_calendar/models/res_partner.py
+#: code:addons/sale_planner_calendar/models/res_partner.py:0
 #, python-format
 msgid ""
 "This partner has sale planned events\n"
@@ -1085,12 +1085,12 @@ msgstr "Korisnik"
 #. module: sale_planner_calendar
 #: model:ir.model.fields,field_description:sale_planner_calendar.field_sale_planner_calendar_summary__website_message_ids
 msgid "Website Messages"
-msgstr "Poruke sa website-a"
+msgstr "Poruke web stranice"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields,help:sale_planner_calendar.field_sale_planner_calendar_summary__website_message_ids
 msgid "Website communication history"
-msgstr "Povijest komunikacije Web stranice"
+msgstr "Historija komunikacije web stranice"
 
 #. module: sale_planner_calendar
 #: model:ir.model.fields.selection,name:sale_planner_calendar.selection__sale_planner_calendar_reassign_wiz__week_list__wed
@@ -1105,4 +1105,4 @@ msgstr "Dan u sedmici"
 #. module: sale_planner_calendar
 #: model_terms:ir.ui.view,arch_db:sale_planner_calendar.view_sale_planner_calendar_kanban
 msgid "Whatsapp"
-msgstr "Whatsapp"
+msgstr ""

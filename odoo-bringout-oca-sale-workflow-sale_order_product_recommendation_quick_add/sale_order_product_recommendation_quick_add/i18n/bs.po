@@ -16,9 +16,9 @@ msgstr ""
 #. module: sale_order_product_recommendation_quick_add
 #: model_terms:ir.ui.view,arch_db:sale_order_product_recommendation_quick_add.view_order_form
 msgid "Quick Add Recommended Products"
-msgstr "Quick Add Recommended Products"
+msgstr ""
 
 #. module: sale_order_product_recommendation_quick_add
 #: model:ir.model,name:sale_order_product_recommendation_quick_add.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"

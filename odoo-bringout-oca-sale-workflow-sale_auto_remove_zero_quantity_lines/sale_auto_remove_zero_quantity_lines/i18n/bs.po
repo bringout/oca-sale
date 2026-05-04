@@ -47,12 +47,12 @@ msgstr "Automatski ukloni stavke bez količine u prodaji"
 #. module: sale_auto_remove_zero_quantity_lines
 #: model:ir.model,name:sale_auto_remove_zero_quantity_lines.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 # taken from hr.po
 #. module: sale_auto_remove_zero_quantity_lines
 #. odoo-python
-#: code:addons/sale_auto_remove_zero_quantity_lines/models/sale_order.py
+#: code:addons/sale_auto_remove_zero_quantity_lines/models/sale_order.py:0
 #, python-format
 msgid ""
 "Some lines with zero quantities or empty notes were removed upon "

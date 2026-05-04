@@ -16,7 +16,7 @@ msgstr ""
 #. module: sale_pricelist_triple_discount
 #: model_terms:ir.ui.view,arch_db:sale_pricelist_triple_discount.product_pricelist_view_form_discount
 msgid "<span>%</span>"
-msgstr "<span>%</span>"
+msgstr ""
 
 #. module: sale_pricelist_triple_discount
 #: model:ir.model.fields,field_description:sale_pricelist_triple_discount.field_sale_order_line__discount2
@@ -56,7 +56,7 @@ msgstr "Pravilo cjenika"
 #. module: sale_pricelist_triple_discount
 #: model:ir.model,name:sale_pricelist_triple_discount.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: sale_pricelist_triple_discount
 #: model:ir.model.fields,help:sale_pricelist_triple_discount.field_product_pricelist_item__discount2

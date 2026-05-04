@@ -16,7 +16,7 @@ msgstr ""
 #. module: sale_report_delivered_subtotal
 #: model:ir.model.fields,field_description:sale_report_delivered_subtotal.field_sale_report__weight_delivered
 msgid "Gross Weight Delivered"
-msgstr "Gross Weight Delivered"
+msgstr ""
 
 #. module: sale_report_delivered_subtotal
 #: model:ir.model,name:sale_report_delivered_subtotal.model_sale_report
@@ -26,4 +26,4 @@ msgstr "Izvještaj analize prodaje"
 #. module: sale_report_delivered_subtotal
 #: model:ir.model.fields,field_description:sale_report_delivered_subtotal.field_sale_report__price_subtotal_delivered
 msgid "Untaxed Total Delivered"
-msgstr "Untaxed Total Delivered"
+msgstr ""

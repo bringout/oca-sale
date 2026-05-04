@@ -29,7 +29,7 @@ msgstr ""
 #. module: sale_stock_picking_blocking
 #: model_terms:ir.ui.view,arch_db:sale_stock_picking_blocking.sale_stock_picking_blocking_reason_form_view
 msgid "Applied to"
-msgstr "Applied to"
+msgstr ""
 
 #. module: sale_stock_picking_blocking
 #: model:ir.model,name:sale_stock_picking_blocking.model_res_partner
@@ -51,17 +51,17 @@ msgstr "Kreirano"
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_account_payment_term__default_delivery_block_reason_id
 msgid "Default Delivery Block Reason"
-msgstr "Default Delivery Block Reason"
+msgstr ""
 
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_sale_order__delivery_block_id
 msgid "Delivery Block Reason"
-msgstr "Delivery Block Reason"
+msgstr ""
 
 #. module: sale_stock_picking_blocking
 #: model_terms:ir.ui.view,arch_db:sale_stock_picking_blocking.view_sales_order_filter
 msgid "Delivery Blocked Sales"
-msgstr "Delivery Blocked Sales"
+msgstr ""
 
 # taken from hr.po
 #. module: sale_stock_picking_blocking
@@ -73,7 +73,7 @@ msgstr "Opis"
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_sale_delivery_block_reason__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_sale_delivery_block_reason__id
@@ -84,7 +84,7 @@ msgstr "ID"
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_sale_delivery_block_reason____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: sale_stock_picking_blocking
@@ -102,7 +102,7 @@ msgstr "Zadnje ažurirano"
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_sale_delivery_block_reason__name
 msgid "Name"
-msgstr "Ime"
+msgstr "Naziv"
 
 #. module: sale_stock_picking_blocking
 #: model:ir.model,name:sale_stock_picking_blocking.model_account_payment_term
@@ -112,17 +112,17 @@ msgstr "Uslovi plaćanja"
 #. module: sale_stock_picking_blocking
 #: model_terms:ir.ui.view,arch_db:sale_stock_picking_blocking.view_order_form
 msgid "Release Delivery Block"
-msgstr "Release Delivery Block"
+msgstr ""
 
 #. module: sale_stock_picking_blocking
 #: model:res.groups,name:sale_stock_picking_blocking.group_sale_delivery_block
 msgid "Release Delivery Block in Sales Orders"
-msgstr "Release Delivery Block in Sales Orders"
+msgstr ""
 
 #. module: sale_stock_picking_blocking
 #: model:ir.actions.act_window,name:sale_stock_picking_blocking.action_sale_stock_picking_blocking_reason
 msgid "Sale Delivery Block Reason"
-msgstr "Sale Delivery Block Reason"
+msgstr ""
 
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,field_description:sale_stock_picking_blocking.field_sale_delivery_block_reason__sale_order_ids
@@ -132,12 +132,12 @@ msgstr "Narudžbe"
 #. module: sale_stock_picking_blocking
 #: model:ir.model,name:sale_stock_picking_blocking.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_stock_picking_blocking
 #: model:ir.model,name:sale_stock_picking_blocking.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: sale_stock_picking_blocking
 #: model:ir.model.fields,help:sale_stock_picking_blocking.field_res_partner__default_delivery_block

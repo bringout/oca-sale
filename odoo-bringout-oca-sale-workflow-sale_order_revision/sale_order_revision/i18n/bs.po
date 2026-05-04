@@ -17,7 +17,7 @@ msgstr ""
 #. module: sale_order_revision
 #: model:ir.model.fields,field_description:sale_order_revision.field_sale_order__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 # taken from hr.po
 #. module: sale_order_revision
@@ -77,4 +77,4 @@ msgstr "Revizija"
 #. module: sale_order_revision
 #: model:ir.model,name:sale_order_revision.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"

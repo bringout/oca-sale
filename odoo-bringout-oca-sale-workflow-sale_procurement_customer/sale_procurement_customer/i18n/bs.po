@@ -17,4 +17,4 @@ msgstr ""
 #. module: sale_procurement_customer
 #: model:ir.model,name:sale_procurement_customer.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajnog naloga"
+msgstr "Stavka narudžbe"

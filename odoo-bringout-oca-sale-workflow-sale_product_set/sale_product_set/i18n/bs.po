@@ -83,7 +83,7 @@ msgstr "Popust (%)"
 #. module: sale_product_set
 #: model:ir.model.fields,field_description:sale_product_set.field_sale_product_set_wizard__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 #. module: sale_product_set
 #: model:ir.model.fields,help:sale_product_set.field_sale_product_set_wizard__skip_existing_products
@@ -102,7 +102,7 @@ msgstr "ID"
 #. module: sale_product_set
 #: model:ir.model.fields,field_description:sale_product_set.field_sale_product_set_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: sale_product_set
@@ -158,7 +158,7 @@ msgstr "Model čarobnjaka za dodavanje setova u ponudu"
 
 #. module: sale_product_set
 #. odoo-python
-#: code:addons/sale_product_set/wizard/sale_product_set_wizard.py
+#: code:addons/sale_product_set/wizard/sale_product_set_wizard.py:0
 #, python-format
 msgid "You can use a sale order assigned only to following partner(s): {}"
 msgstr ""

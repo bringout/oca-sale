@@ -26,14 +26,14 @@ msgstr ""
 #. module: sale_order_product_recommendation_packaging_default
 #: model:ir.model.fields,help:sale_order_product_recommendation_packaging_default.field_sale_order_recommendation_line__product_packaging_id
 msgid "Packaging used for selling this product."
-msgstr "Packaging used for selling this product."
+msgstr ""
 
 #. module: sale_order_product_recommendation_packaging_default
 #: model:ir.model.fields,help:sale_order_product_recommendation_packaging_default.field_sale_order_recommendation_line__product_packaging_qty
 msgid "Quantity of packagings to sell."
-msgstr "Quantity of packagings to sell."
+msgstr ""
 
 #. module: sale_order_product_recommendation_packaging_default
 #: model:ir.model,name:sale_order_product_recommendation_packaging_default.model_sale_order_recommendation_line
 msgid "Recommended product for current sale order"
-msgstr "Recommended product for current sale order"
+msgstr ""

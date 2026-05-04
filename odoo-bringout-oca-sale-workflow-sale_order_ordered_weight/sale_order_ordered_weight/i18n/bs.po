@@ -46,12 +46,12 @@ msgstr "Naručena težina"
 #. module: sale_order_ordered_weight
 #: model:ir.model,name:sale_order_ordered_weight.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_order_ordered_weight
 #: model:ir.model,name:sale_order_ordered_weight.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: sale_order_ordered_weight
 #: model_terms:ir.ui.view,arch_db:sale_order_ordered_weight.report_saleorder_document
