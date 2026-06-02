@@ -48,7 +48,7 @@ msgstr ""
 #. module: sale_order_line_multi_warehouse
 #: model_terms:ir.ui.view,arch_db:sale_order_line_multi_warehouse.so_multi_warehouse_change_wizard_view
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: sale_order_line_multi_warehouse
 #: model_terms:ir.ui.view,arch_db:sale_order_line_multi_warehouse.so_line_multi_warehouse_view_order_form
@@ -68,7 +68,7 @@ msgstr "Kompanije"
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model,name:sale_order_line_multi_warehouse.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse__create_uid
@@ -93,7 +93,7 @@ msgstr "Predefinirana mjerna jedinica za sve funkcije zalihe."
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse__qty_forecast
@@ -123,17 +123,17 @@ msgstr "Nekompatibilnosti"
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: sale_order_line_multi_warehouse
 #: model:ir.model.fields,field_description:sale_order_line_multi_warehouse.field_sale_order_line_warehouse__move_ids

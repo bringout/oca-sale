@@ -16,7 +16,7 @@ msgstr ""
 #. module: sale_margin_update
 #: model_terms:ir.ui.view,arch_db:sale_margin_update.recalculate_price_margin_view_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: sale_margin_update
 #: model:ir.model.fields,field_description:sale_margin_update.field_sale_recalculate_price_margin__create_uid
@@ -31,7 +31,7 @@ msgstr "Kreirano"
 #. module: sale_margin_update
 #: model:ir.model.fields,field_description:sale_margin_update.field_sale_recalculate_price_margin__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: sale_margin_update
 #: model:ir.model.fields,field_description:sale_margin_update.field_sale_recalculate_price_margin__id
@@ -41,17 +41,17 @@ msgstr "ID"
 #. module: sale_margin_update
 #: model:ir.model.fields,field_description:sale_margin_update.field_sale_recalculate_price_margin____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: sale_margin_update
 #: model:ir.model.fields,field_description:sale_margin_update.field_sale_recalculate_price_margin__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: sale_margin_update
 #: model:ir.model.fields,field_description:sale_margin_update.field_sale_recalculate_price_margin__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: sale_margin_update
 #: model:ir.model.fields,field_description:sale_margin_update.field_sale_recalculate_price_margin__line_id

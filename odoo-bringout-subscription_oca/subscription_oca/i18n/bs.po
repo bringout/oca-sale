@@ -133,7 +133,7 @@ msgstr "Granica"
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.close_reason_wizard_view
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: subscription_oca
 #: model_terms:ir.actions.act_window,help:subscription_oca.subscription_stage_action
@@ -259,7 +259,7 @@ msgstr "Popust (%)"
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_close_reason_wizard__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_stage__display_name
@@ -431,7 +431,7 @@ msgstr "Dnevnik"
 #. module: subscription_oca
 #: model:ir.model,name:subscription_oca.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_stage__fold
@@ -441,17 +441,17 @@ msgstr "Kanban skupljeno"
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_close_reason_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_close_reason_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_close_reason_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__message_main_attachment_id
