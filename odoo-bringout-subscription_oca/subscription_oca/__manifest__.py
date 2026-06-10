@@ -3,12 +3,12 @@
 {
     "name": "Subscription management",
     "summary": "Generate recurring invoices.",
-    "version": "16.0.1.4.3",
+    "version": "19.0.1.0.0",
     "development_status": "Beta",
     "category": "Subscription Management",
     "website": "https://github.com/OCA/contract",
     "license": "AGPL-3",
-    "author": "Domatix, Odoo Community Association (OCA)",
+    "author": "Domatix, Onestein, Odoo Community Association (OCA)",
     "depends": ["sale_management", "account"],
     "data": [
         "views/product_template_views.xml",
@@ -22,7 +22,6 @@
         "data/ir_cron.xml",
         "data/sale_subscription_data.xml",
         "wizard/close_subscription_wizard.xml",
-        "wizard/generate_subscriptions_wizard.xml",
         "security/ir.model.access.csv",
     ],
     "installable": True,

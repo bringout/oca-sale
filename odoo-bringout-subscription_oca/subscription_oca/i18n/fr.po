@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-08-06 10:58+0000\n"
+"PO-Revision-Date: 2024-02-28 20:33+0000\n"
 "Last-Translator: Grégory Moka Tourisme <gregory@mokatourisme.fr>\n"
 "Language-Team: none\n"
 "Language: fr\n"
@@ -14,18 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.6.2\n"
-
-#. module: subscription_oca
-#: model:sale.subscription.stage,description:subscription_oca.subscription_stage_ready
-msgid ""
-"\n"
-"        A subscription is ready to start when is not marked as in progress "
-"but it can be at any moment. If there's no 'Closed'-type stage defined, when "
-"a subscription comes to an end by automatic means, it will be marked with "
-"this stage.\n"
-"      "
-msgstr ""
+"X-Generator: Weblate 4.17\n"
 
 #. module: subscription_oca
 #: model:sale.subscription.stage,description:subscription_oca.subscription_stage_in_progress
@@ -51,9 +40,18 @@ msgstr ""
 #: model:sale.subscription.stage,description:subscription_oca.subscription_stage_draft
 msgid ""
 "\n"
-"        Draft, still working on the specifics.\n"
+"        Draft equivalent, a subscription is ready to start when is not "
+"marked as in progress but it can be at any moment. If there's no 'Closed'-"
+"type stage defined, when a subscription comes to an end by automatic means, "
+"it will be marked with this stage.\n"
 "      "
 msgstr ""
+"\n"
+"        Équivalent en brouillon, un abonnement est prêt à démarrer lorsqu'il "
+"n'est pas marqué comme en cours mais il peut l'être à tout moment. Si aucune "
+"étape de type 'Clôturée' n'est définie, lorsqu'un abonnement arrive à son "
+"terme par voie automatique, il sera marqué de cette étape.\n"
+"      "
 
 #. module: subscription_oca
 #: model:sale.subscription.stage,description:subscription_oca.subscription_stage_closed
@@ -211,7 +209,6 @@ msgstr ""
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__user_id
-#: model_terms:ir.ui.view,arch_db:subscription_oca.view_sale_order_pending_filter
 msgid "Commercial agent"
 msgstr "Vendeur"
 
@@ -314,9 +311,7 @@ msgid "Display name"
 msgstr "Nom"
 
 #. module: subscription_oca
-#: model:ir.model.fields.selection,name:subscription_oca.selection__sale_subscription_stage__type__draft
 #: model:ir.model.fields.selection,name:subscription_oca.selection__sale_subscription_template__invoicing_mode__draft
-#: model:sale.subscription.stage,name:subscription_oca.subscription_stage_draft
 msgid "Draft"
 msgstr "Brouillon"
 
@@ -329,11 +324,6 @@ msgstr "Durée"
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_kanban
 msgid "Edit"
 msgstr "Modifier"
-
-#. module: subscription_oca
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__stage_str
-msgid "Etapa"
-msgstr "Étape"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__date
@@ -369,11 +359,6 @@ msgstr ""
 #: model:ir.model.fields.selection,name:subscription_oca.selection__sale_subscription_template__recurring_rule_boundary__unlimited
 msgid "Forever"
 msgstr "Pour toujours"
-
-#. module: subscription_oca
-#: model_terms:ir.ui.view,arch_db:subscription_oca.view_sale_order_pending_filter
-msgid "Group By"
-msgstr ""
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__has_message
@@ -483,17 +468,6 @@ msgid "Kanban folded"
 msgstr "Repliée dans la vue Kanban"
 
 #. module: subscription_oca
-#: model:ir.model.fields,field_description:subscription_oca.field_close_reason_wizard____last_update
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription____last_update
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_close_reason____last_update
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_line____last_update
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_stage____last_update
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_tag____last_update
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template____last_update
-msgid "Last Modified on"
-msgstr "Dernière modification le"
-
-#. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_close_reason_wizard__write_uid
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__write_uid
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_close_reason__write_uid
@@ -514,11 +488,6 @@ msgstr "Dernière mise à jour par"
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_template__write_date
 msgid "Last Updated on"
 msgstr "Dernière mise à jour le"
-
-#. module: subscription_oca
-#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__message_main_attachment_id
-msgid "Main Attachment"
-msgstr ""
 
 #. module: subscription_oca
 #: model_terms:ir.ui.view,arch_db:subscription_oca.sale_subscription_kanban
@@ -580,7 +549,6 @@ msgstr ""
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__recurring_next_date
-#: model_terms:ir.ui.view,arch_db:subscription_oca.view_sale_order_pending_filter
 msgid "Next invoice date"
 msgstr "Prochaine facture"
 
@@ -621,7 +589,6 @@ msgstr "Autres informations"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__partner_id
-#: model_terms:ir.ui.view,arch_db:subscription_oca.view_sale_order_pending_filter
 msgid "Partner"
 msgstr "Partenaire"
 
@@ -655,10 +622,15 @@ msgid "Quantity"
 msgstr "Quantité"
 
 #. module: subscription_oca
+#: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__rating_ids
+msgid "Ratings"
+msgstr ""
+
+#. module: subscription_oca
 #: model:ir.model.fields.selection,name:subscription_oca.selection__sale_subscription_stage__type__pre
-#: model:sale.subscription.stage,name:subscription_oca.subscription_stage_ready
+#: model:sale.subscription.stage,name:subscription_oca.subscription_stage_draft
 msgid "Ready to start"
-msgstr "Prêt à démarrer"
+msgstr "Raison"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_close_reason_wizard__close_reason_id
@@ -738,7 +710,6 @@ msgstr "Séquence"
 
 #. module: subscription_oca
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription__stage_id
-#: model_terms:ir.ui.view,arch_db:subscription_oca.view_sale_order_pending_filter
 msgid "Stage"
 msgstr "Étape"
 
@@ -786,7 +757,6 @@ msgstr "Produit d'abonnement"
 #: model:ir.model.fields,field_description:subscription_oca.field_account_payment__subscription_id
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_order__order_subscription_id
 #: model:ir.model.fields,field_description:subscription_oca.field_sale_subscription_line__sale_subscription_id
-#: model_terms:ir.ui.view,arch_db:subscription_oca.view_move_form
 msgid "Subscription"
 msgstr "Abonnement"
 
@@ -857,7 +827,6 @@ msgstr "Nombre d'abonnements"
 
 #. module: subscription_oca
 #: model:ir.actions.server,name:subscription_oca.ir_cron_subscription_management_ir_actions_server
-#: model:ir.cron,cron_name:subscription_oca.ir_cron_subscription_management
 msgid "Subscriptions management"
 msgstr "Gestion des abonnements"
 
@@ -1024,18 +993,8 @@ msgstr ""
 msgid "subscription_ids"
 msgstr ""
 
-#~ msgid ""
-#~ "\n"
-#~ "        Draft equivalent, a subscription is ready to start when is not "
-#~ "marked as in progress but it can be at any moment. If there's no 'Closed'-"
-#~ "type stage defined, when a subscription comes to an end by automatic "
-#~ "means, it will be marked with this stage.\n"
-#~ "      "
-#~ msgstr ""
-#~ "\n"
-#~ "        Équivalent en brouillon, un abonnement est prêt à démarrer "
-#~ "lorsqu'il n'est pas marqué comme en cours mais il peut l'être à tout "
-#~ "moment. Si aucune étape de type 'Clôturée' n'est définie, lorsqu'un "
-#~ "abonnement arrive à son terme par voie automatique, il sera marqué de "
-#~ "cette étape.\n"
-#~ "      "
+#~ msgid "Etapa"
+#~ msgstr "Étape"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Dernière modification le"

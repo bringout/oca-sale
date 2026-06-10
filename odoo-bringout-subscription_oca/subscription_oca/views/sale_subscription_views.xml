@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-
     <record id="sale_subscription_form" model="ir.ui.view">
         <field name="name">sale.subscription.form</field>
         <field name="model">sale.subscription</field>
@@ -20,12 +19,7 @@
                         name="action_close_subscription"
                         type="object"
                         help="A given subscription can be marked as closed when, for example, renewal is not desired."
-                        attrs="{'invisible': [('in_progress', '=', False)]}"
-                    />
-                    <button
-                        string="Generate subscriptions"
-                        name="action_open_generate_subscriptions_wizard"
-                        type="object"
+                        invisible="not in_progress"
                     />
 
                     <field
@@ -33,15 +27,14 @@
                         widget="statusbar"
                         options="{'fold_field': 'fold', 'clickable': '1'}"
                     />
-
+                    <field name="stage_type" invisible="1" />
                 </header>
                 <sheet>
-
                     <div class="oe_button_box" name="button_box">
                         <button
                             name="action_view_sale_order_ids"
                             type="object"
-                            attrs="{'invisible': [('sale_order_ids_count', '=', 0)]}"
+                            invisible="sale_order_ids_count == 0"
                             class="oe_stat_button"
                             icon="fa-pencil-square-o"
                         >
@@ -53,7 +46,7 @@
                         </button>
                         <button
                             name="action_view_account_invoice_ids"
-                            attrs="{'invisible': [('account_invoice_ids_count', '=', 0)]}"
+                            invisible="account_invoice_ids_count == 0"
                             type="object"
                             class="oe_stat_button"
                             icon="fa-pencil-square-o"
@@ -64,14 +57,12 @@
                                 string="Invoices"
                             />
                         </button>
-
-
                     </div>
                     <widget
                         name="web_ribbon"
                         text="Archived"
                         bg_color="bg-danger"
-                        attrs="{'invisible': [('active', '=', True)]}"
+                        invisible="active"
                     />
                     <div class="oe_title">
                         <h1 class="flex-fill d-flex flex-row">
@@ -80,33 +71,24 @@
                     </div>
                     <group>
                         <group name="left_group">
-                            <field name="active" invisible="1" />
-                            <field name="in_progress" invisible="True" />
                             <field name="partner_id" />
-                            <field name="currency_id" invisible="1" />
                             <field name="pricelist_id" />
                             <field
                                 name="date_start"
-                                attrs="{'readonly':['|',('active','=',False), ('in_progress', '=', True)]}"
+                                readonly="not active or in_progress"
                             />
-                            <field
-                                name="date"
-                                attrs="{'invisible':[('recurring_rule_boundary', '=', True)]}"
-                            />
+                            <field name="date" invisible="recurring_rule_boundary" />
                             <field
                                 name="close_reason_id"
-                                attrs="{'invisible': [('active', '=', True)]}"
+                                invisible="stage_type != 'post'"
                             />
-                            <field name="recurring_rule_boundary" invisible="1" />
-
                         </group>
                         <group name="right_group">
-
                             <field name="template_id" />
                             <field name="crm_team_id" />
                             <field
                                 name="recurring_next_date"
-                                attrs="{'invisible': ['|', ('recurring_next_date', '=', False), ('in_progress', '=', False)]}"
+                                invisible="not recurring_next_date or not in_progress"
                             />
                             <field name="company_id" invisible="1" />
                             <field
@@ -114,8 +96,6 @@
                                 options="{'no_create': True}"
                                 groups="base.group_multi_company"
                             />
-
-
                         </group>
                     </group>
                     <notebook>
@@ -124,14 +104,21 @@
                             name="subscription_lines_page"
                         >
                             <field name="sale_subscription_line_ids">
-                                <tree editable="bottom">
+                                <list editable="bottom">
+                                    <field name="currency_id" column_invisible="1" />
                                     <field name="product_id" required="True" />
                                     <field
                                         name="name"
                                         required="True"
                                         widget="section_and_note_text"
                                     />
-                                    <field name="currency_id" invisible="1" />
+                                    <field
+                                        name="analytic_distribution"
+                                        widget="analytic_distribution"
+                                        optional="hide"
+                                        groups="analytic.group_analytic_accounting"
+                                        options="{'product_field': 'product_id', 'business_domain': 'sale_order'}"
+                                    />
                                     <field name="product_uom_qty" required="True" />
                                     <field name="price_unit" required="True" />
                                     <field name="discount" required="True" />
@@ -144,13 +131,14 @@
                                         name="price_total"
                                         options="{'currency_field': 'currency_id'}"
                                     />
-                                </tree>
+                                </list>
                             </field>
                             <group
                                 class="oe_subtotal_footer oe_right"
                                 colspan="2"
                                 name="subscription_total"
                             >
+                                <field name="currency_id" invisible="1" />
                                 <field
                                     name="recurring_total"
                                     widget="monetary"
@@ -199,30 +187,19 @@
                             </group>
                         </page>
                     </notebook>
-
                 </sheet>
 
-                <div class="oe_chatter">
-                    <field name="message_follower_ids" widget="mail_followers" />
-                    <field name="activity_ids" widget="mail_activity" />
-                    <field name="message_ids" widget="mail_thread" />
-                </div>
+                <chatter />
             </form>
         </field>
     </record>
 
     <record id="sale_subscription_tree" model="ir.ui.view">
-        <field name="name">sale.subscription.tree</field>
+        <field name="name">sale.subscription.list</field>
         <field name="model">sale.subscription</field>
         <field name="arch" type="xml">
-            <tree>
-                <header>
-                    <button
-                        string="Generate subscriptions"
-                        name="action_open_generate_subscriptions_wizard"
-                        type="object"
-                    />
-                </header>
+            <list>
+                <field name="currency_id" column_invisible="True" />
                 <field name="name" optional="show" />
                 <field name="partner_id" optional="show" />
                 <field name="recurring_next_date" optional="show" />
@@ -232,11 +209,10 @@
                 <field name="amount_tax" sum="Total Tax" optional="show" />
                 <field name="amount_total" sum="Total" optional="show" />
                 <field name="template_id" optional="show" />
-                <field name="stage_str" optional="show" />
-            </tree>
+                <field name="stage_id" optional="show" />
+            </list>
         </field>
     </record>
-
 
     <record id="sale_subscription_kanban" model="ir.ui.view">
         <field name="name">sale.subscription.kanban</field>
@@ -246,8 +222,8 @@
                 default_group_by="stage_id"
                 default_order="write_date,sequence"
                 class="o_kanban_small_column o_opportunity_kanban"
+                highlight_color="color"
             >
-                <!-- <field name="stage_id" options='{"group_by_tooltip": {"requirements": "Description"}}'/> -->
                 <field name="stage_id" />
                 <field name="code" />
                 <field name="write_date" />
@@ -269,53 +245,32 @@
                     help="This bar allows to filter the opportunities based on scheduled activities."
                 />
                 <templates>
-                    <t t-name="kanban-box">
-                        <div
-                            t-attf-class="
-                          #{!selection_mode ? kanban_color(record.color.raw_value) : ''}
-                          oe_kanban_global_click_edit
-                          oe_semantic_html_override
-                          oe_kanban_card"
-                        >
-                            <div class="o_dropdown_kanban dropdown" modifiers="{}">
-                                <a
-                                    role="button"
-                                    class="dropdown-toggle o-no-caret btn"
-                                    data-toggle="dropdown"
-                                    data-display="static"
-                                    href="#"
-                                    aria-label="Menú desplegable"
-                                    title="Menú desplegable"
-                                    modifiers="{}"
-                                >
-                                    <span class="fa fa-ellipsis-v" modifiers="{}" />
-                                </a>
-                                <div class="dropdown-menu" role="menu" modifiers="{}">
-                                    <a
-                                        role="menuitem"
-                                        class="dropdown-item oe_kanban_action oe_kanban_action_a"
-                                        modifiers="{}"
-                                        data-type="edit"
-                                        href="#"
-                                    >
-                                        Edit
-                                    </a>
-                                    <a
-                                        role="menuitem"
-                                        class="dropdown-item oe_kanban_action oe_kanban_action_a"
-                                        modifiers="{}"
-                                        data-type="delete"
-                                        href="#"
-                                    >
-                                        Delete
-                                    </a>
-                                    <ul
-                                        class="oe_kanban_colorpicker"
-                                        data-field="color"
-                                        modifiers="{}"
-                                    />
+                    <t t-name="menu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div role="menuitem">
+                                        <a role="menuitem" type="open">
+                                            Edit
+                                        </a>
+                                    </div>
+                                    <div role="menuitem">
+                                        <a role="menuitem" type="delete">
+                                            Delete
+                                        </a>
+                                    </div>
+                                    <div role="menuitem">
+                                        <field
+                                            name="color"
+                                            widget="kanban_color_picker"
+                                        />
+                                    </div>
                                 </div>
                             </div>
+                        </div>
+                    </t>
+                    <t t-name="card">
+                        <div t-attf-class="oe_kanban_global_click_edit">
                             <div class="oe_kanban_content">
                                 <div>
                                     <field name="name" />
@@ -348,27 +303,22 @@
                                     </span>
                                 </div>
 
-                                <div class="o_kanban_record_bottom">
-                                    <div class="oe_kanban_bottom_left">
+                                <footer
+                                    class="mt-auto pt-0 ms-1 d-flex justify-content-between"
+                                >
+                                    <div>
                                         <field
                                             name="activity_ids"
                                             widget="kanban_activity"
                                         />
                                     </div>
-                                    <div class="oe_kanban_bottom_right">
-                                        <t t-set="unassigned">
-                                            <t t-esc="_t('Unassigned')" />
-                                        </t>
-                                        <img
-                                            t-att-src="kanban_image('res.users', 'image', record.user_id.raw_value)"
-                                            t-att-title="record.user_id.value || unassigned"
-                                            t-att-alt="record.user_id.value"
-                                            class="oe_kanban_avatar"
+                                    <div>
+                                        <field
+                                            name="user_id"
+                                            widget="many2one_avatar_user"
                                         />
-
                                     </div>
-                                </div>
-
+                                </footer>
                             </div>
                         </div>
                     </t>
@@ -401,7 +351,7 @@
                     string="Next invoice date"
                     date="recurring_next_date"
                 />
-                <group expand="0" string="Group By">
+                <group>
                     <filter
                         string="Partner"
                         name="groupby_partner_id"
@@ -447,31 +397,31 @@
     </record>
 
     <record id="view_subscription_close_reason_tree" model="ir.ui.view">
-        <field name="name">view.subscription.close.reason.tree</field>
+        <field name="name">view.subscription.close.reason.list</field>
         <field name="model">sale.subscription.close.reason</field>
         <field name="arch" type="xml">
-            <tree editable="bottom">
+            <list editable="bottom">
                 <field name="name" />
-            </tree>
+            </list>
         </field>
     </record>
 
     <record id="subscription_close_reason_action" model="ir.actions.act_window">
         <field name="name">Close reasons</field>
         <field name="res_model">sale.subscription.close.reason</field>
-        <field name="view_mode">tree</field>
+        <field name="view_mode">list</field>
     </record>
 
     <record id="sale_subscription_action" model="ir.actions.act_window">
         <field name="name">Subscriptions</field>
         <field name="res_model">sale.subscription</field>
-        <field name="view_mode">tree,kanban,form</field>
+        <field name="view_mode">list,kanban,form</field>
     </record>
 
     <record id="subscription_product_template_action" model="ir.actions.act_window">
         <field name="name">Products</field>
         <field name="res_model">product.template</field>
-        <field name="view_mode">tree,form</field>
+        <field name="view_mode">list,form</field>
         <field name="context">
             {'search_default_subsproducts': True, "default_type": "service", "default_subscribable": True}
         </field>
@@ -520,5 +470,4 @@
         sequence="30"
         name="Close reasons"
     />
-
 </odoo>

@@ -12,7 +12,7 @@
                     class="oe_stat_button"
                     icon="fa-calendar"
                     string="Subscription"
-                    attrs="{'invisible': [('subscription_id', '=', False)]}"
+                    invisible="not subscription_id"
                 />
             </xpath>
         </field>

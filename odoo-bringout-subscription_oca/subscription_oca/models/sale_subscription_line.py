@@ -1,12 +1,13 @@
 # Copyright 2023 Domatix - Carlos Martínez
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
-from odoo import api, fields, models
+from odoo import Command, api, fields, models
 from odoo.tools.misc import get_lang
 
 
 class SaleSubscriptionLine(models.Model):
     _name = "sale.subscription.line"
     _description = "Subscription lines added to a given subscription"
+    _inherit = "analytic.mixin"
 
     product_id = fields.Many2one(
         comodel_name="product.product",
@@ -39,6 +40,24 @@ class SaleSubscriptionLine(models.Model):
         store=True,
         readonly=False,
     )
+    price_subtotal = fields.Monetary(
+        string="Subtotal", readonly=True, compute="_compute_subtotal", store=True
+    )
+    price_total = fields.Monetary(
+        string="Total", readonly=True, compute="_compute_subtotal", store=True
+    )
+    amount_tax_line_amount = fields.Float(
+        string="Taxes Amount", compute="_compute_subtotal", store=True
+    )
+    sale_subscription_id = fields.Many2one(
+        comodel_name="sale.subscription", string="Subscription"
+    )
+    company_id = fields.Many2one(
+        related="sale_subscription_id.company_id",
+        string="Company",
+        store=True,
+        index=True,
+    )
 
     @api.depends("product_id", "price_unit", "product_uom_qty", "discount", "tax_ids")
     def _compute_subtotal(self):
@@ -60,25 +79,6 @@ class SaleSubscriptionLine(models.Model):
                     "price_subtotal": taxes["total_excluded"],
                 }
             )
-
-    price_subtotal = fields.Monetary(
-        string="Subtotal", readonly="True", compute=_compute_subtotal, store=True
-    )
-    price_total = fields.Monetary(
-        string="Total", readonly="True", compute=_compute_subtotal, store=True
-    )
-    amount_tax_line_amount = fields.Float(
-        string="Taxes Amount", compute="_compute_subtotal", store=True
-    )
-    sale_subscription_id = fields.Many2one(
-        comodel_name="sale.subscription", string="Subscription"
-    )
-    company_id = fields.Many2one(
-        related="sale_subscription_id.company_id",
-        string="Company",
-        store=True,
-        index=True,
-    )
 
     @api.depends("product_id")
     def _compute_name(self):
@@ -102,7 +102,7 @@ class SaleSubscriptionLine(models.Model):
             )
             # If company_id is set, always filter taxes by the company
             taxes = line.product_id.taxes_id.filtered(
-                lambda t: t.company_id == line.env.company
+                lambda t: t.company_id == self.env.company
             )
             line.tax_ids = fpos.map_tax(taxes)
 
@@ -122,14 +122,14 @@ class SaleSubscriptionLine(models.Model):
                 product = record.product_id.with_context(
                     partner=record.sale_subscription_id.partner_id,
                     quantity=record.product_uom_qty,
-                    date=fields.datetime.now(),
+                    date=fields.Datetime.now(),
                     pricelist=record.sale_subscription_id.pricelist_id.id,
                     uom=record.product_id.uom_id.id,
                 )
                 record.price_unit = product._get_tax_included_unit_price(
                     record.company_id,
                     record.sale_subscription_id.currency_id,
-                    fields.datetime.now(),
+                    fields.Datetime.now(),
                     "sale",
                     fiscal_position=record.sale_subscription_id.fiscal_position_id,
                     product_price_unit=record._get_display_price(product),
@@ -146,14 +146,15 @@ class SaleSubscriptionLine(models.Model):
     )
     def _compute_discount(self):
         for record in self:
+            if record.discount and not self.env.context.get("force_pricelist_discount"):
+                continue
+
             if not (
                 record.product_id
                 and record.product_id.uom_id
                 and record.sale_subscription_id.partner_id
                 and record.sale_subscription_id.pricelist_id
-                and record.sale_subscription_id.pricelist_id.discount_policy
-                == "without_discount"
-                and self.env.user.has_group("product.group_discount_per_so_line")
+                and self.env.user.has_group("sale.group_discount_per_so_line")
             ):
                 record.discount = 0.0
                 continue
@@ -207,16 +208,17 @@ class SaleSubscriptionLine(models.Model):
         product_currency = product.currency_id
         if rule_id:
             pricelist_item = PricelistItem.browse(rule_id)
-            if pricelist_item.pricelist_id.discount_policy == "without_discount":
+            if pricelist_item.compute_price == "fixed":
                 while (
                     pricelist_item.base == "pricelist"
                     and pricelist_item.base_pricelist_id
-                    and pricelist_item.base_pricelist_id.discount_policy
-                    == "without_discount"
+                    and pricelist_item.compute_price == "fixed"
                 ):
-                    _price, rule_id = pricelist_item.base_pricelist_id.with_context(
-                        uom=uom.id
-                    )._get_product_price_rule(product, qty)
+                    _price, rule_id = (
+                        pricelist_item.base_pricelist_id._get_product_price_rule(
+                            product, qty, uom=uom
+                        )
+                    )
                     pricelist_item = PricelistItem.browse(rule_id)
 
             if pricelist_item.base == "standard_price":
@@ -258,11 +260,6 @@ class SaleSubscriptionLine(models.Model):
         return product_price * uom_factor * cur_factor, currency_id
 
     def _get_display_price(self, product):
-        if self.sale_subscription_id.pricelist_id.discount_policy == "with_discount":
-            return self.sale_subscription_id.pricelist_id._get_product_price(
-                product, self.product_uom_qty or 1.0, uom=self.product_id.uom_id
-            )
-
         final_price, rule_id = self.sale_subscription_id.pricelist_id.with_context(
             partner_id=self.sale_subscription_id.partner_id.id,
             date=fields.Datetime.now(),
@@ -296,8 +293,9 @@ class SaleSubscriptionLine(models.Model):
             "price_unit": self.price_unit,
             "discount": self.discount,
             "price_subtotal": self.price_subtotal,
-            "tax_id": self.tax_ids,
-            "product_uom": self.product_id.uom_id.id,
+            "tax_ids": self.tax_ids,
+            "product_uom_id": self.product_id.uom_id.id,
+            "analytic_distribution": self.analytic_distribution,
         }
 
     def _prepare_account_move_line(self):
@@ -313,7 +311,8 @@ class SaleSubscriptionLine(models.Model):
             "price_unit": self.price_unit,
             "discount": self.discount,
             "price_subtotal": self.price_subtotal,
-            "tax_ids": [(6, 0, self.tax_ids.ids)],
+            "tax_ids": [Command.set(self.tax_ids.ids)],
             "product_uom_id": self.product_id.uom_id.id,
             "account_id": account.id,
+            "analytic_distribution": self.analytic_distribution,
         }
